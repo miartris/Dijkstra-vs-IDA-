@@ -2,3 +2,4 @@
 __pycache__
 dao_all_maps
 dao_all_scens
+.coverage

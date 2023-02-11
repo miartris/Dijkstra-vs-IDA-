@@ -4,8 +4,6 @@ from datastructs.graph import Graph
 from re import findall
 from math import sqrt
 
-
-
 def käsittele_tiedostot(polku: str):
     for tiedosto in os.listdir(polku):
         tiedosto_polku = os.path.join(polku, tiedosto)
@@ -48,13 +46,10 @@ def määritä_naapurit(solmu: Solmu, kartta: list, verkko: Graph):
                 naapuri_x = solmu_x + dx
                 naapuri_y = solmu_y + dy
                 if sallittu(kartta[naapuri_x][naapuri_y]) and rajojen_sisällä(max_h, max_w, naapuri_x, naapuri_y):
-                    etäisyys = 1 if on_diagonaalinen(dx, dy) else sqrt(2)
+                    etäisyys = 1 if not on_diagonaalinen(dx, dy) else sqrt(2)
                     naapuri = verkko.hae_solmu(naapuri_x, naapuri_y)
                     solmu.lisää_naapuri(naapuri, etäisyys)
-                    print(solmu)
                     
-
-    
 def rajojen_sisällä(max_korkeus, max_leveys, x, y):
     return not(x < 0 or x > max_leveys or y < 0 or y > max_korkeus)
 

@@ -11,9 +11,14 @@ on ohjelmoida projektille toimiva runko, eli algoritmien ensitoteutukset ja alke
 Ajankäytöllisesti viikosta tuli hankala enkä saavuttanut tavoitteita. Edetty projektihallinnollisissa asioissa. 
 Tiedostorakennetta jäsennetty. Testaus, testikattavuus ja tyylintarkistus setupattu. Projektin ala hieman muuttunut
 
+# Viikko 4.
+
+Karttatiedon jäsentäminen verkoksi suoritettu, README:ssä tarkennettu ohjelman käytön ja testauksen askelia
+
 ## Ajankäyttö
 
 | Viikko | Tunnit |
 |--- | --- |
 | 1. | 3 |
 | 2. | 3 |
+| 4. | 5 |
