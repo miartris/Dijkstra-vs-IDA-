@@ -1,25 +1,29 @@
+# Etsi lyhin etäisyys alku- ja loppukoordinaatin välillä 2D-matriisissa
+
 from datastructs.solmu import Solmu
 from datastructs.graph import Graph
 # Käyttää tilapäisesti valmista kekoa. Korvataan myöhemmin omalla toteutuksella
 import heapq
 
 class Dijkstra:
-    
-    def __init__(self, alku, loppu, verkko, visualisoi: bool):
-        self.alku = alku
-        self.loppu = loppu
+
+    def __init__(self, alku_x, alku_y, loppu_x, loppu_y, verkko: Graph, visualisoi=False):
+        self.alku_x, self.alku_y, self.loppu_x, self.loppu_y = alku_x, alku_y, loppu_x, loppu_y
+        self.alku: Solmu = verkko.hae_solmu(alku_x, alku_y)
+        self.loppu: Solmu = verkko.hae_solmu(loppu_x, loppu_y)
         self.verkko = verkko
         self.visualisoi = visualisoi
-        self.etäisyysmatriisi = [[float("inf") for _ in range(len(verkko))] for _ in range(len(verkko))]
-        self.vierailtu = [[False for _ in range(len(verkko))] for _ in range(len(verkko))]
+        self.etäisyysmatriisi = [[float("inf") for _ in range(verkko.hae_leveys()) ] for _ in range(verkko.hae_pituus())]
+        self.vierailtu = [[False for _ in range(verkko.hae_leveys())] for _ in range(verkko.hae_pituus())]
         self.keko = []
         self.lyhin_polku()
     
     def lyhin_polku(self):
-        self.etäisyysmatriisi[self.alku] = 0
-        heapq.heappush(self.keko, (self.alku, 0))
+        lisäysindeksi = 0 # Jos keossa on samoja etäisyyksiä poistetaan ekana lisätty
+        self.etäisyysmatriisi[self.alku_x][self.alku_y] = 0
+        heapq.heappush(self.keko, (0, lisäysindeksi, self.alku))
         while len(self.keko) > 0:
-            käsiteltävä_solmu, etäisyys = heapq.heappop(self.keko) # 
+            käsiteltävä_solmu = heapq.heappop(self.keko)[2]  
             x, y = käsiteltävä_solmu.get_koordinaatit()
             if self.vierailtu[x][y]:
                 continue
@@ -30,8 +34,13 @@ class Dijkstra:
                 nykyetäisyys = self.etäisyysmatriisi[nx][ny] 
                 uusi_etäisyys = self.etäisyysmatriisi[x][y] + etäisyys_naapuriin
                 if uusi_etäisyys < nykyetäisyys:
-                    heapq.heappush(self.keko, (naapurisolmu, uusi_etäisyys))
                     self.etäisyysmatriisi[nx][ny] = uusi_etäisyys
-    
+                    lisäysindeksi += 1
+                    kolmikko = (uusi_etäisyys, lisäysindeksi, naapurisolmu)
+                    heapq.heappush(self.keko, kolmikko)
+                    
+    def get_lyhin_polku(self):
+        return self.etäisyysmatriisi[self.loppu_x][self.loppu_y]
+
 
         

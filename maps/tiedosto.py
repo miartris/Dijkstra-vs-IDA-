@@ -6,16 +6,23 @@ from math import sqrt
 
 def käsittele_tiedostot(polku: str):
     for tiedosto in os.listdir(polku):
-        tiedosto_polku = os.path.join(polku, tiedosto)
-        with open(tiedosto_polku, "r") as f:
+        tiedostopolku = os.path.join(polku, tiedosto)
+        with open(tiedostopolku, "r") as f:
             parse_to_graph(f.readlines())
+
+def käsittele_tiedosto(polku):
+    with open(polku, "r") as f:
+        verkko = parse_to_graph(f.readlines())
+    return verkko
 
 def parse_to_graph(kartta: list):
     # Korkeus indeksissä 1 leveys indeksissä 2
     height, width = [int (val) for val in findall(r'\d+', kartta[1] + kartta[2])]
     verkko = Graph(width, height)
     # Älä sisällytä viimeistä tyhjää riviä
-    karttadata = kartta[4:len(kartta)]
+    raaka_karttadata = kartta[4:len(kartta)]
+    # Poista \n merkkijonojen perästä
+    karttadata = [jono.strip() for jono in raaka_karttadata]
 
     for x in range(width):
         for y in range(height):
@@ -23,7 +30,6 @@ def parse_to_graph(kartta: list):
             if sallittu(karttapiste):
                 uusi_solmu = Solmu(x, y, karttapiste)
                 verkko.lisaa_solmu(uusi_solmu)
-                print(f" solmu {uusi_solmu}")
     for list in verkko.hae_solmut():
         for solmu in list:
             if solmu != 0:
@@ -40,8 +46,8 @@ def määritä_naapurit(solmu: Solmu, kartta: list, verkko: Graph):
     max_w = len(kartta[0]) - 1
     solmu_x, solmu_y = solmu.get_koordinaatit()
     
-    for dx in range(-1, 1):
-        for dy in range(-1, 1):
+    for dx in range(-1, 2):
+        for dy in range(-1, 2):
             if not(dx == 0 and dy == 0):
                 naapuri_x = solmu_x + dx
                 naapuri_y = solmu_y + dy
