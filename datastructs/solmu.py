@@ -12,6 +12,9 @@ class Solmu:
     def lisää_naapuri(self, naapurisolmu, etäisyys: float):
         naapuri = (naapurisolmu, etäisyys)
         self.naapurit.append(naapuri)
+    
+    def get_naapurit(self):
+        return self.naapurit
 
     def __str__(self):
         return (f"xy koordinaatit {self.xy} naapurit {self.naapurit} arvo {self.arvo}")
