@@ -1,15 +1,17 @@
 import tkinter as tk
 
 class GUI:
-    def __init__(self, algoritmit=[]) -> None:
+    def __init__(self) -> None:
 
-        ikkuna = tk.Tk()
+        self.ikkuna = tk.Tk()
+        self.algoritmit = ["Dijkstra", "IDA*"]
 
-        nappi_kontti = tk.Frame(ikkuna, width=600, height=120, background="gray")
+        nappi_kontti = tk.Frame(self.ikkuna, width=600, height=120, background="gray")
         
-        valitse_algo_arvo = tk.StringVar(ikkuna)
+        valitse_algo_arvo = tk.StringVar(self.ikkuna)
         valitse_algo_arvo.set("Valitse algo")
-        valitse_algoritmi = tk.OptionMenu(nappi_kontti, valitse_algo_arvo, *algoritmit)
+        
+        valitse_algoritmi = tk.OptionMenu(nappi_kontti, valitse_algo_arvo, *self.algoritmit)
 
         valitse_kartta = tk.Button(nappi_kontti,text="Valitse kartta")
         satunnainen_kartta = tk.Button(nappi_kontti, text="Satunnainen Kartta")
@@ -29,7 +31,10 @@ class GUI:
 
         
 
-        piirtokenttä = tk.Canvas(ikkuna, bg="white", height=400, width=600)
+        piirtokenttä = tk.Canvas(self.ikkuna, bg="white", height=400, width=600)
         nappi_kontti.pack(fill="x")
         piirtokenttä.pack(fill="both", expand=True)
-        ikkuna.mainloop()
+        
+
+    def käynnistä(self):
+        self.ikkuna.mainloop()
