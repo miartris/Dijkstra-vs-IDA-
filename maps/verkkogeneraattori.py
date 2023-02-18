@@ -28,12 +28,13 @@ class Verkkogeneraattori:
     def sallittu(self, karttapiste: str) -> bool:
         sallitut = [".", "G", "S", "W"]
         return karttapiste in(sallitut)
-        
-    """
-    Määrittää jokaisen solmun kaaret sen vierussolmuihin. 
-    Jos diagonaalinen polku menee esteiden vierestä tai lävitse, se kierretään
-    """
+
+   
     def määritä_naapurit(self, solmu: Solmu, kartta: list, verkko: Graph):
+        """
+        Määrittää jokaisen solmun kaaret sen vierussolmuihin. 
+        Jos diagonaalinen polku menee esteiden vierestä tai lävitse, se kierretään
+        """
         max_h = len(kartta) - 1
         max_w = len(kartta[0]) - 1
         solmu_x, solmu_y = solmu.get_koordinaatit()
