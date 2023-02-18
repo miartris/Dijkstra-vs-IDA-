@@ -3,7 +3,7 @@ from datastructs.solmu import Solmu
 from math import sqrt
 
 class Verkkogeneraattori:
-    
+
     def __init__(self, matriisi) -> None:
         self.karttadata = matriisi["karttadata"]
         self.width = matriisi["leveys"]
@@ -24,10 +24,12 @@ class Verkkogeneraattori:
 
         return self.verkko
 
-    def sallittu(self, karttapiste: str) -> True:
+    def sallittu(self, karttapiste: str) -> bool:
         sallitut = [".", "G", "S", "W"]
         return karttapiste in(sallitut)
 
+    # Määrittää jokaisen solmun kaaret sen vierussolmuihin. 
+    # Jos diagonaalisella polulla on este, sen läpi ei mennä vaan se kierretään
     def määritä_naapurit(self, solmu: Solmu, kartta: list, verkko: Graph):
         max_h = len(kartta) - 1
         max_w = len(kartta[0]) - 1
@@ -39,7 +41,11 @@ class Verkkogeneraattori:
                     naapuri_x = solmu_x + dx
                     naapuri_y = solmu_y + dy
                     if self.sallittu(kartta[naapuri_x][naapuri_y]) and self.rajojen_sisällä(max_h, max_w, naapuri_x, naapuri_y):
-                        etäisyys = 1 if not self.on_diagonaalinen(dx, dy) else sqrt(2)
+                        on_diagonaalinen = self.on_diagonaalinen(dx, dy)
+                        # Lisää diagonaalinen naapuri vain, jos diagonaalisella polulla ei mennä seinän läpi
+                        if on_diagonaalinen and not self.diagonaalinen_liike_sallittu(kartta, solmu_x, solmu_y, dx, dy):
+                            continue
+                        etäisyys = 1 if not on_diagonaalinen else sqrt(2)
                         naapuri = verkko.hae_solmu(naapuri_x, naapuri_y)
                         solmu.lisää_naapuri(naapuri, etäisyys)
                         
@@ -49,3 +55,18 @@ class Verkkogeneraattori:
     def on_diagonaalinen(self, dx, dy):
         arvot = [(-1, -1), (1, -1), (-1, 1), (1, 1)]
         return((dx, dy) in arvot)
+    
+    # Tarkista, ovatko molemmat ruudut joiden välistä liikutaan vapaita
+    def diagonaalinen_liike_sallittu(self, kartta, x, y, dx, dy):
+        # Vasemmalle ylös
+        if (dx, dy) == (-1, -1):
+            return self.sallittu(kartta[x][y-1]) and self.sallittu(kartta[x-1][y])
+        # Oikealle ylös
+        elif (dx, dy) == (-1, 1): 
+            return self.sallittu(kartta[x][y+1]) and self.sallittu(kartta[x-1][y])
+        # Vasemmalle alas
+        elif (dx, dy) == (1, -1):
+            return self.sallittu(kartta[x][y-1]) and self.sallittu(kartta[x+1][y])
+        # Oikealle alas
+        elif (dx, dy) == (1, 1):
+            return self.sallittu(kartta[x][y+1]) and self.sallittu(kartta[x+1][y])

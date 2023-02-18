@@ -7,7 +7,7 @@ import heapq
 
 class Dijkstra:
 
-    def __init__(self, alku_x, alku_y, loppu_x, loppu_y, verkko: Graph, visualisoi=False):
+    def __init__(self, alku_x, alku_y, loppu_x, loppu_y, verkko: Graph, visualisoi=False, init_olio=None):
         self.alku_x, self.alku_y, self.loppu_x, self.loppu_y = alku_x, alku_y, loppu_x, loppu_y
         self.alku: Solmu = verkko.hae_solmu(alku_x, alku_y)
         self.loppu: Solmu = verkko.hae_solmu(loppu_x, loppu_y)
@@ -17,6 +17,9 @@ class Dijkstra:
         self.vierailtu = [[False for _ in range(verkko.hae_leveys())] for _ in range(verkko.hae_pituus())]
         self.keko = []
         self.lyhin_polku()
+        # Yhdistää ylläolevia parametrejä olioon. Todo
+        if init_olio:
+            pass
     
     def lyhin_polku(self):
         lisäysindeksi = 0 # Jos keossa on samoja etäisyyksiä poistetaan ekana lisätty

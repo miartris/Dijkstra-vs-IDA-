@@ -1,3 +1,5 @@
+from datastructs.tila import Tila
+
 class Solmu: 
     
     # x ja y koordinaatit, naapurit sisältää kohdesolmun ja etäisyyden siihen
@@ -5,6 +7,7 @@ class Solmu:
         self.xy = (x, y)
         self.naapurit = []
         self.arvo = arvo
+        self.tila = Tila.VAKIO
     
     def get_koordinaatit(self) -> (tuple):
         return (self.xy)
@@ -18,3 +21,8 @@ class Solmu:
 
     def __str__(self):
         return (f"xy koordinaatit {self.xy} naapurit {self.naapurit} arvo {self.arvo}")
+
+    def get_tila(self):
+        return self.tila
+
+
