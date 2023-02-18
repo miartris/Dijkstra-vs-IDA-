@@ -16,6 +16,7 @@ class Dijkstra:
         self.etäisyysmatriisi = [[float("inf") for _ in range(verkko.hae_leveys()) ] for _ in range(verkko.hae_pituus())]
         self.vierailtu = [[False for _ in range(verkko.hae_leveys())] for _ in range(verkko.hae_pituus())]
         self.keko = []
+        self.lyhin_reitti = []
         self.lyhin_polku()
         # Yhdistää ylläolevia parametrejä olioon. Todo
         if init_olio:
@@ -39,11 +40,28 @@ class Dijkstra:
                 if uusi_etäisyys < nykyetäisyys:
                     self.etäisyysmatriisi[nx][ny] = uusi_etäisyys
                     lisäysindeksi += 1
+                    naapurisolmu.set_edeltäjä(käsiteltävä_solmu)
                     kolmikko = (uusi_etäisyys, lisäysindeksi, naapurisolmu)
                     heapq.heappush(self.keko, kolmikko)
                     
     def get_lyhin_polku(self):
         return self.etäisyysmatriisi[self.loppu_x][self.loppu_y]
+
+    # Palauttaa lyhimmän reitin koordinaattiparit. Sisältää alku- ja loppusolmun
+    def get_lyhin_reitti(self):
+        self.alku.set_edeltäjä(None)
+        if len(self.lyhin_reitti) < 1:
+            nyky = self.loppu
+            self.lyhin_reitti.append(self.loppu.get_koordinaatit())
+            while True:
+                edeltäjä = nyky.get_edeltäjä()
+                if edeltäjä:
+                    self.lyhin_reitti.append(edeltäjä.get_koordinaatit())
+                    nyky = edeltäjä
+                else: 
+                    self.lyhin_reitti.reverse()
+                    break
+        return self.lyhin_reitti
     
     
     

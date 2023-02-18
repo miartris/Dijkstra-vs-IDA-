@@ -8,6 +8,7 @@ class Solmu:
         self.naapurit = []
         self.arvo = arvo
         self.tila = Tila.VAKIO
+        self.edeltäjä = None
     
     def get_koordinaatit(self) -> (tuple):
         return (self.xy)
@@ -24,5 +25,12 @@ class Solmu:
 
     def get_tila(self):
         return self.tila
+
+    def set_edeltäjä(self, solmu):
+        self.edeltäjä = solmu
+    
+    def get_edeltäjä(self):
+        return self.edeltäjä
+
 
 

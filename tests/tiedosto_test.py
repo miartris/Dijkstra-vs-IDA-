@@ -24,6 +24,6 @@ class TestTiedostokäsittelijä:
         haluttu = {"kartta":"arena.map", "w":49, "h":49, "x1":19, "y1":26, "x2":19, "y2":29, "etäisyys":3.00000000}
         assert tulos[0] == haluttu
 
-    def test_testidata_käsittelee_kaikki(self, luo_käsittelijä):
+    def test_testidata_käsittelee_kaikki_rivit(self, luo_käsittelijä):
         tulos = len(luo_käsittelijä.parse_testi())
         assert tulos == 130

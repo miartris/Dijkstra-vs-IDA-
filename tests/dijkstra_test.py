@@ -16,3 +16,7 @@ class TestDijkstra:
         tulos = round(dijk.get_lyhin_polku(), 8)
         assert (tulos == 30.45584412)
 
+    def test_lyhin_reitti(self):
+        dijk = Dijkstra(19, 26, 19, 29, self.verkko)
+        tulos = dijk.get_lyhin_reitti()
+        assert(tulos == [(19, 26), (19, 27), (19, 28), (19, 29)])

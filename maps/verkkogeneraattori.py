@@ -2,6 +2,7 @@ from datastructs.graph import Graph
 from datastructs.solmu import Solmu
 from math import sqrt
 
+# Luo verkkorakenteen käyttäen pohjana 2D-Ruudukkomaista karttadataa. Matriisiparametri on {"leveys:<leveys>, korkeus:<korkeus>, karttadata:<karttadata>"}
 class Verkkogeneraattori:
 
     def __init__(self, matriisi) -> None:
@@ -27,9 +28,11 @@ class Verkkogeneraattori:
     def sallittu(self, karttapiste: str) -> bool:
         sallitut = [".", "G", "S", "W"]
         return karttapiste in(sallitut)
-
-    # Määrittää jokaisen solmun kaaret sen vierussolmuihin. 
-    # Jos diagonaalisella polulla on este, sen läpi ei mennä vaan se kierretään
+        
+    """
+    Määrittää jokaisen solmun kaaret sen vierussolmuihin. 
+    Jos diagonaalinen polku menee esteiden vierestä tai lävitse, se kierretään
+    """
     def määritä_naapurit(self, solmu: Solmu, kartta: list, verkko: Graph):
         max_h = len(kartta) - 1
         max_w = len(kartta[0]) - 1
