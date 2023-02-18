@@ -41,6 +41,9 @@ class Dijkstra:
                     
     def get_lyhin_polku(self):
         return self.etäisyysmatriisi[self.loppu_x][self.loppu_y]
+    
+    
+    
 
 
         
