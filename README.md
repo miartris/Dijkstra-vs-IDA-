@@ -10,6 +10,12 @@ Pythonista on käytössä versio 3. Projektiriippuvuudet voi asentaa suorittamal
 pip install -r requirements.txt
 ```
 
+Ohjelma käynnistyy avaamalla python3 tulkilla tiedoston main.py. Luultavasti jompi kumpi näistä
+```
+python3 main.py
+py main.py
+``` 
+
 ### Testaus
 
 Juurihakemistosta testit voi suorittaa komennolla 
