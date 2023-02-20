@@ -2,10 +2,11 @@
 
 from datastructs.solmu import Solmu
 from datastructs.graph import Graph
+from algorithms.algoritmirakentaja import Algoritmi
 # Käyttää tilapäisesti valmista kekoa. Korvataan myöhemmin omalla toteutuksella
 import heapq
 
-class Dijkstra:
+class Dijkstra(Algoritmi):
 
     def __init__(self, alku_x, alku_y, loppu_x, loppu_y, verkko: Graph, visualisoi=False, init_olio=None):
         self.alku_x, self.alku_y, self.loppu_x, self.loppu_y = alku_x, alku_y, loppu_x, loppu_y
@@ -17,10 +18,17 @@ class Dijkstra:
         self.vierailtu = [[False for _ in range(verkko.hae_leveys())] for _ in range(verkko.hae_pituus())]
         self.keko = []
         self.lyhin_reitti = []
-        self.lyhin_polku()
         # Yhdistää ylläolevia parametrejä olioon. Todo
         if init_olio:
             pass
+
+    def aloita(self):
+        """
+        GUI:n rajapintaa varten
+        """
+        self.lyhin_polku()
+        self.lyhin_reitti()
+        
     
     def lyhin_polku(self):
         lisäysindeksi = 0 # Jos keossa on samoja etäisyyksiä poistetaan ekana lisätty
@@ -43,6 +51,7 @@ class Dijkstra:
                     naapurisolmu.set_edeltäjä(käsiteltävä_solmu)
                     kolmikko = (uusi_etäisyys, lisäysindeksi, naapurisolmu)
                     heapq.heappush(self.keko, kolmikko)
+        return self.etäisyysmatriisi[self.loppu_x][self.loppu_y]
                     
     def get_lyhin_polku(self):
         return self.etäisyysmatriisi[self.loppu_x][self.loppu_y]

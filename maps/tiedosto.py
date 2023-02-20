@@ -6,16 +6,16 @@ class Tiedostokäsittelijä:
 
     def __init__(self, tiedostopolku=None, kansiopolku=None, testipolku=None) -> None:
         self.tiedostopolku = tiedostopolku 
-        self.kansiopolku = kansiopolku
+        self.kansiopolku = kansiopolku if kansiopolku else os.path.join("", "maps")
         self.testipolku = testipolku
+        self.karttapolku = None
 
     def käsittele_karttatiedostot(self):
         kartat = []
-        if self.kansiopolku:
-            for tiedosto in os.listdir(self.kansiopolku):
-                tiedostopolku = os.path.join(self.tiedostopolku, tiedosto)
-                with open(tiedostopolku, "r") as f:
-                    kartat.append(self.parse_kartta(f.readlines()))
+        for tiedosto in os.listdir(self.kansiopolku):
+            tiedostopolku = os.path.join(self.tiedostopolku, tiedosto)
+            with open(tiedostopolku, "r") as f:
+                kartat.append(self.parse_kartta(f.readlines()))
         return kartat
 
     def käsittele_karttatiedosto(self):
@@ -58,3 +58,8 @@ class Tiedostokäsittelijä:
         return testit
 
 
+    def get_kartat(self):
+        return os.listdir(os.path.join(self.kansiopolku, "dao_all_maps"))
+    
+    def get_testit(self):
+        return os.listdir(os.path.join(self.kansiopolku, "dao_all_scens"))
