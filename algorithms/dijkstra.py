@@ -2,7 +2,7 @@
 
 from datastructs.solmu import Solmu
 from datastructs.graph import Graph
-from algorithms.algoritmirakentaja import Algoritmi
+from algorithms.algoritmi import Algoritmi
 # Käyttää tilapäisesti valmista kekoa. Korvataan myöhemmin omalla toteutuksella
 import heapq
 

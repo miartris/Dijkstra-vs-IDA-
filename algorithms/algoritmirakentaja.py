@@ -1,14 +1,12 @@
-from abc import ABC, abstractmethod
 from datastructs.graph import Graph
-from datastructs.solmu import Solmu
-
-class Algoritmi(ABC):
-
-    @abstractmethod
-    def aloita(self):
-        pass
+from algorithms.dijkstra import Dijkstra 
+from algorithms.idastar import IdaStar
 
 class Algoritmirakentaja():
-    def __init__(self, alku_x, alku_y, loppu_x, loppu_y, verkko: Graph, visualisoi=False, *params) -> Algoritmi:
-        pass
+    def __init__(self, algoritmi, alku_x, alku_y, loppu_x, loppu_y, verkko: Graph, visualisoi=False):
+        if algoritmi == "dijkstra":
+            return Dijkstra(alku_x, alku_y, loppu_x, loppu_y, verkko, visualisoi=True)
+        elif algoritmi == "ida_star":
+            return IdaStar(alku_x, alku_y, loppu_x, loppu_y, verkko, visualisoi=True)
     
+            
