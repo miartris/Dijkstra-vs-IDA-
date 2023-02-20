@@ -4,10 +4,11 @@ from re import findall
 
 class Tiedostokäsittelijä:
 
-    def __init__(self, tiedostopolku=None, kansiopolku=None, testipolku=None) -> None:
-        self.tiedostopolku = tiedostopolku 
-        self.kansiopolku = kansiopolku if kansiopolku else os.path.join("", "maps")
-        self.testipolku = testipolku
+    def __init__(self, kansiopolku=None) -> None:
+        self.oletuspolku = os.path.join("", "maps")
+        self.kansiopolku = kansiopolku if kansiopolku else self.oletuspolku
+        self.tiedostopolku = os.path.join(self.kansiopolku, "maps")
+        self.testipolku = os.path.join(self.kansiopolku, "scens")
         self.karttapolku = None
 
     def käsittele_karttatiedostot(self):
@@ -18,11 +19,10 @@ class Tiedostokäsittelijä:
                 kartat.append(self.parse_kartta(f.readlines()))
         return kartat
 
-    def käsittele_karttatiedosto(self):
-        if self.tiedostopolku:
-            with open(self.tiedostopolku, "r") as f:
+    def käsittele_karttatiedosto(self, nimi: str):
+            with open(os.path.join(self.tiedostopolku, nimi), "r") as f:
                 karttamatriisi = self.parse_kartta(f.readlines())
-        return karttamatriisi
+            return karttamatriisi
 
     # Karttadata on rivi-sarakemuodossa. Ensin neljä riviä metatietoa ja loput karttadataa. 
     # Esimerkkirivi karttadatasta "TTT............TTTT.TTT...TTTT.TTTT............TT", missä . on vapaa ruutu ja T on este
@@ -36,30 +36,29 @@ class Tiedostokäsittelijä:
 
     # Testidata on rivi-sarakemuodossa. Esimerkkirivi "0 arena.map 49 49 19	26 19 29 3.00000000"
     # Missä sarakkeet ovat "<Testijoukko> <Kartan nimi> <Alku_x> <Alku_y> <Maali_x> <Maali_y> <Lyhin_etäisyys>"
-    def parse_testi(self):
+    def parse_testi(self, testi: str):
         testit = []
-        if self.testipolku:
-            with open(self.testipolku, "r") as f:
-                testidata = f.readlines()
-                relevantti_data = testidata[1:]
-                puhdistettu_data = [jono.strip() for jono in relevantti_data]
-                # Luo dict-oliot datasta
-                for jono in puhdistettu_data:
-                    alkiot = jono.split()
-                    relevantit_alkiot = alkiot[1:]
-                    for ind in range(len(relevantit_alkiot)):
-                        if ind > 0 and ind < len(relevantit_alkiot) -1:
-                            relevantit_alkiot[ind] = int(relevantit_alkiot[ind])
-                        elif ind == len(relevantit_alkiot) -1:
-                            relevantit_alkiot[ind] = float(relevantit_alkiot[ind])     
-                    avaimet = ["kartta", "w", "h", "x1", "y1", "x2", "y2", "etäisyys"]
-                    testiolio = {avaimet[i]:relevantit_alkiot[i] for i in range(len(relevantit_alkiot))}
-                    testit.append(testiolio)
+        with open(os.path.join(self.testipolku, testi), "r") as f:
+            testidata = f.readlines()
+            relevantti_data = testidata[1:]
+            puhdistettu_data = [jono.strip() for jono in relevantti_data]
+            # Luo dict-oliot datasta
+            for jono in puhdistettu_data:
+                alkiot = jono.split()
+                relevantit_alkiot = alkiot[1:]
+                for ind in range(len(relevantit_alkiot)):
+                    if ind > 0 and ind < len(relevantit_alkiot) -1:
+                        relevantit_alkiot[ind] = int(relevantit_alkiot[ind])
+                    elif ind == len(relevantit_alkiot) -1:
+                        relevantit_alkiot[ind] = float(relevantit_alkiot[ind])     
+                avaimet = ["kartta", "w", "h", "x1", "y1", "x2", "y2", "etäisyys"]
+                testiolio = {avaimet[i]:relevantit_alkiot[i] for i in range(len(relevantit_alkiot))}
+                testit.append(testiolio)
         return testit
 
 
     def get_kartat(self):
-        return os.listdir(os.path.join(self.kansiopolku, "dao_all_maps"))
+        return os.listdir(os.path.join(self.tiedostopolku))
     
     def get_testit(self):
-        return os.listdir(os.path.join(self.kansiopolku, "dao_all_scens"))
+        return os.listdir(os.path.join(self.testipolku))

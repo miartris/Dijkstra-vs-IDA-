@@ -35,7 +35,7 @@ class GUI:
         satunnainen_kartta.bind('<Button-1>', self.valitse_satunnainen_kartta)
 
         aloita= tk.Button(nappi_kontti, text="Aloita")
-        aloita.bind('<Button-1>', self.piirrä_ruudukko)
+        aloita.bind('<Button-1>', self.suorita_algoritmi)
         
         puskuri = 5
         valitse_algoritmi.grid(row = 0, column = 0, sticky="EW", padx=puskuri, pady=(10, 0))
@@ -50,32 +50,57 @@ class GUI:
 
        
         nappi_kontti.pack(fill="x")
-        self.piirtokenttä.pack(fill="both", expand=True)
+        self.piirtokenttä.pack(expand=True, fill="both")
         self.ikkuna.title("Reitinhakusovellus")
     
-    def valitse_karttapolku(self, e):
-        self.karttatiedosto = filedialog.askopenfilename()
-
     def valitse_satunnainen_kartta(self, e):
         self.karttatiedosto = self.kartat[randint(0, len(self.kartat) - 1)]
         self.valitse_kartta_arvo.set(self.karttatiedosto)
 
-    def piirrä_ruudukko(self, e,):
+    def piirrä_ruudukko(self):
         self.tyhjennä()
         h = self.map_height
         w = self.map_width
         ch = self.piirtokenttä.winfo_height()
         cw = self.piirtokenttä.winfo_width()
 
+        # Horisontaaliset rivit
         for i in range(h+1):
             self.piirtokenttä.create_line([(0, i * ch/h), (cw, i * ch/h)])
+        # Vertikaaliset rivit    
         for i in range(w+1):
             self.piirtokenttä.create_line([(i * cw/w, 0), (i * cw/w ,ch)])
+
+    def suorita_algoritmi(self, e):
+        nykykartta = self.valitse_kartta_arvo.get()
+        if nykykartta != "Valitse kartta":
+            karttatiedot = self.käsittelijä.käsittele_karttatiedosto(nykykartta)
+            self.map_height = karttatiedot["korkeus"]
+            self.map_width = karttatiedot["leveys"]
+            self.piirrä_ruudukko()
+            self.piirrä_kartta(karttatiedot["karttadata"])
+
 
     
     def tyhjennä(self):
         self.piirtokenttä.delete('all')
 
+    def piirrä_kartta(self, karttadata: list):
+        h = self.map_height
+        w = self.map_width
+        ch = self.piirtokenttä.winfo_height()
+        cw = self.piirtokenttä.winfo_width()
+        sallitut = [".", "G", "S", "W"]
+
+        for i, jono in enumerate(karttadata):
+            for j, kirjain in enumerate(jono):
+                if kirjain in(sallitut):
+                    self.piirtokenttä.create_rectangle([(i * ch/h, j * cw/w), ((i+1) * ch/h), ((j+1) * cw/w)], fill="green")
+
+
 
     def käynnistä(self):
         self.ikkuna.mainloop()
+
+
+

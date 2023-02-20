@@ -2,12 +2,11 @@ from algorithms.dijkstra import Dijkstra
 from maps.tiedosto import Tiedostokäsittelijä
 from maps.verkkogeneraattori import Verkkogeneraattori
 
-
-
 class TestDijkstra:
-    testipolku = "tests/testmaps/testmap1.txt"
-    raaka = Tiedostokäsittelijä(testipolku)
-    matriisi = raaka.käsittele_karttatiedosto()
+    testipolku = "tests"
+    tiedosto = "testmap1.txt"
+    raaka = Tiedostokäsittelijä(kansiopolku=testipolku)
+    matriisi = raaka.käsittele_karttatiedosto(tiedosto)
     graph = Verkkogeneraattori(matriisi)
     verkko = graph.luo_verkko()
 
