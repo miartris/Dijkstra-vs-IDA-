@@ -13,11 +13,11 @@ class GUI:
         self.kartat = self.käsittelijä.get_kartat()
         #self.testit = self.käsittelijä.get_testit()
         self.karttatiedosto = None
-        self.map_height = 49
-        self.map_width = 49
+        self.map_height = None
+        self.map_width = None
         self.canvas_height = 800
-        self.canvas_width = 800 
-        self.piirtokenttä = tk.Canvas(self.ikkuna, bg="white", height=self.canvas_height, width=self.canvas_width)
+        self.canvas_width = 800
+        self.piirtokenttä = tk.Canvas(self.ikkuna, bg="white", height=self.canvas_height, width=self.canvas_width, background="black")
 
 
         nappi_kontti = tk.Frame(self.ikkuna, width=600, height=120, background="gray")
@@ -50,47 +50,39 @@ class GUI:
 
        
         nappi_kontti.pack(fill="x")
-        self.piirtokenttä.pack(expand=True, fill="both")
+        self.piirtokenttä.pack(expand=True)
         self.ikkuna.title("Reitinhakusovellus")
     
     def valitse_satunnainen_kartta(self, e):
         self.karttatiedosto = self.kartat[randint(0, len(self.kartat) - 1)]
         self.valitse_kartta_arvo.set(self.karttatiedosto)
 
-    def piirrä_ruudukko(self):
-        self.tyhjennä()
-        h = self.map_height
-        w = self.map_width
-        ch = self.piirtokenttä.winfo_height()
-        cw = self.piirtokenttä.winfo_width()
-
-        # Horisontaaliset rivit
-        for i in range(h+1):
-            self.piirtokenttä.create_line([(0, i * ch/h), (cw, i * ch/h)])
-        # Vertikaaliset rivit    
-        for i in range(w+1):
-            self.piirtokenttä.create_line([(i * cw/w, 0), (i * cw/w ,ch)])
-
     def suorita_algoritmi(self, e):
+        self.tyhjennä()
         nykykartta = self.valitse_kartta_arvo.get()
         if nykykartta != "Valitse kartta":
             karttatiedot = self.käsittelijä.käsittele_karttatiedosto(nykykartta)
             self.map_height = karttatiedot["korkeus"]
             self.map_width = karttatiedot["leveys"]
-            self.piirrä_ruudukko()
+            #self.piirrä_ruudukko()
             self.piirrä_kartta(karttatiedot["karttadata"])
 
 
-    
     def tyhjennä(self):
         self.piirtokenttä.delete('all')
 
     def piirrä_kartta(self, karttadata: list):
+        '''
+        Värittää nelikuutioita kartasta sen mukaan onko ruutu vapaa vai este
+        Tekee tarvittavat muunnokset, jotta kartan ja piirtoalustan suhde säilyy ehjänä
+        '''
         h = self.map_height
         w = self.map_width
         ch = self.piirtokenttä.winfo_height()
         cw = self.piirtokenttä.winfo_width()
         sallitut = [".", "G", "S", "W"]
+        
+
 
         for i, jono in enumerate(karttadata):
             for j, kirjain in enumerate(jono):

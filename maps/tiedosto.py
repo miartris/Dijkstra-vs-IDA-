@@ -24,9 +24,12 @@ class Tiedostokäsittelijä:
                 karttamatriisi = self.parse_kartta(f.readlines())
             return karttamatriisi
 
-    # Karttadata on rivi-sarakemuodossa. Ensin neljä riviä metatietoa ja loput karttadataa. 
-    # Esimerkkirivi karttadatasta "TTT............TTTT.TTT...TTTT.TTTT............TT", missä . on vapaa ruutu ja T on este
+    
     def parse_kartta(self, kartta: list) -> dict:
+        """
+        Karttadata on rivi-sarakemuodossa. Ensin neljä riviä metatietoa ja loput karttadataa. 
+        Esimerkkirivi karttadatasta "TTT............TTTT.TTT...TTTT.TTTT............TT", missä . on vapaa ruutu ja T on este
+        """
         height, width = [int (val) for val in findall(r'\d+', kartta[1] + kartta[2])]
         # Älä sisällytä viimeistä tyhjää riviä
         raaka_karttadata = kartta[4:len(kartta)]
@@ -34,9 +37,12 @@ class Tiedostokäsittelijä:
         karttadata = [jono.strip() for jono in raaka_karttadata]
         return {"korkeus":height, "leveys":width, "karttadata":karttadata}
 
-    # Testidata on rivi-sarakemuodossa. Esimerkkirivi "0 arena.map 49 49 19	26 19 29 3.00000000"
-    # Missä sarakkeet ovat "<Testijoukko> <Kartan nimi> <Alku_x> <Alku_y> <Maali_x> <Maali_y> <Lyhin_etäisyys>"
+    
     def parse_testi(self, testi: str):
+        """
+        Testidata on rivi-sarakemuodossa. Esimerkkirivi "0 arena.map 49 49 19	26 19 29 3.00000000"
+        Missä sarakkeet ovat "<Testijoukko> <Kartan nimi> <Alku_x> <Alku_y> <Maali_x> <Maali_y> <Lyhin_etäisyys>"
+        """
         testit = []
         with open(os.path.join(self.testipolku, testi), "r") as f:
             testidata = f.readlines()
