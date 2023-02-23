@@ -7,9 +7,9 @@ class Graph:
     
     # Luo tyhjä lista kartan mitoilla
     def __init__(self, xdim, ydim) -> None:
-        self.leveys = xdim
-        self.pituus = ydim
-        self.solmut: list = [[0 for _ in range(xdim)] for _ in range(ydim)]
+        self.pituus = xdim
+        self.leveys = ydim
+        self.solmut: list = [[0 for _ in range(ydim)] for _ in range(xdim)]
     
     # Lisää solmun verkkoon sen xy koordinaattien perusteella
     def lisaa_solmu(self, solmu: Solmu) -> None:

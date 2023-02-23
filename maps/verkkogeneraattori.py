@@ -9,7 +9,7 @@ class Verkkogeneraattori:
         self.karttadata = matriisi["karttadata"]
         self.height = matriisi["korkeus"]
         self.width = matriisi["leveys"]
-        self.verkko = Graph(self.width, self.height)
+        self.verkko = Graph(self.height, self.width)
 
     def luo_verkko(self) -> Graph:
         for x in range(self.height):

@@ -28,10 +28,12 @@ class Dijkstra(Algoritmi):
         GUI:n rajapintaa varten
         """
         self.lyhin_polku()
-        self.lyhin_reitti()
+        self.get_lyhin_reitti()
         
     
     def lyhin_polku(self):
+        if self.onko_mahdoton(self.alku_x, self.alku_y, self.loppu_x, self.loppu_y):
+            return -1 # Alku sama kuin loppu 
         lisäysindeksi = 0 # Jos keossa on samoja etäisyyksiä poistetaan ekana lisätty
         self.etäisyysmatriisi[self.alku_x][self.alku_y] = 0
         heapq.heappush(self.keko, (0, lisäysindeksi, self.alku))
@@ -56,6 +58,9 @@ class Dijkstra(Algoritmi):
                     
     def get_lyhin_polku(self):
         return self.etäisyysmatriisi[self.loppu_x][self.loppu_y]
+
+    def onko_mahdoton(self, x1, y1, x2, y2):
+        return not x1 == x2 and y1 == y2 or self.verkko.hae_solmu(x1, y1) == 0 or self.verkko.hae_solmu(x2, y2) == 0
 
     # Palauttaa lyhimmän reitin koordinaattiparit. Sisältää alku- ja loppusolmun
     def get_lyhin_reitti(self):

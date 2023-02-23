@@ -4,6 +4,7 @@ from maps.verkkogeneraattori import Verkkogeneraattori
 from random import randint
 from algorithms.algoritmirakentaja import Algoritmirakentaja
 
+
 class GUI:
     def __init__(self) -> None:
 
@@ -69,8 +70,10 @@ class GUI:
             self.piirrä_kartta(karttatiedot["karttadata"])
             self.generaattori = Verkkogeneraattori(karttatiedot)
             verkko = self.generaattori.luo_verkko()
-            x1, y1, x2, y2 = 19, 26, 19, 29
-            self.algoritmi = Algoritmirakentaja(self.valitse_algo_arvo.get(), x1, y1, x2, y2, verkko) # Give start,end nodes and graph
+           # x1, y1, x2, y2 = 19, 26, 19, 29
+            #self.väritä_alku(x1, y1)
+           # self.väritä_loppu(x2, y2)
+            self.algoritmi = Algoritmirakentaja(self.valitse_algo_arvo.get(), x1, y1, x2, y2, verkko).rakenna_algoritmi()
             self.algoritmi.aloita()
 
 
@@ -91,13 +94,14 @@ class GUI:
         for i, jono in enumerate(karttadata):
             for j, kirjain in enumerate(jono):
                 if kirjain in(sallitut):
-                    self.piirtokenttä.create_rectangle([(i * ch/h, j * cw/w), ((i+1) * ch/h), ((j+1) * cw/w)], fill="green")
-                elif kirjain == "T": 
-                    self.piirtokenttä.create_rectangle([(i * ch/h, j * cw/w), ((i+1) * ch/h), ((j+1) * cw/w)], fill="black")
-                else: 
-                    continue
-    def väritä_alku(self):
-        pass
+                    self.piirtokenttä.create_rectangle([(j * ch/h, i * cw/w), ((j+1) * ch/h), ((i+1) * cw/w)], fill="green")
+
+    def väritä_alku(self, x1, y1):
+        h = self.map_height
+        w = self.map_width
+        ch = self.piirtokenttä.winfo_height()
+        cw = self.piirtokenttä.winfo_width()
+        self.piirtokenttä.create_rectangle([(x1 * ch/h, y1 * cw/w), ((x1+1) * ch/h), ((y1+1) * cw/w)], fill="red")
 
 
 

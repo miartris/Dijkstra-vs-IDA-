@@ -24,6 +24,12 @@ class TestTiedostokäsittelijä:
         tulos = luo_käsittelijä.käsittele_karttatiedosto(testitiedosto[0])
         assert (tulos["korkeus"], tulos["leveys"]) == (len(tulos["karttadata"][0]), len(tulos["karttadata"]))
     
+    def oikeat_elementit(self, luo_käsittelijä, testitiedosto):
+        tulos = luo_käsittelijä.käsittele_karttatiedosto(testitiedosto[0])
+        print(tulos["karttadata"])
+        virhe = False
+
+
     def test_iso_kartta(self, luo_käsittelijä, testitiedosto):
         käsittelijä = luo_käsittelijä
         tulos = käsittelijä.käsittele_karttatiedosto(testitiedosto[1])

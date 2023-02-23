@@ -20,3 +20,6 @@ class TestDijkstra:
         dijk.lyhin_polku()
         tulos = dijk.get_lyhin_reitti()
         assert(tulos == [(19, 26), (19, 27), (19, 28), (19, 29)])
+
+    def test_ei_reittiä(self):
+        pass
