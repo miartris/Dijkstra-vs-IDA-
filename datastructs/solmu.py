@@ -3,7 +3,7 @@ from datastructs.tila import Tila
 class Solmu: 
     
     # x ja y koordinaatit, naapurit sisältää kohdesolmun ja etäisyyden siihen
-    def __init__(self, x: int, y: int, arvo: str) -> None:
+    def __init__(self, x: int, y: int, arvo: str, tarkkailija=False) -> None:
         self.xy = (x, y)
         self.naapurit = []
         self.arvo = arvo
@@ -31,6 +31,9 @@ class Solmu:
     
     def get_edeltäjä(self):
         return self.edeltäjä
+
+    def muuta_tila(self, uusi_tila):
+        self.tila = uusi_tila
 
 
 

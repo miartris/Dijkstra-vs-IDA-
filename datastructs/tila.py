@@ -2,9 +2,8 @@ from enum import Enum
 
 class Tila(Enum):
     VAKIO = 0
-    ALKU = 1
-    MAALI = 2
-    EI_VIERAILTU = 3
-    VIERAILLAAN = 4
-    VIERAILTU = 5
-    POLKU = 6
+    ALKU = '#080B75'
+    MAALI = '#FD2D00'
+    VIERAILLAAN = '#0EF0DF'
+    VIERAILTU = '#F00EF0'
+    POLKU = '#F07F0E'

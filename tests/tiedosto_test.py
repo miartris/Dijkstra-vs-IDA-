@@ -9,7 +9,7 @@ class TestTiedostokäsittelijä:
     
     @pytest.fixture
     def testitiedosto(self):
-        return "testmap1.txt"
+        return ["testmap1.txt", "testmap2.txt"]
     
     @pytest.fixture
     def testiscen(self):
@@ -17,12 +17,18 @@ class TestTiedostokäsittelijä:
     
     def test_käsittele_tiedosto_dims(self, luo_käsittelijä, testitiedosto):
         käsittelijä = luo_käsittelijä
-        tulos = käsittelijä.käsittele_karttatiedosto(testitiedosto)
+        tulos = käsittelijä.käsittele_karttatiedosto(testitiedosto[0])
         assert (tulos["korkeus"], tulos["leveys"]) == (49, 49)
         
     def test_karttadata(self, luo_käsittelijä, testitiedosto):
-        tulos = luo_käsittelijä.käsittele_karttatiedosto(testitiedosto)
+        tulos = luo_käsittelijä.käsittele_karttatiedosto(testitiedosto[0])
         assert (tulos["korkeus"], tulos["leveys"]) == (len(tulos["karttadata"][0]), len(tulos["karttadata"]))
+    
+    def test_iso_kartta(self, luo_käsittelijä, testitiedosto):
+        käsittelijä = luo_käsittelijä
+        tulos = käsittelijä.käsittele_karttatiedosto(testitiedosto[1])
+        assert (tulos["korkeus"], tulos["leveys"]) == (844, 868)
+
     
     def test_testidata(self, luo_käsittelijä, testiscen):
         tulos = luo_käsittelijä.parse_testi(testiscen)

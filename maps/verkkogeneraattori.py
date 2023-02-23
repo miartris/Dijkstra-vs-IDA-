@@ -7,13 +7,13 @@ class Verkkogeneraattori:
 
     def __init__(self, matriisi) -> None:
         self.karttadata = matriisi["karttadata"]
-        self.width = matriisi["leveys"]
         self.height = matriisi["korkeus"]
+        self.width = matriisi["leveys"]
         self.verkko = Graph(self.width, self.height)
 
     def luo_verkko(self) -> Graph:
-        for x in range(self.width):
-            for y in range(self.height):
+        for x in range(self.height):
+            for y in range(self.width):
                 karttapiste = self.karttadata[x][y]
                 if self.sallittu(karttapiste):
                     uusi_solmu = Solmu(x, y, karttapiste)
@@ -44,17 +44,18 @@ class Verkkogeneraattori:
                 if not(dx == 0 and dy == 0):
                     naapuri_x = solmu_x + dx
                     naapuri_y = solmu_y + dy
-                    if self.sallittu(kartta[naapuri_x][naapuri_y]) and self.rajojen_sisällä(max_h, max_w, naapuri_x, naapuri_y):
-                        on_diagonaalinen = self.on_diagonaalinen(dx, dy)
-                        # Lisää diagonaalinen naapuri vain, jos diagonaalisella polulla ei mennä seinän läpi
-                        if on_diagonaalinen and not self.diagonaalinen_liike_sallittu(kartta, solmu_x, solmu_y, dx, dy):
-                            continue
-                        etäisyys = 1 if not on_diagonaalinen else sqrt(2)
-                        naapuri = verkko.hae_solmu(naapuri_x, naapuri_y)
-                        solmu.lisää_naapuri(naapuri, etäisyys)
+                    if self.rajojen_sisällä(max_h, max_w, naapuri_x, naapuri_y):
+                        if self.sallittu(kartta[naapuri_x][naapuri_y]):
+                            on_diagonaalinen = self.on_diagonaalinen(dx, dy)
+                            # Lisää diagonaalinen naapuri vain, jos diagonaalisella polulla ei mennä seinän läpi
+                            if on_diagonaalinen and not self.diagonaalinen_liike_sallittu(kartta, solmu_x, solmu_y, dx, dy):
+                                continue
+                            etäisyys = 1 if not on_diagonaalinen else sqrt(2)
+                            naapuri = verkko.hae_solmu(naapuri_x, naapuri_y)
+                            solmu.lisää_naapuri(naapuri, etäisyys)
                         
     def rajojen_sisällä(self, max_korkeus, max_leveys, x, y):
-        return not(x < 0 or x > max_leveys or y < 0 or y > max_korkeus)
+        return not(x < 0 or x > max_korkeus or y < 0 or y > max_leveys)
 
     def on_diagonaalinen(self, dx, dy):
         arvot = [(-1, -1), (1, -1), (-1, 1), (1, 1)]

@@ -8,19 +8,20 @@ import heapq
 
 class Dijkstra(Algoritmi):
 
-    def __init__(self, alku_x, alku_y, loppu_x, loppu_y, verkko: Graph, visualisoi=False, init_olio=None):
+    def __init__(self, alku_x, alku_y, loppu_x, loppu_y, verkko: Graph, visualisoi=False, tarkkailija = None):
         self.alku_x, self.alku_y, self.loppu_x, self.loppu_y = alku_x, alku_y, loppu_x, loppu_y
         self.alku: Solmu = verkko.hae_solmu(alku_x, alku_y)
         self.loppu: Solmu = verkko.hae_solmu(loppu_x, loppu_y)
         self.verkko = verkko
-        self.visualisoi = visualisoi
         self.etäisyysmatriisi = [[float("inf") for _ in range(verkko.hae_leveys()) ] for _ in range(verkko.hae_pituus())]
         self.vierailtu = [[False for _ in range(verkko.hae_leveys())] for _ in range(verkko.hae_pituus())]
         self.keko = []
         self.lyhin_reitti = []
-        # Yhdistää ylläolevia parametrejä olioon. Todo
-        if init_olio:
-            pass
+        self.viive = 0
+        if visualisoi:
+            self.tarkkailija = tarkkailija
+            self.viive = 0.02 # 20ms
+
 
     def aloita(self):
         """

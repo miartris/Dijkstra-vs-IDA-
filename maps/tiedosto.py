@@ -32,7 +32,7 @@ class Tiedostokäsittelijä:
         """
         height, width = [int (val) for val in findall(r'\d+', kartta[1] + kartta[2])]
         # Älä sisällytä viimeistä tyhjää riviä
-        raaka_karttadata = kartta[4:len(kartta)]
+        raaka_karttadata = kartta[4:len(kartta)] 
         # Poista \n merkkijonojen perästä
         karttadata = [jono.strip() for jono in raaka_karttadata]
         return {"korkeus":height, "leveys":width, "karttadata":karttadata}
