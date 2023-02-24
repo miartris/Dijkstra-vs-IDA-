@@ -1,7 +1,9 @@
 import tkinter as tk
+from tkinter import messagebox
 from maps.tiedosto import Tiedostokäsittelijä
 from maps.verkkogeneraattori import Verkkogeneraattori
 from random import randint
+from math import floor
 from algorithms.algoritmirakentaja import Algoritmirakentaja
 
 
@@ -21,6 +23,7 @@ class GUI:
         self.canvas_height = 800
         self.canvas_width = 800
         self.piirtokenttä = tk.Canvas(self.ikkuna, bg="white", height=self.canvas_height, width=self.canvas_width)
+        self.piirtokenttä.bind("<Button-1>", self.hiiri_koordinaatit)
 
 
         nappi_kontti = tk.Frame(self.ikkuna, width=600, height=120, background="gray")
@@ -60,6 +63,10 @@ class GUI:
         self.valitse_kartta_arvo.set(self.karttatiedosto)
 
     def suorita_algoritmi(self, e):
+        if self.valitse_algo_arvo.get() == "Valitse algoritmi":
+            messagebox.showerror("No algorithm", "Select an algorithm")
+            return
+
         self.tyhjennä()
         nykykartta = self.valitse_kartta_arvo.get()
         if nykykartta != "Valitse kartta":
@@ -70,9 +77,9 @@ class GUI:
             self.piirrä_kartta(karttatiedot["karttadata"])
             self.generaattori = Verkkogeneraattori(karttatiedot)
             verkko = self.generaattori.luo_verkko()
-           # x1, y1, x2, y2 = 19, 26, 19, 29
-            #self.väritä_alku(x1, y1)
-           # self.väritä_loppu(x2, y2)
+            x1, y1, x2, y2 = 19, 26, 19, 29
+            self.päivitä_solmu(x1, y1, 'red')
+            self.päivitä_solmu(x2, y2, 'blue')
             self.algoritmi = Algoritmirakentaja(self.valitse_algo_arvo.get(), x1, y1, x2, y2, verkko).rakenna_algoritmi()
             self.algoritmi.aloita()
 
@@ -95,13 +102,26 @@ class GUI:
             for j, kirjain in enumerate(jono):
                 if kirjain in(sallitut):
                     self.piirtokenttä.create_rectangle([(j * ch/h, i * cw/w), ((j+1) * ch/h), ((i+1) * cw/w)], fill="green")
+    def hiiri_koordinaatit(self, event):
+        x = event.x
+        y = event.y
+        print(x,y)
+        self.muunna_koordinaatit((x,y))
+        return (x,y)
+    
+    def muunna_koordinaatit(self, xy):
+        x, y = xy
+        kartta_x = floor(x / (self.piirtokenttä.winfo_height()/self.map_height))
+        kartta_y = floor(y / (self.piirtokenttä.winfo_width()/self.map_width))
+        print(kartta_y, kartta_x)
 
-    def väritä_alku(self, x1, y1):
+
+    def päivitä_solmu(self, x, y, väri):
         h = self.map_height
         w = self.map_width
         ch = self.piirtokenttä.winfo_height()
         cw = self.piirtokenttä.winfo_width()
-        self.piirtokenttä.create_rectangle([(x1 * ch/h, y1 * cw/w), ((x1+1) * ch/h), ((y1+1) * cw/w)], fill="red")
+        self.piirtokenttä.create_rectangle([(x * ch/h, y * cw/w), ((x+1) * ch/h), ((y+1) * cw/w)], fill=väri)
 
 
 

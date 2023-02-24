@@ -27,8 +27,6 @@ class TestTiedostokäsittelijä:
     def oikeat_elementit(self, luo_käsittelijä, testitiedosto):
         tulos = luo_käsittelijä.käsittele_karttatiedosto(testitiedosto[0])
         print(tulos["karttadata"])
-        virhe = False
-
 
     def test_iso_kartta(self, luo_käsittelijä, testitiedosto):
         käsittelijä = luo_käsittelijä
@@ -44,3 +42,9 @@ class TestTiedostokäsittelijä:
     def test_testidata_käsittelee_kaikki_rivit(self, luo_käsittelijä, testiscen):
         tulos = len(luo_käsittelijä.parse_testi(testiscen))
         assert tulos == 130
+"""
+    def test_parse_oikein(self, luo_käsittelijä, testitiedosto):
+        käsittelijä = luo_käsittelijä
+        tulos = käsittelijä.käsittele_karttatiedosto(testitiedosto[0])
+        assert (tulos ==)
+"""

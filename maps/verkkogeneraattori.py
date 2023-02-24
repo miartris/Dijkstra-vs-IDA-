@@ -10,13 +10,13 @@ class Verkkogeneraattori:
         self.height = matriisi["korkeus"]
         self.width = matriisi["leveys"]
         self.verkko = Graph(self.height, self.width)
-
+   
     def luo_verkko(self) -> Graph:
-        for x in range(self.height):
-            for y in range(self.width):
-                karttapiste = self.karttadata[x][y]
+        for i, jono in enumerate(self.karttadata):
+            for j, kirjain in enumerate(jono):
+                karttapiste = kirjain
                 if self.sallittu(karttapiste):
-                    uusi_solmu = Solmu(x, y, karttapiste)
+                    uusi_solmu = Solmu(i, j, karttapiste)
                     self.verkko.lisaa_solmu(uusi_solmu)
         for list in self.verkko.hae_solmut():
             for solmu in list:

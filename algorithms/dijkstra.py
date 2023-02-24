@@ -10,9 +10,9 @@ class Dijkstra(Algoritmi):
 
     def __init__(self, alku_x, alku_y, loppu_x, loppu_y, verkko: Graph, visualisoi=False, tarkkailija = None):
         self.alku_x, self.alku_y, self.loppu_x, self.loppu_y = alku_x, alku_y, loppu_x, loppu_y
+        self.verkko = verkko
         self.alku: Solmu = verkko.hae_solmu(alku_x, alku_y)
         self.loppu: Solmu = verkko.hae_solmu(loppu_x, loppu_y)
-        self.verkko = verkko
         self.etäisyysmatriisi = [[float("inf") for _ in range(verkko.hae_leveys()) ] for _ in range(verkko.hae_pituus())]
         self.vierailtu = [[False for _ in range(verkko.hae_leveys())] for _ in range(verkko.hae_pituus())]
         self.keko = []
@@ -32,7 +32,7 @@ class Dijkstra(Algoritmi):
         
     
     def lyhin_polku(self):
-        if self.onko_mahdoton(self.alku_x, self.alku_y, self.loppu_x, self.loppu_y):
+        if self.on_mahdoton(self.alku_x, self.alku_y, self.loppu_x, self.loppu_y):
             return -1 # Alku sama kuin loppu 
         lisäysindeksi = 0 # Jos keossa on samoja etäisyyksiä poistetaan ekana lisätty
         self.etäisyysmatriisi[self.alku_x][self.alku_y] = 0
@@ -59,24 +59,32 @@ class Dijkstra(Algoritmi):
     def get_lyhin_polku(self):
         return self.etäisyysmatriisi[self.loppu_x][self.loppu_y]
 
-    def onko_mahdoton(self, x1, y1, x2, y2):
-        return not x1 == x2 and y1 == y2 or self.verkko.hae_solmu(x1, y1) == 0 or self.verkko.hae_solmu(x2, y2) == 0
+    def on_mahdoton(self, x1, y1, x2, y2):
+        return x1 == x2 and y1 == y2 or self.verkko.hae_solmu(x1, y1) == 0 or self.verkko.hae_solmu(x2, y2) == 0
+    
+    def ei_rajojen_sisällä(self, x1, y1, x2, y2):
+        max_h = self.verkko.hae_pituus() - 1
+        max_w = self.verkko.hae_leveys() - 1
+        return (x1 > max_h or y1 > max_w or x2 > max_h or y2 > max_w) 
 
     # Palauttaa lyhimmän reitin koordinaattiparit. Sisältää alku- ja loppusolmun
     def get_lyhin_reitti(self):
+        lyhin_reitti = []
+        if self.alku == 0:
+            return []
         self.alku.set_edeltäjä(None)
-        if len(self.lyhin_reitti) < 1:
+        if len(lyhin_reitti) < 1:
             nyky = self.loppu
-            self.lyhin_reitti.append(self.loppu.get_koordinaatit())
+            lyhin_reitti.append(self.loppu.get_koordinaatit())
             while True:
                 edeltäjä = nyky.get_edeltäjä()
                 if edeltäjä:
-                    self.lyhin_reitti.append(edeltäjä.get_koordinaatit())
+                    lyhin_reitti.append(edeltäjä.get_koordinaatit())
                     nyky = edeltäjä
                 else: 
-                    self.lyhin_reitti.reverse()
+                    lyhin_reitti.reverse()
                     break
-        return self.lyhin_reitti
+        return lyhin_reitti
     
     
     
