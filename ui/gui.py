@@ -6,6 +6,7 @@ from random import randint
 from math import floor
 from algorithms.algoritmirakentaja import Algoritmirakentaja
 from enum import Enum
+from datastructs.ruudukkokartta import RuudukkoTehdas
 
 class GUI:
     def __init__(self) -> None:
@@ -26,7 +27,9 @@ class GUI:
         self.canvas_width = 800
         self.piirtokenttä = tk.Canvas(self.ikkuna, bg="white", height=self.canvas_height, width=self.canvas_width)
         self.piirtokenttä.bind("<B1-Motion>", self.hiiri_koordinaatit)
-        self.ruudukko = [("." * self.leveys) for _ in range(self.korkeus)]
+        self.ruudukkotehdas = RuudukkoTehdas()
+        self.ruudukko_olio = self.ruudukkotehdas.luo_ruudukko(5,5)
+        self.ruudukko = self.ruudukko_olio.get_kartta()
         self.dimensiot = [k for k in range(5, 51)]
         self.piirtotila = None
         nappi_kontti = tk.Frame(self.ikkuna, width=800, height=120, border=2)
@@ -83,7 +86,7 @@ class GUI:
         nappi_kontti.pack(fill="x")
         self.piirtokenttä.pack(expand=True)
         self.ikkuna.title("Reitinhakusovellus")
-        self.ikkuna.after(60, self.piirrä_kartta, self.ruudukko)
+        self.ikkuna.after(500, self.piirrä_kartta, self.ruudukko)
     
     def valitse_satunnainen_kartta(self, e):
         self.karttatiedosto = self.kartat[randint(0, len(self.kartat) - 1)]
@@ -140,6 +143,8 @@ class GUI:
             for j, kirjain in enumerate(jono):
                 if kirjain in(sallitut):
                     self.piirtokenttä.create_rectangle([(j * ch/h, i * cw/w), ((j+1) * ch/h), ((i+1) * cw/w)], fill="white")
+                else:
+                    self.piirtokenttä.create_rectangle([(j * ch/h, i * cw/w), ((j+1) * ch/h), ((i+1) * cw/w)], fill="black")
    
     def hiiri_koordinaatit(self, event):
         x = event.x
@@ -153,7 +158,8 @@ class GUI:
         h = self.valitse_korkeus.get()
         w = self.valitse_leveys.get()
         self.korkeus, self.leveys = w, h
-        self.ruudukko = [("." * w) for _ in range(h)]
+        self.ruudukko_olio = self.ruudukkotehdas.luo_ruudukko(h, w)
+        self.ruudukko = self.ruudukko_olio.get_kartta()
         self.piirrä_kartta(self.ruudukko)
 
     def muunna_koordinaatit(self, xy):
@@ -184,7 +190,11 @@ class GUI:
         elif self.piirtotila == Piirtotila.LOPPU:
             self.loppu = xy
         elif self.piirtotila == Piirtotila.ESTE:
-            pass #päivitä kartta
+            y, x = xy
+            print(y, x)
+            self.ruudukko_olio.luo_este(y, x)
+            self.ruudukko = self.ruudukko_olio.get_kartta()
+            
     
     def käynnistä(self):
           self.ikkuna.mainloop()
