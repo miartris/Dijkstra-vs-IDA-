@@ -22,6 +22,12 @@ Luokkia hieman refaktoroitu siten, että kukin tekee yhtä asiaa. Yksikkötestej
 Ensi viikolla ajankäyttö lisääntyy huomattavasti. Tarkoitus on saada tehtyä IDA*, käyttöliittymän ja logiikan integrointi ja suorituskykytestaus mukaan lukien 
 ajastus yms. apufunktiot ja lisää yksikkötestejä
 
+## Viikko 6. 
+
+IdaStar algoritmi ja testit valmiit. Yleensä lisää yksikkötestejä. Käyttöliittymää ja pääohjelmaa viilattu, sillä valmiit kartat eivät olleet niin mielekkäitä visualisaation osalta. Käyttäjä voi nyt hakea reitin 5-50*5-50 kokoisessa ruudukossa ja piirtää esteitä. Koodia kommentoitu paljon.
+Käyttöliittymään pitää vielä kehittää ominaisuuksia ja suorituksenaikaista visualisaatiota ei ole, mutta loppupolku piirretään.
+Testaus- ja toteutusdokumentointia aloiteltu.
+
 ## Ajankäyttö
 
 | Viikko | Tunnit |
@@ -30,3 +36,4 @@ ajastus yms. apufunktiot ja lisää yksikkötestejä
 | 2. | 3 |
 | 4. | 5 |
 | 5. | 13 |
+| 6. | 20 |
