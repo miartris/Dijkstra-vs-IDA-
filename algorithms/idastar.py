@@ -14,6 +14,9 @@ class IdaStar(Algoritmi):
         self.polku = []
 
     def runko(self):
+        """
+        Runkosilmukka rekursiiviselle syvyyshaulle. 
+        """
         alku = self.alku
         maali = self.loppu
         if self.on_mahdoton(alku, maali):
@@ -30,6 +33,9 @@ class IdaStar(Algoritmi):
             yläraja = hakutulos
 
     def rekursiivinen_haku(self, solmu: Solmu, yläraja, etäisyys, polku):
+        """
+        Rekursiivinen syvyyshaku, joka käsittelee solmuja jos niiden etäisyysarvio
+        """
         #solmu = polku.pop()
         etäisyysarvio = etäisyys + self.heuristiikka(solmu)
         if etäisyysarvio > yläraja:

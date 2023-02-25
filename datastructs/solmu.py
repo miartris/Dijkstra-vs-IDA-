@@ -1,8 +1,12 @@
 from datastructs.tila import Tila
 
 class Solmu: 
+    """
+    Verkon solmun representaatio.
+    Arvot: xy-koordinaattipari, lista naapurisolmusta ja etäisyydestä, str-arvo kuten '.' tai 'T',
+    edeltäjäsolmu, jolla dijkstran algoritmissa määritetään lyhin polku backtrackaamalla
+    """
     
-    # x ja y koordinaatit, naapurit sisältää kohdesolmun ja etäisyyden siihen
     def __init__(self, x: int, y: int, arvo: str, tarkkailija=False) -> None:
         self.xy = (x, y)
         self.naapurit = []
@@ -18,6 +22,9 @@ class Solmu:
         self.naapurit.append(naapuri)
     
     def get_naapurit(self):
+        """
+        Palauttaa listan naapureista ja etäisyydestä niihin. Tupleja (<Solmu>, <float>)
+        """
         return self.naapurit
 
     def __str__(self):

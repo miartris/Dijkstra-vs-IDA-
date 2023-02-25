@@ -33,6 +33,12 @@ class Dijkstra(Algoritmi):
         return self.get_lyhin_reitti()
         
     def lyhin_polku(self):
+        """
+        Laskee lyhimmän polun luokan konstruktorissa annettujen parametrien perusteella.
+        Palauttaa <float> arvoisen etäisyyden, joka on lyhin polku jos tällainen polku on.
+        Palauttaa -1 jos alku- ja loppusolmut ovat samat.
+        Palauttaa inf jos reittiä ei ole.
+        """
         if self.on_mahdoton(self.alku_x, self.alku_y, self.loppu_x, self.loppu_y):
             return -1 # Alku sama kuin loppu 
         lisäysindeksi = 0 # Jos keossa on samoja etäisyyksiä poistetaan ekana lisätty
@@ -68,8 +74,12 @@ class Dijkstra(Algoritmi):
         max_w = self.verkko.hae_leveys() - 1
         return (x1 > max_h or y1 > max_w or x2 > max_h or y2 > max_w) 
 
-    # Palauttaa lyhimmän reitin koordinaattiparit. Sisältää alku- ja loppusolmun
     def get_lyhin_reitti(self):
+        """
+        Palauttaa listan tupleja (x, y) jotka muodostavat lyhimmän reitin backtrackaamalla.
+        Jos alkusolmu on este, palauttaa tyhjän listan. 
+        Jos polkua ei ole, palauttaa vain loppusolmun
+        """
         lyhin_reitti = []
         if self.alku == 0:
             return []

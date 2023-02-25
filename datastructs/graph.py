@@ -3,8 +3,8 @@ from datastructs.solmu import Solmu
 class Graph:
     '''Verkon vieruslistaesitys'''
     
-    # Luo tyhjä lista kartan mitoilla
     def __init__(self, xdim, ydim) -> None:
+        """Alusta nollilla täytetty x * y kokoinen lista"""
         self.pituus = xdim
         self.leveys = ydim
         self.solmut: list = [[0 for _ in range(ydim)] for _ in range(xdim)]
