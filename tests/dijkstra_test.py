@@ -42,7 +42,7 @@ class TestDijkstra:
     def test_oikeat_etäisyydet(self):
         testit = self.testit
         for index, t in enumerate(testit):
-            dijk = Dijkstra(t["y1"], t["x1"], t["y2"], t["x2"], self.verkko)
+            dijk = Dijkstra(t["y1"], t["x1"], t["y2"], t["x2"], self.verkko) # Testikoordinaatit olettavat, että x-akseli on leveys ja y korkeus
             polku = dijk.lyhin_polku()
             print(t)
             polku = round(polku, 5)

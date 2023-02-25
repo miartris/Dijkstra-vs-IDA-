@@ -7,7 +7,9 @@ from algorithms.algoritmi import Algoritmi
 import heapq
 
 class Dijkstra(Algoritmi):
-
+    """
+    Laskee lyhimmän etäisyyden alkupisteestä loppupisteeseen ja sisältää metodin, millä saada listan reitin pisteistä.
+    """
     def __init__(self, alku_x, alku_y, loppu_x, loppu_y, verkko: Graph, visualisoi=False, tarkkailija = None):
         self.alku_x, self.alku_y, self.loppu_x, self.loppu_y = alku_x, alku_y, loppu_x, loppu_y
         self.verkko = verkko
@@ -28,9 +30,8 @@ class Dijkstra(Algoritmi):
         GUI:n rajapintaa varten
         """
         self.lyhin_polku()
-        self.get_lyhin_reitti()
+        return self.get_lyhin_reitti()
         
-    
     def lyhin_polku(self):
         if self.on_mahdoton(self.alku_x, self.alku_y, self.loppu_x, self.loppu_y):
             return -1 # Alku sama kuin loppu 
