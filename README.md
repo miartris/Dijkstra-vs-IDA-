@@ -15,6 +15,11 @@ Ohjelma käynnistyy avaamalla python3 tulkilla tiedoston main.py. Luultavasti jo
 python3 main.py
 py main.py
 ``` 
+Ruudukon kokoa voi muuttaa.
+Tällä hetkellä piirtotilan valittua voi hiirtä painamalla ja vetämällä valita alku- ja maaliruudun ja piirtää esteitä.
+Tämän jälkeen algoritmin ollessa valittuna "aloita" nappia painamalla algoritmi määrittää lyhimmän polun. Polku visualisoidaan
+(vain Dijkstra tällä hetkellä) ja parin sekunnin päästä ruutu alustetaan uusiksi
+
 
 ### Testaus
 
