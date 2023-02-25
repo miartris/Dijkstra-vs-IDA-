@@ -18,6 +18,8 @@ class GUI:
         self.kartat = self.käsittelijä.get_kartat()
         #self.testit = self.käsittelijä.get_testit()
         self.karttatiedosto = None
+        self.alku = ()
+        self.loppu = ()
         self.korkeus = 5
         self.leveys = 5
         self.canvas_height = 800
@@ -51,10 +53,11 @@ class GUI:
         self.valitse_leveys.set((5))
         valitse_leveys = tk.OptionMenu(nappi_kontti, self.valitse_leveys, *self.dimensiot, command=self.päivitä_ruudukko)
 
-        self.radiovar = tk.IntVar
-        valitse_alkupiste = tk.Radiobutton(nappi_kontti, text="Valitse alkupiste", command=self.muuta_tila, variable=self.radiovar)
-        valitse_loppupiste = tk.Radiobutton(nappi_kontti, text="Valitse loppupiste", command=self.muuta_tila, variable=self.radiovar)
-        piirrä_esteet = tk.Radiobutton(nappi_kontti, text="Piirrä esteitä", command=self.muuta_tila, variable=self.radiovar)
+        self.radiovar = tk.IntVar(self.ikkuna)
+        params = {}
+        valitse_alkupiste = tk.Radiobutton(nappi_kontti, text="Valitse alkupiste", command=self.muuta_tila, variable=self.radiovar, value=1)
+        valitse_loppupiste = tk.Radiobutton(nappi_kontti, text="Valitse loppupiste", command=self.muuta_tila, variable=self.radiovar, value=2)
+        piirrä_esteet = tk.Radiobutton(nappi_kontti, text="Piirrä esteitä", command=self.muuta_tila, variable=self.radiovar, value=3)
 
         aloita = tk.Button(nappi_kontti, text="Aloita")
         aloita.bind('<Button-1>', self.suorita_algoritmi)
@@ -103,20 +106,23 @@ class GUI:
         self.piirrä_kartta(self.ruudukko)
         self.generaattori = Verkkogeneraattori({"korkeus":self.leveys, "leveys":self.korkeus, "karttadata":self.ruudukko})
         verkko = self.generaattori.luo_verkko()
-        self.algoritmi = Algoritmirakentaja(self.valitse_algo_arvo.get(), 0, 0, 4, 4, verkko).rakenna_algoritmi()
+        x1, y1 = self.alku
+        x2, y2 = self.loppu
+        self.algoritmi = Algoritmirakentaja(self.valitse_algo_arvo.get(), x1, y1, x2, y2, verkko).rakenna_algoritmi()
         reitti = self.algoritmi.aloita()
         self.piirrä_polku(reitti)
+        self.ikkuna.after(3000, self.piirrä_kartta, self.ruudukko)
 
     def tyhjennä(self):
         self.piirtokenttä.delete('all')
 
-    def muuta_tila(self, event):
-        lähde = event.widget.cget("text")
-        if lähde == "Valitse alkupiste":
+    def muuta_tila(self):
+        lähde = self.radiovar.get()
+        if lähde == 1:
             self.piirtotila = Piirtotila.ALKU
-        elif lähde == "Valitse loppupiste":
+        elif lähde == 2:
             self.piirtotila = Piirtotila.LOPPU
-        elif lähde == "Piirrä esteitä":
+        elif lähde == 3:
             self.piirtotila = Piirtotila.ESTE
 
     def piirrä_kartta(self, karttadata: list):
@@ -165,12 +171,20 @@ class GUI:
         ch = self.piirtokenttä.winfo_height()
         cw = self.piirtokenttä.winfo_width()
         self.piirtokenttä.create_rectangle([(x * ch/h, y * cw/w), ((x+1) * ch/h), ((y+1) * cw/w)], fill=self.piirtotila.value)
+        self.päivitä_alkutila((y, x))
 
     def piirrä_polku(self, polku: list):
         self.piirtotila = Piirtotila.POLKU        
         for solmu in polku:
             self.päivitä_solmu(solmu[1], solmu[0])
-            
+    
+    def päivitä_alkutila(self, xy):
+        if self.piirtotila == Piirtotila.ALKU:
+            self.alku = xy
+        elif self.piirtotila == Piirtotila.LOPPU:
+            self.loppu = xy
+        elif self.piirtotila == Piirtotila.ESTE:
+            pass #päivitä kartta
     
     def käynnistä(self):
           self.ikkuna.mainloop()
