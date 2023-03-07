@@ -1,8 +1,8 @@
 # Etsi lyhin etäisyys alku- ja loppukoordinaatin välillä 2D-matriisissa
-
 from datastructs.solmu import Solmu
 from datastructs.graph import Graph
 from algorithms.algoritmi import Algoritmi
+from datastructs.tila import Tila
 # Käyttää tilapäisesti valmista kekoa. Korvataan myöhemmin omalla toteutuksella
 import heapq
 
@@ -20,10 +20,9 @@ class Dijkstra(Algoritmi):
         self.keko = []
         self.lyhin_reitti = []
         self.viive = 0
+        self.tarkkailija = tarkkailija
         if visualisoi:
-            self.tarkkailija = tarkkailija
             self.viive = 0.02 # 20ms
-
 
     def aloita(self):
         """
@@ -46,10 +45,15 @@ class Dijkstra(Algoritmi):
         heapq.heappush(self.keko, (0, lisäysindeksi, self.alku))
         while len(self.keko) > 0:
             käsiteltävä_solmu = heapq.heappop(self.keko)[2]  
+            if käsiteltävä_solmu == self.loppu:
+                return self.etäisyysmatriisi[self.loppu_x][self.loppu_y]
             x, y = käsiteltävä_solmu.get_koordinaatit()
             if self.vierailtu[x][y]:
                 continue
             self.vierailtu[x][y] = True
+            käsiteltävä_solmu.muuta_tila(Tila.VIERAILLAAN)
+            if self.tarkkailija:
+                self.puske_tila(käsiteltävä_solmu)
             for naapuri in käsiteltävä_solmu.get_naapurit():
                 naapurisolmu, etäisyys_naapuriin = naapuri
                 nx, ny = naapurisolmu.get_koordinaatit()
@@ -61,6 +65,9 @@ class Dijkstra(Algoritmi):
                     naapurisolmu.set_edeltäjä(käsiteltävä_solmu)
                     kolmikko = (uusi_etäisyys, lisäysindeksi, naapurisolmu)
                     heapq.heappush(self.keko, kolmikko)
+            käsiteltävä_solmu.muuta_tila(Tila.VIERAILTU)
+            if self.tarkkailija:
+                self.puske_tila(käsiteltävä_solmu)
         return self.etäisyysmatriisi[self.loppu_x][self.loppu_y]
                     
     def get_lyhin_polku(self):
@@ -73,6 +80,11 @@ class Dijkstra(Algoritmi):
         max_h = self.verkko.hae_pituus() - 1
         max_w = self.verkko.hae_leveys() - 1
         return (x1 > max_h or y1 > max_w or x2 > max_h or y2 > max_w) 
+    
+    def puske_tila(self, solmu: Solmu):
+        alku = (self.alku_x, self.alku_y)
+        loppu = (self.loppu_x, self.loppu_y)
+        self.tarkkailija.päivitä_tila(solmu.get_koordinaatit(), solmu.get_tila(), [alku, loppu], self.viive)
 
     def get_lyhin_reitti(self):
         """

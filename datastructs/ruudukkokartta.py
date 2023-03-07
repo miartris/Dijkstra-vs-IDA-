@@ -31,6 +31,9 @@ class RuudukkoKartta:
         rivi_listana[y] = "T"
         merkkijonona = "".join(rivi_listana)
         self.ruudukko[x] = merkkijonona
-        print(self.ruudukko)
+    
+    def tuhoa_esteet(self):
+        for string in self.ruudukko:
+            string.replace("T", ".")
 
         

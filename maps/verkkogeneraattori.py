@@ -19,7 +19,7 @@ class Verkkogeneraattori:
             for j, kirjain in enumerate(jono):
                 karttapiste = kirjain
                 if self.sallittu(karttapiste):
-                    uusi_solmu = Solmu(i, j, karttapiste, tarkkailija=self.tarkkailija)
+                    uusi_solmu = Solmu(i, j, karttapiste)
                     self.verkko.lisaa_solmu(uusi_solmu)
         for list in self.verkko.hae_solmut():
             for solmu in list:
