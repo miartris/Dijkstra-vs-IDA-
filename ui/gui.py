@@ -191,11 +191,12 @@ class GUI:
             self.loppu = xy
         elif self.piirtotila == Piirtotila.ESTE:
             y, x = xy
-            print(y, x)
             self.ruudukko_olio.luo_este(y, x)
             self.ruudukko = self.ruudukko_olio.get_kartta()
-            
-    
+
+    def päivitä_tila(self, xy, tila):
+        """Saa solmun xy-koordinaatit ja tila. Päivitä ruudukko saadun tilan perusteella"""
+
     def käynnistä(self):
           self.ikkuna.mainloop()
   

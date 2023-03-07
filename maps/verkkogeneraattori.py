@@ -2,13 +2,16 @@ from datastructs.graph import Graph
 from datastructs.solmu import Solmu
 from math import sqrt
 
-# Luo verkkorakenteen käyttäen pohjana 2D-Ruudukkomaista karttadataa. Matriisiparametri on {"leveys:<leveys>, korkeus:<korkeus>, karttadata:<karttadata>"}
 class Verkkogeneraattori:
-
-    def __init__(self, matriisi) -> None:
+    """
+    Luo verkkorakenteen käyttäen pohjana 2D-Ruudukkomaista karttadataa. 
+    Matriisiparametri on {"leveys:<leveys>, korkeus:<korkeus>, karttadata:<karttadata>"}
+    """
+    def __init__(self, matriisi, tarkkailija=None) -> None:
         self.karttadata = matriisi["karttadata"]
         self.height = matriisi["korkeus"]
         self.width = matriisi["leveys"]
+        self.tarkkailija = tarkkailija
         self.verkko = Graph(self.height, self.width)
    
     def luo_verkko(self) -> Graph:
@@ -16,7 +19,7 @@ class Verkkogeneraattori:
             for j, kirjain in enumerate(jono):
                 karttapiste = kirjain
                 if self.sallittu(karttapiste):
-                    uusi_solmu = Solmu(i, j, karttapiste)
+                    uusi_solmu = Solmu(i, j, karttapiste, tarkkailija=self.tarkkailija)
                     self.verkko.lisaa_solmu(uusi_solmu)
         for list in self.verkko.hae_solmut():
             for solmu in list:
@@ -61,8 +64,8 @@ class Verkkogeneraattori:
         arvot = [(-1, -1), (1, -1), (-1, 1), (1, 1)]
         return((dx, dy) in arvot)
     
-    # Tarkista, ovatko molemmat ruudut joiden välistä liikutaan vapaita
     def diagonaalinen_liike_sallittu(self, kartta, x, y, dx, dy):
+        """Tarkista, ovatko molemmat ruudut joiden välistä liikutaan vapaita"""
         # Vasemmalle ylös
         if (dx, dy) == (-1, -1):
             return self.sallittu(kartta[x][y-1]) and self.sallittu(kartta[x-1][y])

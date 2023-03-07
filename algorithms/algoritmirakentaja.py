@@ -19,7 +19,8 @@ class Algoritmirakentaja():
         self.tarkkailija = tarkkailija
     
     def rakenna_algoritmi(self):
+        """Palauttaa algoritmin init-parametrien perusteella"""
         if self.algoritmi == ("Dijkstra"):
             return Dijkstra(self.x1, self.y1, self.x2, self.y2, self.verkko, visualisoi=True, tarkkailija=self.tarkkailija)
         elif self.algoritmi == ("IdaStar"):
-            return IdaStar(self.x1, self.y1, self.x2, self.y2, self.verkko, visualisoi=True)
+            return IdaStar(self.x1, self.y1, self.x2, self.y2, self.verkko, visualisoi=True, tarkkailija=self.tarkkailija)

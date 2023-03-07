@@ -7,11 +7,10 @@ class Solmu:
     edeltäjäsolmu, jolla dijkstran algoritmissa määritetään lyhin polku backtrackaamalla
     """
     
-    def __init__(self, x: int, y: int, arvo: str, tarkkailija=False) -> None:
+    def __init__(self, x: int, y: int, arvo: str, tarkkailija=None) -> None:
         self.xy = (x, y)
         self.naapurit = []
         self.arvo = arvo
-        self.tila = Tila.VAKIO
         self.edeltäjä = None
     
     def get_koordinaatit(self) -> (tuple):
@@ -41,6 +40,3 @@ class Solmu:
 
     def muuta_tila(self, uusi_tila):
         self.tila = uusi_tila
-
-
-

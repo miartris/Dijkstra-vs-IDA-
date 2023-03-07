@@ -36,7 +36,7 @@ class IdaStar(Algoritmi):
         """
         Rekursiivinen syvyyshaku, joka käsittelee solmuja jos niiden etäisyysarvio
         """
-        #solmu = polku.pop()
+        solmu = polku[-1]
         etäisyysarvio = etäisyys + self.heuristiikka(solmu)
         if etäisyysarvio > yläraja:
             return etäisyysarvio
@@ -44,15 +44,15 @@ class IdaStar(Algoritmi):
             return "MAALI"
         minimi = float("inf")
         for naapuri in solmu.get_naapurit():
-            #if naapuri not in(polku):
-            naapurisolmu, etäisyys_naapuriin = naapuri
-            #polku.append(naapurisolmu)
-            hakutulos = self.rekursiivinen_haku(naapurisolmu, yläraja, etäisyys + etäisyys_naapuriin, polku)
-            if hakutulos == "MAALI":
-                return hakutulos
-            if hakutulos < minimi:
-                minimi = hakutulos
-            #polku.pop()
+            if naapuri not in(polku):
+                naapurisolmu, etäisyys_naapuriin = naapuri
+                polku.append(naapurisolmu)
+                hakutulos = self.rekursiivinen_haku(naapurisolmu, yläraja, etäisyys + etäisyys_naapuriin, polku)
+                if hakutulos == "MAALI":
+                    return hakutulos
+                if hakutulos < minimi:
+                    minimi = hakutulos
+                polku.pop()
         return minimi
 
     def on_mahdoton(self, alku, loppu):
@@ -65,7 +65,11 @@ class IdaStar(Algoritmi):
 
 
     def aloita(self):
-        return self.runko()
+        tulos = self.runko()["reitti"]
+        print(tulos)
+        lista = [solmu.get_koordinaatit() for solmu in tulos]
+        return lista
+
 
     def heuristiikka(self, solmu):
         """
