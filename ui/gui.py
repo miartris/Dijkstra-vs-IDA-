@@ -61,7 +61,7 @@ class GUI:
         valitse_leveys = tk.OptionMenu(nappi_kontti, self.valitse_leveys, *self.dimensiot, command=self.päivitä_ruudukko)
 
         tyhjennä = tk.Button(nappi_kontti, text="Tyhjennä ruudukko")
-        tyhjennä.bind("<Button-1>", self.tyhjennä)
+        tyhjennä.bind("<Button-1>", self.poista_ruudut)
 
         self.radiovar = tk.IntVar(self.ikkuna)
         params = {}
@@ -73,7 +73,7 @@ class GUI:
         aloita.bind('<Button-1>', self.suorita_algoritmi)
         
         puskuri = 5
-        valitse_algoritmi.grid(row = 0, column = 0, sticky="EW", padx=puskuri, pady=(10, 0))
+        valitse_algoritmi.grid(row = 0, column = 2, sticky="EW", padx=puskuri, pady=(10, 0))
         #valitse_kartta.grid(row = 0, column = 2, sticky="EW", padx=puskuri, pady=(10, 0))
        # satunnainen_kartta.grid(row = 0, column = 4, sticky="EW", padx=puskuri, pady=(10, 0))
         valitse_leveys_teksti.grid(row = 2, column = 0, pady=(10, 0))
@@ -101,8 +101,7 @@ class GUI:
         self.valitse_kartta_arvo.set(self.karttatiedosto)
 
     def suorita_algoritmi(self, e):
-        if self.valitse_algo_arvo.get() == "Valitse algo":
-            messagebox.showerror("No algorithm", "Valitse jokin algoritmi")
+        if not self.tarkista_alkuarvot():
             return
         nykykartta = self.valitse_kartta_arvo.get()
         #if nykykartta != "Valitse kartta":
@@ -125,8 +124,22 @@ class GUI:
         self.piirrä_polku(reitti)
         self.ikkuna.after(3000, self.palauta, self.ruudukko)
 
+    def tarkista_alkuarvot(self):
+        if self.valitse_algo_arvo.get() == "Valitse algo":
+            messagebox.showerror("No algorithm", "Valitse jokin algoritmi")
+            return False
+        if not (self.alku and self.loppu):
+            messagebox.showerror("Valitse alku- ja loppupiste", "Valitse alku- ja loppupiste")
+            return False
+        return True
+
     def tyhjennä(self):
         self.piirtokenttä.delete('all')
+
+    def poista_ruudut(self, event):
+        self.ruudukko_olio.tuhoa_esteet()
+        self.ruudukko = self.ruudukko_olio.get_kartta()
+        self.piirrä_kartta(self.ruudukko)
 
     def muuta_tila(self):
         lähde = self.radiovar.get()
@@ -160,7 +173,6 @@ class GUI:
         self.loppu = ()
         self.ruudukko_olio.tuhoa_esteet()
         self.ruudukko = self.ruudukko_olio.get_kartta()
-        print(self.ruudukko)
         self.piirrä_kartta(self.ruudukko)
    
     def hiiri_koordinaatit(self, event):
@@ -197,12 +209,12 @@ class GUI:
         self.päivitä_alkutila((y, x))
 
     def piirrä_polku(self, polku: list):
-       # prev_state = self.piirtotila.name
+        #prev_state = self.piirtotila
         self.piirtotila = Piirtotila.POLKU
         polku = polku[1:-1]        
         for solmu in polku:
             self.päivitä_solmu(solmu[1], solmu[0])
-        #self.piirtotila = prev_state
+        self.piirtotila = Piirtotila.ALKU
     
     def päivitä_alkutila(self, xy):
         if self.piirtotila == Piirtotila.ALKU:

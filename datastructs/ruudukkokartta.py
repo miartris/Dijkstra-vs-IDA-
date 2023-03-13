@@ -33,7 +33,6 @@ class RuudukkoKartta:
         self.ruudukko[x] = merkkijonona
     
     def tuhoa_esteet(self):
-        for string in self.ruudukko:
-            string.replace("T", ".")
-
-        
+        for i, string in enumerate(self.ruudukko):
+            new = string.replace("T", ".")
+            self.ruudukko[i] = new

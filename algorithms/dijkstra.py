@@ -1,23 +1,23 @@
-# Etsi lyhin etäisyys alku- ja loppukoordinaatin välillä 2D-matriisissa
 from datastructs.solmu import Solmu
 from datastructs.graph import Graph
 from algorithms.algoritmi import Algoritmi
 from datastructs.tila import Tila
 # Käyttää tilapäisesti valmista kekoa. Korvataan myöhemmin omalla toteutuksella
-import heapq
+from datastructs.keko import Binäärikeko
 
 class Dijkstra(Algoritmi):
     """
     Laskee lyhimmän etäisyyden alkupisteestä loppupisteeseen ja sisältää metodin, millä saada listan reitin pisteistä.
     """
-    def __init__(self, alku_x, alku_y, loppu_x, loppu_y, verkko: Graph, visualisoi=False, tarkkailija = None):
+    def __init__(self, alku_x, alku_y, loppu_x, loppu_y, verkko: Graph, 
+                 visualisoi=False, tarkkailija = None, viive=None):
         self.alku_x, self.alku_y, self.loppu_x, self.loppu_y = alku_x, alku_y, loppu_x, loppu_y
         self.verkko = verkko
         self.alku: Solmu = verkko.hae_solmu(alku_x, alku_y)
         self.loppu: Solmu = verkko.hae_solmu(loppu_x, loppu_y)
         self.etäisyysmatriisi = [[float("inf") for _ in range(verkko.hae_leveys()) ] for _ in range(verkko.hae_pituus())]
         self.vierailtu = [[False for _ in range(verkko.hae_leveys())] for _ in range(verkko.hae_pituus())]
-        self.keko = []
+        self.keko = Binäärikeko()
         self.lyhin_reitti = []
         self.viive = 0
         self.tarkkailija = tarkkailija
@@ -42,9 +42,11 @@ class Dijkstra(Algoritmi):
             return -1 # Alku sama kuin loppu 
         lisäysindeksi = 0 # Jos keossa on samoja etäisyyksiä poistetaan ekana lisätty
         self.etäisyysmatriisi[self.alku_x][self.alku_y] = 0
-        heapq.heappush(self.keko, (0, lisäysindeksi, self.alku))
-        while len(self.keko) > 0:
-            käsiteltävä_solmu = heapq.heappop(self.keko)[2]  
+        # heapq.heappush(self.keko, (0, lisäysindeksi, self.alku))  
+        self.keko.lisää((0, lisäysindeksi, self.alku))  
+        while self.keko.get_pituus() > 0:
+            # käsiteltävä_solmu = heapq.heappop(self.keko)[2]  
+            käsiteltävä_solmu = self.keko.poista()[2]  
             if käsiteltävä_solmu == self.loppu:
                 return self.etäisyysmatriisi[self.loppu_x][self.loppu_y]
             x, y = käsiteltävä_solmu.get_koordinaatit()
@@ -64,7 +66,8 @@ class Dijkstra(Algoritmi):
                     lisäysindeksi += 1
                     naapurisolmu.set_edeltäjä(käsiteltävä_solmu)
                     kolmikko = (uusi_etäisyys, lisäysindeksi, naapurisolmu)
-                    heapq.heappush(self.keko, kolmikko)
+                    # heapq.heappush(self.keko, kolmikko)
+                    self.keko.lisää(kolmikko)
             käsiteltävä_solmu.muuta_tila(Tila.VIERAILTU)
             if self.tarkkailija:
                 self.puske_tila(käsiteltävä_solmu)
