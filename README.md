@@ -17,8 +17,7 @@ py main.py
 ``` 
 Ruudukon kokoa voi muuttaa.
 Tällä hetkellä piirtotilan valittua voi hiirtä painamalla ja vetämällä valita alku- ja maaliruudun ja piirtää esteitä.
-Tämän jälkeen algoritmin ollessa valittuna "aloita" nappia painamalla algoritmi määrittää lyhimmän polun. Polku visualisoidaan
-(vain Dijkstra tällä hetkellä) ja parin sekunnin päästä ruutu alustetaan uusiksi
+Tämän jälkeen algoritmin ollessa valittuna "aloita" nappia painamalla algoritmi määrittää lyhimmän polun. Polku visualisoidaan ja parin sekunnin päästä ruutu alustetaan uusiksi
 
 
 ### Testaus
@@ -36,6 +35,13 @@ coverage run -m pytest tests
 coverage report 
 ```
 
+### Suorituskykytestaus
+
+Suorittamalla ohjelman parametrillä -t 
+```
+py main.py -t
+```
+Ohjelma suorittaa suorituskykytestejä ja luo testikansioon csv tiedoston tyyliin benchmark_{timestamp}.csv
 
 ## Dokumentaatio
 [Määrittelydokumentti](/dokumentaatio/määrittelydokumentti.md)\
