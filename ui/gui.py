@@ -36,10 +36,13 @@ class GUI:
         self.ruudukko = self.ruudukko_olio.get_kartta()
         self.dimensiot = [k for k in range(5, 51)]
         self.piirtotila = None
+        self.ratkaisee = False
         nappi_kontti = tk.Frame(self.ikkuna, width=800, height=120, border=2)
         
         self.valitse_algo_arvo = tk.StringVar(self.ikkuna)
         self.valitse_algo_arvo.set("Valitse algo")
+
+        self.valitse_viive = tk.Entry(nappi_kontti)
         
         valitse_algoritmi = tk.OptionMenu(nappi_kontti, self.valitse_algo_arvo, *self.algoritmit)
 
@@ -71,17 +74,22 @@ class GUI:
 
         aloita = tk.Button(nappi_kontti, text="Aloita")
         aloita.bind('<Button-1>', self.suorita_algoritmi)
-        
+
+        keskeytä = tk.Button(nappi_kontti, text="Keskeytä")
+        keskeytä.bind('<Button-1>', self.keskeytä)      
+
         puskuri = 5
         valitse_algoritmi.grid(row = 0, column = 2, sticky="EW", padx=puskuri, pady=(10, 0))
+        # self.valitse_viive.grid(row = 0, column = 4, sticky="W", padx=puskuri, pady=(10, 0))
         #valitse_kartta.grid(row = 0, column = 2, sticky="EW", padx=puskuri, pady=(10, 0))
        # satunnainen_kartta.grid(row = 0, column = 4, sticky="EW", padx=puskuri, pady=(10, 0))
         valitse_leveys_teksti.grid(row = 2, column = 0, pady=(10, 0))
         valitse_leveys.grid(row = 3, column = 0, sticky="NSEW", pady=(0, 0))
-        valitse_korkeus_teksti.grid(row = 2, column = 2)
+        valitse_korkeus_teksti.grid(row = 2, column = 2, pady=(10,0))
         valitse_korkeus.grid(row = 3, column = 2, sticky="NSEW", pady=(0, 0))
         tyhjennä.grid(row=3, column=4, sticky="NSEW")
-        aloita.grid(row = 5, column = 2, sticky="EW", pady=10)
+        aloita.grid(row = 5, column = 1, sticky="Ew", pady=10, padx=10)
+        keskeytä.grid(row = 5, column = 3, sticky="EW", pady=10, padx=10)
         valitse_alkupiste.grid(row = 4, column = 0, sticky = "EW", pady=10, padx=puskuri)
         valitse_loppupiste.grid(row = 4, column = 2, sticky = "EW", pady=10, padx=puskuri)
         piirrä_esteet.grid(row = 4, column = 4, sticky = "EW", pady=10, padx=puskuri)
@@ -101,6 +109,8 @@ class GUI:
         self.valitse_kartta_arvo.set(self.karttatiedosto)
 
     def suorita_algoritmi(self, e):
+        if self.ratkaisee:
+            return
         if not self.tarkista_alkuarvot():
             return
         nykykartta = self.valitse_kartta_arvo.get()
@@ -120,9 +130,13 @@ class GUI:
         #with concurrent.futures.ThreadPoolExecutor() as ex:
             #reitti = ex.submit(self.algoritmi.aloita)
             #reitti = reitti.result()
+        self.ratkaisee = True
         reitti = self.algoritmi.aloita()
         self.piirrä_polku(reitti)
-        self.ikkuna.after(3000, self.palauta, self.ruudukko)
+        viive = 3000 if self.ratkaisee else 0
+        self.ratkaisee = False
+        self.ikkuna.after(viive, self.palauta, self.ruudukko)
+
 
     def tarkista_alkuarvot(self):
         if self.valitse_algo_arvo.get() == "Valitse algo":
@@ -137,11 +151,15 @@ class GUI:
         self.piirtokenttä.delete('all')
 
     def poista_ruudut(self, event):
+        if self.ratkaisee:
+            return
         self.ruudukko_olio.tuhoa_esteet()
         self.ruudukko = self.ruudukko_olio.get_kartta()
         self.piirrä_kartta(self.ruudukko)
 
     def muuta_tila(self):
+        if self.ratkaisee:
+            return
         lähde = self.radiovar.get()
         if lähde == 1:
             self.piirtotila = Piirtotila.ALKU
@@ -176,6 +194,8 @@ class GUI:
         self.piirrä_kartta(self.ruudukko)
    
     def hiiri_koordinaatit(self, event):
+        if self.ratkaisee:
+            return
         x = event.x
         y = event.y
         mx, my = self.muunna_koordinaatit((x,y))
@@ -183,7 +203,8 @@ class GUI:
         return (x,y)
 
     def päivitä_ruudukko(self, event):
-        self.tyhjennä()
+        if not self.ratkaisee:
+            self.tyhjennä()
         h = self.valitse_korkeus.get()
         w = self.valitse_leveys.get()
         self.korkeus, self.leveys = w, h
@@ -197,7 +218,7 @@ class GUI:
         kartta_y = floor(y / (self.piirtokenttä.winfo_width()/self.leveys))
         return (kartta_x, kartta_y)
 
-    def päivitä_solmu(self, x, y):
+    def päivitä_solmu(self, x, y, tila=None):
         if not self.piirtotila:
             messagebox.showerror(message="Valitse jokin piirtotila")
             return
@@ -205,11 +226,12 @@ class GUI:
         w = self.leveys
         ch = self.piirtokenttä.winfo_height()
         cw = self.piirtokenttä.winfo_width()
-        self.piirtokenttä.create_rectangle([(x * ch/h, y * cw/w), ((x+1) * ch/h), ((y+1) * cw/w)], fill=self.piirtotila.value)
+        tila = self.piirtotila.value if not tila else tila
+        self.piirtokenttä.create_rectangle([(x * ch/h, y * cw/w), ((x+1) * ch/h), ((y+1) * cw/w)], fill=tila)
         self.päivitä_alkutila((y, x))
 
     def piirrä_polku(self, polku: list):
-        #prev_state = self.piirtotila
+        self.radiovar.set(1)
         self.piirtotila = Piirtotila.POLKU
         polku = polku[1:-1]        
         for solmu in polku:
@@ -217,6 +239,8 @@ class GUI:
         self.piirtotila = Piirtotila.ALKU
     
     def päivitä_alkutila(self, xy):
+        if self.ratkaisee:
+            return
         if self.piirtotila == Piirtotila.ALKU:
             self.alku = xy
         elif self.piirtotila == Piirtotila.LOPPU:
@@ -237,6 +261,9 @@ class GUI:
             self.päivitä_solmu(x, y)
         self.ikkuna.update()
         time.sleep(viive)
+
+    def keskeytä(self, e):
+        self.ratkaisee = False
 
     def käynnistä(self):
           self.ikkuna.mainloop()

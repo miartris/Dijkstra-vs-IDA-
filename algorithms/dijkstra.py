@@ -55,7 +55,9 @@ class Dijkstra(Algoritmi):
             self.vierailtu[x][y] = True
             käsiteltävä_solmu.muuta_tila(Tila.VIERAILLAAN)
             if self.tarkkailija:
-                self.puske_tila(käsiteltävä_solmu)
+                if self.tarkkailija.ratkaisee:
+                    self.puske_tila(käsiteltävä_solmu)
+                else: return
             for naapuri in käsiteltävä_solmu.get_naapurit():
                 naapurisolmu, etäisyys_naapuriin = naapuri
                 nx, ny = naapurisolmu.get_koordinaatit()

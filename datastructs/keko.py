@@ -4,9 +4,15 @@ T = TypeVar("T")
 
 class Binäärikeko:
     """
-    Minimikeko implisiittisellä taulukolla toteutetulla binääripuulla
+    Minimikeko implisiittisellä taulukolla toteutetulla binääripuulla.
     Indeksointi alkaa luvusta 0. Solmun lapset ovat indekseissä k * 2 + 1 ja k * 2 + 2
     Solmun vanhempi on indeksissä floor((k - 1) / 2) 
+
+    Käyttö:
+
+    Funktio lisää(alkio: T), missä T on vertailtava lisää alkion säilyttäen kekorakenteen.
+    poista() -> T palauttaa keon pienimmän alkion ja säilyttää kekorakenteen
+    katso() -> T palauttaa pienimmän alkion, mutta ei poista sitä keosta
     """
     def __init__(self) -> None:
         self.alkiot = []  
@@ -41,8 +47,10 @@ class Binäärikeko:
             else:
                 return True
             
-    def poista(self):
+    def poista(self) -> T: 
         """Poistaa pienimmän alkion keosta ja korjaa kekorakenteen"""
+        if self.on_tyhjä():
+            return None
         self.vaihda(0, self.len - 1)
         pienin = self.alkiot.pop()
         self.len -= 1
@@ -60,17 +68,17 @@ class Binäärikeko:
         self.alkiot[b] = t
         return True
 
-    def katso(self):
+    def katso(self) -> T:
         """Palauttaa viitteen keon pienimpään alkioon"""
         return self.alkiot[0]
 
-    def on_tyhjä(self):
+    def on_tyhjä(self) -> bool:
         return self.len == 0
     
-    def get_pituus(self):
+    def get_pituus(self) -> int:
         return self.len
     
-    def get_keko(self):
+    def get_keko(self) -> list[T]:
         """Palauttaa kekolistan"""
         return self.alkiot
 

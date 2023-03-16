@@ -51,7 +51,7 @@ class IdaStar(Algoritmi):
         if self.tarkkailija:
             self.puske_tila(solmu)
         for naapuri in solmu.get_naapurit():
-            naapurisolmu, etäisyys_naapuriin = naapuri
+            naapurisolmu, etäisyys_naapuriin = naapuri  
             if naapurisolmu not in(polku):
                 polku.append(naapurisolmu)
                 hakutulos = self.rekursiivinen_haku(yläraja, etäisyys + etäisyys_naapuriin, polku)
@@ -71,6 +71,8 @@ class IdaStar(Algoritmi):
             return True
         ax, ay = alku.get_koordinaatit()
         lx, ly = loppu.get_koordinaatit()
+        if (ax, ay) ==  (lx, ly):
+            return True
         return False
 
 
@@ -78,7 +80,7 @@ class IdaStar(Algoritmi):
         tulos = self.runko()["reitti"]
         lista = [solmu.get_koordinaatit() for solmu in tulos]
         return lista
-
+    
     def puske_tila(self, solmu: Solmu):
         alku = (self.alku_x, self.alku_y)
         loppu = (self.loppu_x, self.loppu_y)

@@ -1,0 +1,3420 @@
+0 dijkstra arena.map,"('t: 175200', 'et�isyys 3')"
+
+1 dijkstra arena.map,"('t: 83500', 'et�isyys 2.414213562373095')"
+
+2 dijkstra arena.map,"('t: 57000', 'et�isyys 2')"
+
+3 dijkstra arena.map,"('t: 33400', 'et�isyys 1.4142135623730951')"
+
+4 dijkstra arena.map,"('t: 198800', 'et�isyys 3.82842712474619')"
+
+5 dijkstra arena.map,"('t: 31900', 'et�isyys 2')"
+
+6 dijkstra arena.map,"('t: 78700', 'et�isyys 2.414213562373095')"
+
+7 dijkstra arena.map,"('t: 217000', 'et�isyys 3.82842712474619')"
+
+8 dijkstra arena.map,"('t: 88000', 'et�isyys 3.82842712474619')"
+
+9 dijkstra arena.map,"('t: 92700', 'et�isyys 3.414213562373095')"
+
+10 dijkstra arena.map,"('t: 373700', 'et�isyys 5.82842712474619')"
+
+11 dijkstra arena.map,"('t: 307500', 'et�isyys 4.82842712474619')"
+
+12 dijkstra arena.map,"('t: 955000', 'et�isyys 7.65685424949238')"
+
+13 dijkstra arena.map,"('t: 423800', 'et�isyys 5.656854249492381')"
+
+14 dijkstra arena.map,"('t: 298600', 'et�isyys 4.414213562373095')"
+
+15 dijkstra arena.map,"('t: 486200', 'et�isyys 4.82842712474619')"
+
+16 dijkstra arena.map,"('t: 352900', 'et�isyys 4.82842712474619')"
+
+17 dijkstra arena.map,"('t: 805700', 'et�isyys 6.242640687119285')"
+
+18 dijkstra arena.map,"('t: 519700', 'et�isyys 4.414213562373095')"
+
+19 dijkstra arena.map,"('t: 406900', 'et�isyys 4.242640687119286')"
+
+20 dijkstra arena.map,"('t: 779900', 'et�isyys 9.899494936611667')"
+
+21 dijkstra arena.map,"('t: 2219500', 'et�isyys 11.82842712474619')"
+
+22 dijkstra arena.map,"('t: 1623100', 'et�isyys 10.414213562373096')"
+
+23 dijkstra arena.map,"('t: 757100', 'et�isyys 9.242640687119284')"
+
+24 dijkstra arena.map,"('t: 1586000', 'et�isyys 10.414213562373096')"
+
+25 dijkstra arena.map,"('t: 1813100', 'et�isyys 11.071067811865476')"
+
+26 dijkstra arena.map,"('t: 847100', 'et�isyys 8.071067811865476')"
+
+27 dijkstra arena.map,"('t: 633700', 'et�isyys 9.242640687119284')"
+
+28 dijkstra arena.map,"('t: 807500', 'et�isyys 8.071067811865476')"
+
+29 dijkstra arena.map,"('t: 1263600', 'et�isyys 10.071067811865476')"
+
+30 dijkstra arena.map,"('t: 3082300', 'et�isyys 14.242640687119284')"
+
+31 dijkstra arena.map,"('t: 2312800', 'et�isyys 12.313708498984763')"
+
+32 dijkstra arena.map,"('t: 1389200', 'et�isyys 12.242640687119284')"
+
+33 dijkstra arena.map,"('t: 2105000', 'et�isyys 13.82842712474619')"
+
+34 dijkstra arena.map,"('t: 2809900', 'et�isyys 15.727922061357859')"
+
+35 dijkstra arena.map,"('t: 3602800', 'et�isyys 15.242640687119284')"
+
+36 dijkstra arena.map,"('t: 1569500', 'et�isyys 12.82842712474619')"
+
+37 dijkstra arena.map,"('t: 3780600', 'et�isyys 15.727922061357859')"
+
+38 dijkstra arena.map,"('t: 2636800', 'et�isyys 12.485281374238571')"
+
+39 dijkstra arena.map,"('t: 2932200', 'et�isyys 14.414213562373096')"
+
+40 dijkstra arena.map,"('t: 3825400', 'et�isyys 19.071067811865476')"
+
+41 dijkstra arena.map,"('t: 4699500', 'et�isyys 17.313708498984763')"
+
+42 dijkstra arena.map,"('t: 3699800', 'et�isyys 16.313708498984763')"
+
+43 dijkstra arena.map,"('t: 4141000', 'et�isyys 18.414213562373096')"
+
+44 dijkstra arena.map,"('t: 3848600', 'et�isyys 18.55634918610405')"
+
+45 dijkstra arena.map,"('t: 2923400', 'et�isyys 19.970562748477146')"
+
+46 dijkstra arena.map,"('t: 1961400', 'et�isyys 18')"
+
+47 dijkstra arena.map,"('t: 5409800', 'et�isyys 18.65685424949238')"
+
+48 dijkstra arena.map,"('t: 3955300', 'et�isyys 18.970562748477146')"
+
+49 dijkstra arena.map,"('t: 4824100', 'et�isyys 17.899494936611667')"
+
+50 dijkstra arena.map,"('t: 6647200', 'et�isyys 22.313708498984763')"
+
+51 dijkstra arena.map,"('t: 5756900', 'et�isyys 23.48528137423857')"
+
+52 dijkstra arena.map,"('t: 7798100', 'et�isyys 21.82842712474619')"
+
+53 dijkstra arena.map,"('t: 5894700', 'et�isyys 20.142135623730955')"
+
+54 dijkstra arena.map,"('t: 4555200', 'et�isyys 20.55634918610405')"
+
+55 dijkstra arena.map,"('t: 3729800', 'et�isyys 21.899494936611667')"
+
+56 dijkstra arena.map,"('t: 4990500', 'et�isyys 23.970562748477146')"
+
+57 dijkstra arena.map,"('t: 6997800', 'et�isyys 20.414213562373096')"
+
+58 dijkstra arena.map,"('t: 3211700', 'et�isyys 20.071067811865476')"
+
+59 dijkstra arena.map,"('t: 5077800', 'et�isyys 23.071067811865476')"
+
+60 dijkstra arena.map,"('t: 10798200', 'et�isyys 26.970562748477146')"
+
+61 dijkstra arena.map,"('t: 7585500', 'et�isyys 24.72792206135786')"
+
+62 dijkstra arena.map,"('t: 7965700', 'et�isyys 27.82842712474619')"
+
+63 dijkstra arena.map,"('t: 3549700', 'et�isyys 24.213203435596434')"
+
+64 dijkstra arena.map,"('t: 5642000', 'et�isyys 26.65685424949238')"
+
+65 dijkstra arena.map,"('t: 4521100', 'et�isyys 27.384776310850242')"
+
+66 dijkstra arena.map,"('t: 6990700', 'et�isyys 25.970562748477146')"
+
+67 dijkstra arena.map,"('t: 4904000', 'et�isyys 27.242640687119284')"
+
+68 dijkstra arena.map,"('t: 10206100', 'et�isyys 25.55634918610405')"
+
+69 dijkstra arena.map,"('t: 3230100', 'et�isyys 24')"
+
+70 dijkstra arena.map,"('t: 10277100', 'et�isyys 28.041630560342625')"
+
+71 dijkstra arena.map,"('t: 4307400', 'et�isyys 29.213203435596434')"
+
+72 dijkstra arena.map,"('t: 9885800', 'et�isyys 30.45584412271572')"
+
+73 dijkstra arena.map,"('t: 6459200', 'et�isyys 31.313708498984763')"
+
+74 dijkstra arena.map,"('t: 8831100', 'et�isyys 30.55634918610405')"
+
+75 dijkstra arena.map,"('t: 4125100', 'et�isyys 29.45584412271572')"
+
+76 dijkstra arena.map,"('t: 6513900', 'et�isyys 31.798989873223338')"
+
+77 dijkstra arena.map,"('t: 9785100', 'et�isyys 29.69848480983501')"
+
+78 dijkstra arena.map,"('t: 6944200', 'et�isyys 31.48528137423857')"
+
+79 dijkstra arena.map,"('t: 9071700', 'et�isyys 30.313708498984763')"
+
+80 dijkstra arena.map,"('t: 7570300', 'et�isyys 34.384776310850235')"
+
+81 dijkstra arena.map,"('t: 10924600', 'et�isyys 35.79898987322333')"
+
+82 dijkstra arena.map,"('t: 9914300', 'et�isyys 34.656854249492376')"
+
+83 dijkstra arena.map,"('t: 10009400', 'et�isyys 33.48528137423857')"
+
+84 dijkstra arena.map,"('t: 4484300', 'et�isyys 34.48528137423857')"
+
+85 dijkstra arena.map,"('t: 7348300', 'et�isyys 33.656854249492376')"
+
+86 dijkstra arena.map,"('t: 11005700', 'et�isyys 34.698484809835')"
+
+87 dijkstra arena.map,"('t: 7828300', 'et�isyys 34.656854249492376')"
+
+88 dijkstra arena.map,"('t: 8433700', 'et�isyys 35.142135623730944')"
+
+89 dijkstra arena.map,"('t: 8786000', 'et�isyys 34.941125496954285')"
+
+90 dijkstra arena.map,"('t: 11130200', 'et�isyys 38.04163056034261')"
+
+91 dijkstra arena.map,"('t: 10038700', 'et�isyys 37.07106781186547')"
+
+92 dijkstra arena.map,"('t: 11392000', 'et�isyys 39.97056274847713')"
+
+93 dijkstra arena.map,"('t: 10697100', 'et�isyys 36.79898987322333')"
+
+94 dijkstra arena.map,"('t: 11334200', 'et�isyys 38.556349186104036')"
+
+95 dijkstra arena.map,"('t: 12471300', 'et�isyys 39.35533905932737')"
+
+96 dijkstra arena.map,"('t: 8571900', 'et�isyys 38.21320343559643')"
+
+97 dijkstra arena.map,"('t: 6292400', 'et�isyys 37.04163056034261')"
+
+98 dijkstra arena.map,"('t: 10308000', 'et�isyys 38.970562748477136')"
+
+99 dijkstra arena.map,"('t: 10176500', 'et�isyys 39.69848480983499')"
+
+100 dijkstra arena.map,"('t: 7984200', 'et�isyys 43.04163056034261')"
+
+101 dijkstra arena.map,"('t: 8313400', 'et�isyys 40.35533905932737')"
+
+102 dijkstra arena.map,"('t: 11042700', 'et�isyys 40.38477631085023')"
+
+103 dijkstra arena.map,"('t: 8682600', 'et�isyys 42.94112549695427')"
+
+104 dijkstra arena.map,"('t: 10194000', 'et�isyys 43.11269837220808')"
+
+105 dijkstra arena.map,"('t: 11555600', 'et�isyys 41.52691193458118')"
+
+106 dijkstra arena.map,"('t: 10949600', 'et�isyys 41.38477631085022')"
+
+107 dijkstra arena.map,"('t: 10705000', 'et�isyys 41.14213562373093')"
+
+108 dijkstra arena.map,"('t: 7802100', 'et�isyys 43.941125496954264')"
+
+109 dijkstra arena.map,"('t: 7301700', 'et�isyys 40.55634918610403')"
+
+110 dijkstra arena.map,"('t: 9054400', 'et�isyys 45.28427124746189')"
+
+111 dijkstra arena.map,"('t: 9598500', 'et�isyys 46.455844122715696')"
+
+112 dijkstra arena.map,"('t: 11276400', 'et�isyys 47.59797974644664')"
+
+113 dijkstra arena.map,"('t: 9269600', 'et�isyys 44.14213562373094')"
+
+114 dijkstra arena.map,"('t: 10230300', 'et�isyys 45.769552621700456')"
+
+115 dijkstra arena.map,"('t: 10119700', 'et�isyys 46.870057685088796')"
+
+116 dijkstra arena.map,"('t: 10498500', 'et�isyys 46.25483399593902')"
+
+117 dijkstra arena.map,"('t: 10308500', 'et�isyys 45.526911934581165')"
+
+118 dijkstra arena.map,"('t: 11284200', 'et�isyys 47.01219330881974')"
+
+119 dijkstra arena.map,"('t: 9998800', 'et�isyys 45.627416997969505')"
+
+120 dijkstra arena.map,"('t: 10644000', 'et�isyys 51.84062043356592')"
+
+121 dijkstra arena.map,"('t: 9235900', 'et�isyys 48.669047558312116')"
+
+122 dijkstra arena.map,"('t: 9177600', 'et�isyys 48.112698372208065')"
+
+123 dijkstra arena.map,"('t: 10685000', 'et�isyys 51.28427124746187')"
+
+124 dijkstra arena.map,"('t: 9689900', 'et�isyys 51.840620433565924')"
+
+125 dijkstra arena.map,"('t: 10960700', 'et�isyys 50.08326112068521')"
+
+126 dijkstra arena.map,"('t: 11262100', 'et�isyys 49.254833995939016')"
+
+127 dijkstra arena.map,"('t: 10974100', 'et�isyys 50.08326112068521')"
+
+128 dijkstra arena.map,"('t: 10812600', 'et�isyys 50.87005768508877')"
+
+129 dijkstra arena.map,"('t: 11183600', 'et�isyys 48.38477631085021')"
+
+0 dijkstra den203d.map,"('t: 17900', 'et�isyys 1')"
+
+1 dijkstra den203d.map,"('t: 88300', 'et�isyys 2.414213562373095')"
+
+2 dijkstra den203d.map,"('t: 116300', 'et�isyys 3.414213562373095')"
+
+3 dijkstra den203d.map,"('t: 11200', 'et�isyys 1')"
+
+4 dijkstra den203d.map,"('t: 125300', 'et�isyys 3')"
+
+5 dijkstra den203d.map,"('t: 91700', 'et�isyys 2.414213562373095')"
+
+6 dijkstra den203d.map,"('t: 68200', 'et�isyys 2.414213562373095')"
+
+7 dijkstra den203d.map,"('t: 46600', 'et�isyys 2')"
+
+8 dijkstra den203d.map,"('t: 79400', 'et�isyys 3.414213562373095')"
+
+9 dijkstra den203d.map,"('t: 56600', 'et�isyys 2.8284271247461903')"
+
+10 dijkstra den203d.map,"('t: 249000', 'et�isyys 4.82842712474619')"
+
+11 dijkstra den203d.map,"('t: 636200', 'et�isyys 7.242640687119285')"
+
+12 dijkstra den203d.map,"('t: 277100', 'et�isyys 7.242640687119285')"
+
+13 dijkstra den203d.map,"('t: 221300', 'et�isyys 7.0710678118654755')"
+
+14 dijkstra den203d.map,"('t: 278000', 'et�isyys 6.414213562373095')"
+
+15 dijkstra den203d.map,"('t: 337100', 'et�isyys 5.242640687119285')"
+
+16 dijkstra den203d.map,"('t: 598400', 'et�isyys 7.65685424949238')"
+
+17 dijkstra den203d.map,"('t: 272600', 'et�isyys 7.82842712474619')"
+
+18 dijkstra den203d.map,"('t: 274700', 'et�isyys 4.414213562373095')"
+
+19 dijkstra den203d.map,"('t: 505700', 'et�isyys 6.82842712474619')"
+
+20 dijkstra den203d.map,"('t: 953500', 'et�isyys 9.414213562373096')"
+
+21 dijkstra den203d.map,"('t: 373100', 'et�isyys 10.242640687119284')"
+
+22 dijkstra den203d.map,"('t: 595700', 'et�isyys 11')"
+
+23 dijkstra den203d.map,"('t: 424900', 'et�isyys 9.414213562373096')"
+
+24 dijkstra den203d.map,"('t: 729700', 'et�isyys 10.65685424949238')"
+
+25 dijkstra den203d.map,"('t: 1252100', 'et�isyys 9.899494936611667')"
+
+26 dijkstra den203d.map,"('t: 948000', 'et�isyys 8.485281374238571')"
+
+27 dijkstra den203d.map,"('t: 541700', 'et�isyys 10.65685424949238')"
+
+28 dijkstra den203d.map,"('t: 322600', 'et�isyys 8.485281374238571')"
+
+29 dijkstra den203d.map,"('t: 608400', 'et�isyys 9')"
+
+30 dijkstra den203d.map,"('t: 1506600', 'et�isyys 12.071067811865476')"
+
+31 dijkstra den203d.map,"('t: 1145600', 'et�isyys 13.65685424949238')"
+
+32 dijkstra den203d.map,"('t: 717700', 'et�isyys 15')"
+
+33 dijkstra den203d.map,"('t: 640900', 'et�isyys 14.485281374238571')"
+
+34 dijkstra den203d.map,"('t: 1582300', 'et�isyys 15.071067811865476')"
+
+35 dijkstra den203d.map,"('t: 601200', 'et�isyys 13')"
+
+36 dijkstra den203d.map,"('t: 1167100', 'et�isyys 14.65685424949238')"
+
+37 dijkstra den203d.map,"('t: 1608400', 'et�isyys 14.414213562373096')"
+
+38 dijkstra den203d.map,"('t: 889300', 'et�isyys 12.82842712474619')"
+
+39 dijkstra den203d.map,"('t: 582000', 'et�isyys 15.82842712474619')"
+
+40 dijkstra den203d.map,"('t: 2151600', 'et�isyys 17.899494936611667')"
+
+41 dijkstra den203d.map,"('t: 2067400', 'et�isyys 18')"
+
+42 dijkstra den203d.map,"('t: 2096300', 'et�isyys 17.313708498984763')"
+
+43 dijkstra den203d.map,"('t: 2658800', 'et�isyys 17.65685424949238')"
+
+44 dijkstra den203d.map,"('t: 1766700', 'et�isyys 16.313708498984763')"
+
+45 dijkstra den203d.map,"('t: 2031600', 'et�isyys 19.242640687119284')"
+
+46 dijkstra den203d.map,"('t: 1386500', 'et�isyys 16.242640687119284')"
+
+47 dijkstra den203d.map,"('t: 2029800', 'et�isyys 16.242640687119287')"
+
+48 dijkstra den203d.map,"('t: 1716500', 'et�isyys 19.65685424949238')"
+
+49 dijkstra den203d.map,"('t: 2318000', 'et�isyys 19.65685424949238')"
+
+50 dijkstra den203d.map,"('t: 2411800', 'et�isyys 22.899494936611667')"
+
+51 dijkstra den203d.map,"('t: 1589700', 'et�isyys 22.82842712474619')"
+
+52 dijkstra den203d.map,"('t: 2398200', 'et�isyys 22.82842712474619')"
+
+53 dijkstra den203d.map,"('t: 2829600', 'et�isyys 21.071067811865476')"
+
+54 dijkstra den203d.map,"('t: 3084200', 'et�isyys 23.72792206135786')"
+
+55 dijkstra den203d.map,"('t: 1674900', 'et�isyys 20.313708498984763')"
+
+56 dijkstra den203d.map,"('t: 2716200', 'et�isyys 20.82842712474619')"
+
+57 dijkstra den203d.map,"('t: 1176400', 'et�isyys 23.72792206135786')"
+
+58 dijkstra den203d.map,"('t: 1335900', 'et�isyys 20.071067811865476')"
+
+59 dijkstra den203d.map,"('t: 2588000', 'et�isyys 20.899494936611667')"
+
+60 dijkstra den203d.map,"('t: 5382100', 'et�isyys 26.65685424949238')"
+
+61 dijkstra den203d.map,"('t: 1287700', 'et�isyys 26.82842712474619')"
+
+62 dijkstra den203d.map,"('t: 2152200', 'et�isyys 27.48528137423857')"
+
+63 dijkstra den203d.map,"('t: 3632300', 'et�isyys 25.485281374238575')"
+
+64 dijkstra den203d.map,"('t: 3000900', 'et�isyys 26.72792206135786')"
+
+65 dijkstra den203d.map,"('t: 3068900', 'et�isyys 26.72792206135786')"
+
+66 dijkstra den203d.map,"('t: 1583800', 'et�isyys 24')"
+
+67 dijkstra den203d.map,"('t: 2270700', 'et�isyys 24.656854249492383')"
+
+68 dijkstra den203d.map,"('t: 2123100', 'et�isyys 26.82842712474619')"
+
+69 dijkstra den203d.map,"('t: 4881800', 'et�isyys 24.72792206135786')"
+
+70 dijkstra den203d.map,"('t: 7362000', 'et�isyys 31.55634918610405')"
+
+71 dijkstra den203d.map,"('t: 2881800', 'et�isyys 30.071067811865476')"
+
+72 dijkstra den203d.map,"('t: 2899000', 'et�isyys 28.485281374238575')"
+
+73 dijkstra den203d.map,"('t: 2436000', 'et�isyys 29.142135623730955')"
+
+74 dijkstra den203d.map,"('t: 3096700', 'et�isyys 31.72792206135786')"
+
+75 dijkstra den203d.map,"('t: 2813700', 'et�isyys 31.07106781186548')"
+
+76 dijkstra den203d.map,"('t: 3674800', 'et�isyys 31.970562748477146')"
+
+77 dijkstra den203d.map,"('t: 6638200', 'et�isyys 28.97056274847715')"
+
+78 dijkstra den203d.map,"('t: 5508200', 'et�isyys 31.07106781186548')"
+
+79 dijkstra den203d.map,"('t: 6559900', 'et�isyys 31.72792206135786')"
+
+80 dijkstra den203d.map,"('t: 5583900', 'et�isyys 32.82842712474619')"
+
+81 dijkstra den203d.map,"('t: 2198000', 'et�isyys 32.656854249492376')"
+
+82 dijkstra den203d.map,"('t: 2078700', 'et�isyys 35.31370849898475')"
+
+83 dijkstra den203d.map,"('t: 1777500', 'et�isyys 33.65685424949238')"
+
+84 dijkstra den203d.map,"('t: 3750800', 'et�isyys 34.31370849898477')"
+
+85 dijkstra den203d.map,"('t: 6979300', 'et�isyys 32.656854249492376')"
+
+86 dijkstra den203d.map,"('t: 5444800', 'et�isyys 32')"
+
+87 dijkstra den203d.map,"('t: 2407700', 'et�isyys 35.31370849898476')"
+
+88 dijkstra den203d.map,"('t: 7745200', 'et�isyys 33.65685424949238')"
+
+89 dijkstra den203d.map,"('t: 2719200', 'et�isyys 34')"
+
+90 dijkstra den203d.map,"('t: 3362300', 'et�isyys 38.55634918610404')"
+
+91 dijkstra den203d.map,"('t: 8428000', 'et�isyys 36.04163056034262')"
+
+92 dijkstra den203d.map,"('t: 6975800', 'et�isyys 36.727922061357845')"
+
+93 dijkstra den203d.map,"('t: 2591100', 'et�isyys 37.89949493661166')"
+
+94 dijkstra den203d.map,"('t: 7433700', 'et�isyys 37.071067811865476')"
+
+95 dijkstra den203d.map,"('t: 3475800', 'et�isyys 37.72792206135786')"
+
+96 dijkstra den203d.map,"('t: 4330900', 'et�isyys 36.79898987322333')"
+
+97 dijkstra den203d.map,"('t: 7828700', 'et�isyys 36.62741699796952')"
+
+98 dijkstra den203d.map,"('t: 4980500', 'et�isyys 39.48528137423856')"
+
+99 dijkstra den203d.map,"('t: 2493600', 'et�isyys 36.55634918610404')"
+
+100 dijkstra den203d.map,"('t: 3781900', 'et�isyys 40.97056274847714')"
+
+101 dijkstra den203d.map,"('t: 5210800', 'et�isyys 41.69848480983499')"
+
+102 dijkstra den203d.map,"('t: 4464700', 'et�isyys 40.89949493661167')"
+
+103 dijkstra den203d.map,"('t: 1728800', 'et�isyys 42.72792206135785')"
+
+104 dijkstra den203d.map,"('t: 5867300', 'et�isyys 42.384776310850235')"
+
+105 dijkstra den203d.map,"('t: 6166900', 'et�isyys 42.31370849898475')"
+
+106 dijkstra den203d.map,"('t: 4647400', 'et�isyys 43.55634918610404')"
+
+107 dijkstra den203d.map,"('t: 3814400', 'et�isyys 41.72792206135785')"
+
+108 dijkstra den203d.map,"('t: 5949500', 'et�isyys 40.31370849898476')"
+
+109 dijkstra den203d.map,"('t: 7866900', 'et�isyys 41.89949493661166')"
+
+110 dijkstra den203d.map,"('t: 7374300', 'et�isyys 46.21320343559641')"
+
+111 dijkstra den203d.map,"('t: 10756100', 'et�isyys 45.727922061357845')"
+
+112 dijkstra den203d.map,"('t: 7742300', 'et�isyys 46.48528137423856')"
+
+113 dijkstra den203d.map,"('t: 4467400', 'et�isyys 46.828427124746185')"
+
+114 dijkstra den203d.map,"('t: 5491200', 'et�isyys 45.97056274847712')"
+
+115 dijkstra den203d.map,"('t: 9446500', 'et�isyys 46.87005768508878')"
+
+116 dijkstra den203d.map,"('t: 6733700', 'et�isyys 47.79898987322333')"
+
+117 dijkstra den203d.map,"('t: 6337900', 'et�isyys 45.89949493661165')"
+
+118 dijkstra den203d.map,"('t: 6687500', 'et�isyys 47.970562748477136')"
+
+119 dijkstra den203d.map,"('t: 7394700', 'et�isyys 46.727922061357845')"
+
+120 dijkstra den203d.map,"('t: 8159500', 'et�isyys 51.65685424949237')"
+
+121 dijkstra den203d.map,"('t: 2749100', 'et�isyys 51.48528137423857')"
+
+122 dijkstra den203d.map,"('t: 6419500', 'et�isyys 48.656854249492376')"
+
+123 dijkstra den203d.map,"('t: 8622800', 'et�isyys 50.14213562373094')"
+
+124 dijkstra den203d.map,"('t: 7700000', 'et�isyys 50.727922061357845')"
+
+125 dijkstra den203d.map,"('t: 8185600', 'et�isyys 51.899494936611646')"
+
+126 dijkstra den203d.map,"('t: 7811200', 'et�isyys 50.970562748477136')"
+
+127 dijkstra den203d.map,"('t: 4072400', 'et�isyys 48.11269837220808')"
+
+128 dijkstra den203d.map,"('t: 7257900', 'et�isyys 51.11269837220809')"
+
+129 dijkstra den203d.map,"('t: 9819600', 'et�isyys 50.14213562373092')"
+
+130 dijkstra den203d.map,"('t: 4755600', 'et�isyys 52.38477631085023')"
+
+131 dijkstra den203d.map,"('t: 8529000', 'et�isyys 54.62741699796952')"
+
+132 dijkstra den203d.map,"('t: 4583600', 'et�isyys 55.28427124746187')"
+
+133 dijkstra den203d.map,"('t: 8482500', 'et�isyys 55.384776310850214')"
+
+134 dijkstra den203d.map,"('t: 3000900', 'et�isyys 52.727922061357845')"
+
+135 dijkstra den203d.map,"('t: 8125600', 'et�isyys 53.72792206135786')"
+
+136 dijkstra den203d.map,"('t: 4924400', 'et�isyys 52.526911934581165')"
+
+137 dijkstra den203d.map,"('t: 4181900', 'et�isyys 55.21320343559639')"
+
+138 dijkstra den203d.map,"('t: 11043500', 'et�isyys 54.485281374238554')"
+
+139 dijkstra den203d.map,"('t: 5250400', 'et�isyys 52.870057685088796')"
+
+140 dijkstra den203d.map,"('t: 11186300', 'et�isyys 58.72792206135784')"
+
+141 dijkstra den203d.map,"('t: 2954700', 'et�isyys 56.2132034355964')"
+
+142 dijkstra den203d.map,"('t: 5837200', 'et�isyys 58.556349186104036')"
+
+143 dijkstra den203d.map,"('t: 10922200', 'et�isyys 58.72792206135785')"
+
+144 dijkstra den203d.map,"('t: 4629000', 'et�isyys 57.28427124746188')"
+
+145 dijkstra den203d.map,"('t: 6986100', 'et�isyys 59.485281374238554')"
+
+146 dijkstra den203d.map,"('t: 3908600', 'et�isyys 57.62741699796952')"
+
+147 dijkstra den203d.map,"('t: 6675500', 'et�isyys 59.79898987322332')"
+
+148 dijkstra den203d.map,"('t: 10717100', 'et�isyys 58.485281374238554')"
+
+149 dijkstra den203d.map,"('t: 11659800', 'et�isyys 59.97056274847711')"
+
+150 dijkstra den203d.map,"('t: 11556400', 'et�isyys 63.28427124746186')"
+
+151 dijkstra den203d.map,"('t: 7251900', 'et�isyys 60.48528137423856')"
+
+152 dijkstra den203d.map,"('t: 9202600', 'et�isyys 62.21320343559641')"
+
+153 dijkstra den203d.map,"('t: 7555100', 'et�isyys 62.48528137423856')"
+
+154 dijkstra den203d.map,"('t: 11865800', 'et�isyys 60.3847763108502')"
+
+155 dijkstra den203d.map,"('t: 6647900', 'et�isyys 63.72792206135784')"
+
+156 dijkstra den203d.map,"('t: 7045100', 'et�isyys 63.313708498984745')"
+
+157 dijkstra den203d.map,"('t: 3090000', 'et�isyys 62.656854249492376')"
+
+158 dijkstra den203d.map,"('t: 11901500', 'et�isyys 63.485281374238554')"
+
+159 dijkstra den203d.map,"('t: 2711200', 'et�isyys 61.04163056034261')"
+
+160 dijkstra den203d.map,"('t: 7952100', 'et�isyys 65.7989898732233')"
+
+161 dijkstra den203d.map,"('t: 8704800', 'et�isyys 65.6274169979695')"
+
+162 dijkstra den203d.map,"('t: 7337900', 'et�isyys 64.6274169979695')"
+
+163 dijkstra den203d.map,"('t: 6279700', 'et�isyys 67.01219330881972')"
+
+164 dijkstra den203d.map,"('t: 3636300', 'et�isyys 64.72792206135784')"
+
+165 dijkstra den203d.map,"('t: 6801100', 'et�isyys 67.38477631085021')"
+
+166 dijkstra den203d.map,"('t: 8723900', 'et�isyys 64.55634918610403')"
+
+167 dijkstra den203d.map,"('t: 9220900', 'et�isyys 65.55634918610404')"
+
+168 dijkstra den203d.map,"('t: 7452500', 'et�isyys 64.62741699796948')"
+
+169 dijkstra den203d.map,"('t: 6372700', 'et�isyys 65.04163056034258')"
+
+170 dijkstra den203d.map,"('t: 8435400', 'et�isyys 68.48528137423855')"
+
+171 dijkstra den203d.map,"('t: 9855900', 'et�isyys 70.0416305603426')"
+
+172 dijkstra den203d.map,"('t: 8384800', 'et�isyys 69.8700576850888')"
+
+173 dijkstra den203d.map,"('t: 6788000', 'et�isyys 69.79898987322329')"
+
+174 dijkstra den203d.map,"('t: 5696000', 'et�isyys 70.48528137423855')"
+
+175 dijkstra den203d.map,"('t: 9871600', 'et�isyys 70.38477631085023')"
+
+176 dijkstra den203d.map,"('t: 4939600', 'et�isyys 71.31370849898474')"
+
+177 dijkstra den203d.map,"('t: 11225300', 'et�isyys 68.14213562373092')"
+
+178 dijkstra den203d.map,"('t: 3341500', 'et�isyys 70.31370849898475')"
+
+179 dijkstra den203d.map,"('t: 3601300', 'et�isyys 71.48528137423855')"
+
+180 dijkstra den203d.map,"('t: 12855300', 'et�isyys 75.72792206135783')"
+
+181 dijkstra den203d.map,"('t: 10425700', 'et�isyys 74.31370849898474')"
+
+182 dijkstra den203d.map,"('t: 8151900', 'et�isyys 75.14213562373094')"
+
+183 dijkstra den203d.map,"('t: 9844700', 'et�isyys 74.89949493661165')"
+
+184 dijkstra den203d.map,"('t: 9461400', 'et�isyys 74.55634918610403')"
+
+185 dijkstra den203d.map,"('t: 9070100', 'et�isyys 73.91168824543138')"
+
+186 dijkstra den203d.map,"('t: 6215700', 'et�isyys 75.7989898732233')"
+
+187 dijkstra den203d.map,"('t: 8417600', 'et�isyys 72.35533905932732')"
+
+188 dijkstra den203d.map,"('t: 9146000', 'et�isyys 72.04163056034263')"
+
+189 dijkstra den203d.map,"('t: 3386500', 'et�isyys 75.79898987322332')"
+
+190 dijkstra den203d.map,"('t: 11243900', 'et�isyys 76.48528137423855')"
+
+191 dijkstra den203d.map,"('t: 11167800', 'et�isyys 76.14213562373094')"
+
+192 dijkstra den203d.map,"('t: 11132200', 'et�isyys 77.45584412271566')"
+
+193 dijkstra den203d.map,"('t: 9849600', 'et�isyys 77.07106781186546')"
+
+194 dijkstra den203d.map,"('t: 10978200', 'et�isyys 76.31370849898474')"
+
+195 dijkstra den203d.map,"('t: 4047600', 'et�isyys 76.89949493661166')"
+
+196 dijkstra den203d.map,"('t: 10457800', 'et�isyys 79.14213562373095')"
+
+197 dijkstra den203d.map,"('t: 9207800', 'et�isyys 77.94112549695423')"
+
+198 dijkstra den203d.map,"('t: 12527000', 'et�isyys 77.87005768508875')"
+
+199 dijkstra den203d.map,"('t: 4511700', 'et�isyys 78.55634918610403')"
+
+200 dijkstra den203d.map,"('t: 5134900', 'et�isyys 81.31370849898474')"
+
+201 dijkstra den203d.map,"('t: 10849800', 'et�isyys 81.2132034355964')"
+
+202 dijkstra den203d.map,"('t: 5649300', 'et�isyys 82.2132034355964')"
+
+203 dijkstra den203d.map,"('t: 11611100', 'et�isyys 82.38477631085021')"
+
+204 dijkstra den203d.map,"('t: 4395800', 'et�isyys 82.38477631085021')"
+
+205 dijkstra den203d.map,"('t: 10228100', 'et�isyys 82.31370849898474')"
+
+206 dijkstra den203d.map,"('t: 3914100', 'et�isyys 80.97056274847712')"
+
+207 dijkstra den203d.map,"('t: 12837700', 'et�isyys 81.1837661840735')"
+
+208 dijkstra den203d.map,"('t: 10176200', 'et�isyys 82.55634918610401')"
+
+209 dijkstra den203d.map,"('t: 9135200', 'et�isyys 81.89949493661166')"
+
+210 dijkstra den203d.map,"('t: 7743000', 'et�isyys 84.62741699796948')"
+
+211 dijkstra den203d.map,"('t: 11537800', 'et�isyys 85.28427124746186')"
+
+212 dijkstra den203d.map,"('t: 8196900', 'et�isyys 84.97056274847711')"
+
+213 dijkstra den203d.map,"('t: 11158200', 'et�isyys 85.55634918610401')"
+
+214 dijkstra den203d.map,"('t: 12674500', 'et�isyys 86.45584412271566')"
+
+215 dijkstra den203d.map,"('t: 10758300', 'et�isyys 84.7989898732233')"
+
+216 dijkstra den203d.map,"('t: 4550700', 'et�isyys 85.21320343559641')"
+
+217 dijkstra den203d.map,"('t: 10609200', 'et�isyys 87.69848480983494')"
+
+218 dijkstra den203d.map,"('t: 12501000', 'et�isyys 84.14213562373094')"
+
+219 dijkstra den203d.map,"('t: 6309000', 'et�isyys 86.28427124746187')"
+
+220 dijkstra den203d.map,"('t: 11522700', 'et�isyys 90.7989898732233')"
+
+221 dijkstra den203d.map,"('t: 11087900', 'et�isyys 88.97056274847711')"
+
+222 dijkstra den203d.map,"('t: 11677700', 'et�isyys 90.97056274847712')"
+
+223 dijkstra den203d.map,"('t: 12315300', 'et�isyys 91.2132034355964')"
+
+224 dijkstra den203d.map,"('t: 5571900', 'et�isyys 91.45584412271569')"
+
+225 dijkstra den203d.map,"('t: 12910300', 'et�isyys 91.14213562373092')"
+
+226 dijkstra den203d.map,"('t: 9458000', 'et�isyys 90.55634918610403')"
+
+227 dijkstra den203d.map,"('t: 11075900', 'et�isyys 91.62741699796949')"
+
+228 dijkstra den203d.map,"('t: 10507800', 'et�isyys 88.97056274847712')"
+
+229 dijkstra den203d.map,"('t: 12317700', 'et�isyys 89.04163056034258')"
+
+230 dijkstra den203d.map,"('t: 6373200', 'et�isyys 92.45584412271567')"
+
+231 dijkstra den203d.map,"('t: 5977100', 'et�isyys 92.14213562373092')"
+
+232 dijkstra den203d.map,"('t: 10754100', 'et�isyys 94.55634918610403')"
+
+233 dijkstra den203d.map,"('t: 11212900', 'et�isyys 93.28427124746186')"
+
+234 dijkstra den203d.map,"('t: 11881600', 'et�isyys 93.45584412271567')"
+
+235 dijkstra den203d.map,"('t: 5579600', 'et�isyys 93.87005768508878')"
+
+236 dijkstra den203d.map,"('t: 7352000', 'et�isyys 92.97056274847712')"
+
+237 dijkstra den203d.map,"('t: 11623400', 'et�isyys 93.38477631085021')"
+
+238 dijkstra den203d.map,"('t: 9340400', 'et�isyys 92.97056274847711')"
+
+239 dijkstra den203d.map,"('t: 10644500', 'et�isyys 92.72792206135783')"
+
+240 dijkstra den203d.map,"('t: 8891700', 'et�isyys 96.55634918610401')"
+
+241 dijkstra den203d.map,"('t: 10223100', 'et�isyys 97.21320343559641')"
+
+242 dijkstra den203d.map,"('t: 12831300', 'et�isyys 96.3847763108502')"
+
+243 dijkstra den203d.map,"('t: 7884000', 'et�isyys 98.04163056034258')"
+
+244 dijkstra den203d.map,"('t: 11205700', 'et�isyys 97.55634918610401')"
+
+245 dijkstra den203d.map,"('t: 10101600', 'et�isyys 99.14213562373094')"
+
+246 dijkstra den203d.map,"('t: 12143500', 'et�isyys 96.21320343559638')"
+
+247 dijkstra den203d.map,"('t: 13480500', 'et�isyys 97.3847763108502')"
+
+248 dijkstra den203d.map,"('t: 9308700', 'et�isyys 97.97056274847712')"
+
+249 dijkstra den203d.map,"('t: 12579400', 'et�isyys 97.45584412271567')"
+
+250 dijkstra den203d.map,"('t: 12258000', 'et�isyys 100.45584412271566')"
+
+251 dijkstra den203d.map,"('t: 11382200', 'et�isyys 101.0416305603426')"
+
+252 dijkstra den203d.map,"('t: 10292300', 'et�isyys 101.6274169979695')"
+
+253 dijkstra den203d.map,"('t: 10969800', 'et�isyys 101.28427124746189')"
+
+254 dijkstra den203d.map,"('t: 9654900', 'et�isyys 101.3847763108502')"
+
+255 dijkstra den203d.map,"('t: 11841900', 'et�isyys 101.2132034355964')"
+
+256 dijkstra den203d.map,"('t: 8115100', 'et�isyys 102.7989898732233')"
+
+257 dijkstra den203d.map,"('t: 10807800', 'et�isyys 101.69848480983494')"
+
+258 dijkstra den203d.map,"('t: 10724500', 'et�isyys 102.28427124746189')"
+
+259 dijkstra den203d.map,"('t: 11561700', 'et�isyys 101.38477631085021')"
+
+260 dijkstra den203d.map,"('t: 12456600', 'et�isyys 106.62741699796949')"
+
+261 dijkstra den203d.map,"('t: 10425600', 'et�isyys 106.28427124746187')"
+
+262 dijkstra den203d.map,"('t: 12421900', 'et�isyys 104.87005768508877')"
+
+263 dijkstra den203d.map,"('t: 8372000', 'et�isyys 105.21320343559641')"
+
+264 dijkstra den203d.map,"('t: 9066400', 'et�isyys 106.11269837220804')"
+
+265 dijkstra den203d.map,"('t: 12363900', 'et�isyys 105.62741699796949')"
+
+266 dijkstra den203d.map,"('t: 12035700', 'et�isyys 106.97056274847711')"
+
+267 dijkstra den203d.map,"('t: 12471100', 'et�isyys 104.52691193458115')"
+
+268 dijkstra den203d.map,"('t: 12550700', 'et�isyys 105.04163056034257')"
+
+269 dijkstra den203d.map,"('t: 8732000', 'et�isyys 107.4264068711928')"
+
+270 dijkstra den203d.map,"('t: 11540600', 'et�isyys 109.89949493661165')"
+
+271 dijkstra den203d.map,"('t: 11876300', 'et�isyys 111.35533905932735')"
+
+272 dijkstra den203d.map,"('t: 11952000', 'et�isyys 109.8406204335659')"
+
+273 dijkstra den203d.map,"('t: 8908800', 'et�isyys 111.87005768508877')"
+
+274 dijkstra den203d.map,"('t: 11464100', 'et�isyys 108.97056274847711')"
+
+275 dijkstra den203d.map,"('t: 9787500', 'et�isyys 109.2132034355964')"
+
+276 dijkstra den203d.map,"('t: 12028500', 'et�isyys 108.28427124746185')"
+
+277 dijkstra den203d.map,"('t: 11138700', 'et�isyys 108.69848480983497')"
+
+278 dijkstra den203d.map,"('t: 11953100', 'et�isyys 108.28427124746186')"
+
+279 dijkstra den203d.map,"('t: 10627000', 'et�isyys 108.62741699796948')"
+
+280 dijkstra den203d.map,"('t: 10713400', 'et�isyys 115.72792206135783')"
+
+281 dijkstra den203d.map,"('t: 11834100', 'et�isyys 113.69848480983495')"
+
+282 dijkstra den203d.map,"('t: 11455600', 'et�isyys 113.62741699796948')"
+
+283 dijkstra den203d.map,"('t: 11383700', 'et�isyys 113.35533905932735')"
+
+284 dijkstra den203d.map,"('t: 12740800', 'et�isyys 115.18376618407352')"
+
+285 dijkstra den203d.map,"('t: 10594600', 'et�isyys 112.21320343559638')"
+
+286 dijkstra den203d.map,"('t: 9547900', 'et�isyys 112.38477631085023')"
+
+287 dijkstra den203d.map,"('t: 11303700', 'et�isyys 114.55634918610403')"
+
+288 dijkstra den203d.map,"('t: 10849600', 'et�isyys 114.87005768508875')"
+
+289 dijkstra den203d.map,"('t: 10987000', 'et�isyys 115.04163056034257')"
+
+290 dijkstra den203d.map,"('t: 11898000', 'et�isyys 116.45584412271569')"
+
+291 dijkstra den203d.map,"('t: 11643700', 'et�isyys 117.3553390593273')"
+
+292 dijkstra den203d.map,"('t: 11366100', 'et�isyys 116.21320343559638')"
+
+293 dijkstra den203d.map,"('t: 12008300', 'et�isyys 116.45584412271567')"
+
+294 dijkstra den203d.map,"('t: 10456000', 'et�isyys 117.18376618407355')"
+
+295 dijkstra den203d.map,"('t: 12265200', 'et�isyys 117.11269837220807')"
+
+296 dijkstra den203d.map,"('t: 12020200', 'et�isyys 119.35533905932733')"
+
+297 dijkstra den203d.map,"('t: 9053400', 'et�isyys 116.35533905932733')"
+
+298 dijkstra den203d.map,"('t: 11774800', 'et�isyys 118.62741699796948')"
+
+299 dijkstra den203d.map,"('t: 11022500', 'et�isyys 116.52691193458114')"
+
+300 dijkstra den203d.map,"('t: 10397000', 'et�isyys 120.18376618407352')"
+
+301 dijkstra den203d.map,"('t: 11259000', 'et�isyys 121.97056274847711')"
+
+302 dijkstra den203d.map,"('t: 12013900', 'et�isyys 120.04163056034258')"
+
+303 dijkstra den203d.map,"('t: 11077900', 'et�isyys 120.04163056034257')"
+
+304 dijkstra den203d.map,"('t: 10139000', 'et�isyys 121.52691193458115')"
+
+305 dijkstra den203d.map,"('t: 11887300', 'et�isyys 120.97056274847711')"
+
+306 dijkstra den203d.map,"('t: 10336800', 'et�isyys 121.35533905932735')"
+
+307 dijkstra den203d.map,"('t: 12837900', 'et�isyys 121.66904755831209')"
+
+308 dijkstra den203d.map,"('t: 11182200', 'et�isyys 121.18376618407352')"
+
+309 dijkstra den203d.map,"('t: 11704900', 'et�isyys 123.0121933088197')"
+
+310 dijkstra den203d.map,"('t: 12021300', 'et�isyys 127.6690475583121')"
+
+311 dijkstra den203d.map,"('t: 11863700', 'et�isyys 125.254833995939')"
+
+312 dijkstra den203d.map,"('t: 11919100', 'et�isyys 125.1837661840735')"
+
+313 dijkstra den203d.map,"('t: 12670600', 'et�isyys 127.21320343559638')"
+
+314 dijkstra den203d.map,"('t: 11524700', 'et�isyys 125.01219330881973')"
+
+315 dijkstra den203d.map,"('t: 11979000', 'et�isyys 124.89949493661165')"
+
+316 dijkstra den203d.map,"('t: 11844400', 'et�isyys 124.55634918610401')"
+
+317 dijkstra den203d.map,"('t: 11255100', 'et�isyys 124.28427124746187')"
+
+318 dijkstra den203d.map,"('t: 11247100', 'et�isyys 125.35533905932735')"
+
+319 dijkstra den203d.map,"('t: 10805600', 'et�isyys 124.31370849898474')"
+
+320 dijkstra den203d.map,"('t: 12340700', 'et�isyys 128.04163056034258')"
+
+321 dijkstra den203d.map,"('t: 11757300', 'et�isyys 130.4264068711928')"
+
+322 dijkstra den203d.map,"('t: 11958500', 'et�isyys 128.7989898732233')"
+
+323 dijkstra den203d.map,"('t: 13041900', 'et�isyys 129.14213562373095')"
+
+324 dijkstra den203d.map,"('t: 11518000', 'et�isyys 128.0121933088197')"
+
+325 dijkstra den203d.map,"('t: 12167600', 'et�isyys 129.4264068711928')"
+
+326 dijkstra den203d.map,"('t: 12239800', 'et�isyys 129.79898987322332')"
+
+327 dijkstra den203d.map,"('t: 11800200', 'et�isyys 129.18376618407353')"
+
+328 dijkstra den203d.map,"('t: 12529700', 'et�isyys 131.11269837220806')"
+
+329 dijkstra den203d.map,"('t: 11624500', 'et�isyys 128.9705627484771')"
+
+0 dijkstra den206d.map,"('t: 53700', 'et�isyys 2')"
+
+1 dijkstra den206d.map,"('t: 147800', 'et�isyys 3.82842712474619')"
+
+2 dijkstra den206d.map,"('t: 157900', 'et�isyys 3.82842712474619')"
+
+3 dijkstra den206d.map,"('t: 113500', 'et�isyys 3.82842712474619')"
+
+4 dijkstra den206d.map,"('t: 39700', 'et�isyys 1.4142135623730951')"
+
+5 dijkstra den206d.map,"('t: 66700', 'et�isyys 2.414213562373095')"
+
+6 dijkstra den206d.map,"('t: 22500', 'et�isyys 1')"
+
+7 dijkstra den206d.map,"('t: 10400', 'et�isyys 1')"
+
+8 dijkstra den206d.map,"('t: 137800', 'et�isyys 3')"
+
+9 dijkstra den206d.map,"('t: 21500', 'et�isyys 1.4142135623730951')"
+
+10 dijkstra den206d.map,"('t: 502100', 'et�isyys 7.242640687119285')"
+
+11 dijkstra den206d.map,"('t: 681500', 'et�isyys 7.82842712474619')"
+
+12 dijkstra den206d.map,"('t: 265800', 'et�isyys 4.414213562373095')"
+
+13 dijkstra den206d.map,"('t: 592100', 'et�isyys 6.414213562373095')"
+
+14 dijkstra den206d.map,"('t: 633600', 'et�isyys 6.82842712474619')"
+
+15 dijkstra den206d.map,"('t: 382100', 'et�isyys 4.82842712474619')"
+
+16 dijkstra den206d.map,"('t: 231000', 'et�isyys 4.242640687119286')"
+
+17 dijkstra den206d.map,"('t: 426500', 'et�isyys 5.242640687119285')"
+
+18 dijkstra den206d.map,"('t: 372700', 'et�isyys 5.82842712474619')"
+
+19 dijkstra den206d.map,"('t: 294100', 'et�isyys 4.414213562373095')"
+
+20 dijkstra den206d.map,"('t: 1182100', 'et�isyys 8.82842712474619')"
+
+21 dijkstra den206d.map,"('t: 1158800', 'et�isyys 10.899494936611667')"
+
+22 dijkstra den206d.map,"('t: 1009200', 'et�isyys 9.899494936611667')"
+
+23 dijkstra den206d.map,"('t: 1793900', 'et�isyys 10.414213562373096')"
+
+24 dijkstra den206d.map,"('t: 644100', 'et�isyys 10.242640687119284')"
+
+25 dijkstra den206d.map,"('t: 1243200', 'et�isyys 9.485281374238571')"
+
+26 dijkstra den206d.map,"('t: 778500', 'et�isyys 11')"
+
+27 dijkstra den206d.map,"('t: 768000', 'et�isyys 8.82842712474619')"
+
+28 dijkstra den206d.map,"('t: 1275800', 'et�isyys 11.82842712474619')"
+
+29 dijkstra den206d.map,"('t: 437300', 'et�isyys 10')"
+
+30 dijkstra den206d.map,"('t: 3845200', 'et�isyys 14.727922061357859')"
+
+31 dijkstra den206d.map,"('t: 834100', 'et�isyys 15.82842712474619')"
+
+32 dijkstra den206d.map,"('t: 1989700', 'et�isyys 15.242640687119286')"
+
+33 dijkstra den206d.map,"('t: 1674900', 'et�isyys 13.414213562373096')"
+
+34 dijkstra den206d.map,"('t: 2919700', 'et�isyys 15.82842712474619')"
+
+35 dijkstra den206d.map,"('t: 4434300', 'et�isyys 15.899494936611667')"
+
+36 dijkstra den206d.map,"('t: 2751800', 'et�isyys 13.82842712474619')"
+
+37 dijkstra den206d.map,"('t: 1526000', 'et�isyys 13.65685424949238')"
+
+38 dijkstra den206d.map,"('t: 1167900', 'et�isyys 12.65685424949238')"
+
+39 dijkstra den206d.map,"('t: 1546900', 'et�isyys 14.242640687119284')"
+
+40 dijkstra den206d.map,"('t: 1994500', 'et�isyys 19.48528137423857')"
+
+41 dijkstra den206d.map,"('t: 2620100', 'et�isyys 16.55634918610405')"
+
+42 dijkstra den206d.map,"('t: 3110800', 'et�isyys 19.65685424949238')"
+
+43 dijkstra den206d.map,"('t: 2473400', 'et�isyys 16.82842712474619')"
+
+44 dijkstra den206d.map,"('t: 1940900', 'et�isyys 19.414213562373096')"
+
+45 dijkstra den206d.map,"('t: 2150100', 'et�isyys 17.72792206135786')"
+
+46 dijkstra den206d.map,"('t: 2021400', 'et�isyys 16.82842712474619')"
+
+47 dijkstra den206d.map,"('t: 1527900', 'et�isyys 17.071067811865476')"
+
+48 dijkstra den206d.map,"('t: 2888900', 'et�isyys 17.071067811865476')"
+
+49 dijkstra den206d.map,"('t: 2074100', 'et�isyys 16.899494936611667')"
+
+50 dijkstra den206d.map,"('t: 4354800', 'et�isyys 21.65685424949238')"
+
+51 dijkstra den206d.map,"('t: 2164800', 'et�isyys 23.242640687119284')"
+
+52 dijkstra den206d.map,"('t: 3509300', 'et�isyys 20.65685424949238')"
+
+53 dijkstra den206d.map,"('t: 3319900', 'et�isyys 23.55634918610405')"
+
+54 dijkstra den206d.map,"('t: 7493100', 'et�isyys 23.48528137423857')"
+
+55 dijkstra den206d.map,"('t: 2853100', 'et�isyys 22.071067811865476')"
+
+56 dijkstra den206d.map,"('t: 6189500', 'et�isyys 21.798989873223338')"
+
+57 dijkstra den206d.map,"('t: 2214600', 'et�isyys 21.899494936611667')"
+
+58 dijkstra den206d.map,"('t: 4932100', 'et�isyys 22.142135623730955')"
+
+59 dijkstra den206d.map,"('t: 3946200', 'et�isyys 22.414213562373096')"
+
+60 dijkstra den206d.map,"('t: 7266400', 'et�isyys 27.48528137423857')"
+
+61 dijkstra den206d.map,"('t: 1665500', 'et�isyys 26.414213562373096')"
+
+62 dijkstra den206d.map,"('t: 1948000', 'et�isyys 27.798989873223338')"
+
+63 dijkstra den206d.map,"('t: 7356000', 'et�isyys 27.72792206135786')"
+
+64 dijkstra den206d.map,"('t: 4076700', 'et�isyys 27.384776310850242')"
+
+65 dijkstra den206d.map,"('t: 6068900', 'et�isyys 26.899494936611667')"
+
+66 dijkstra den206d.map,"('t: 3349700', 'et�isyys 25.65685424949238')"
+
+67 dijkstra den206d.map,"('t: 6501100', 'et�isyys 27.798989873223338')"
+
+68 dijkstra den206d.map,"('t: 3609400', 'et�isyys 27.82842712474619')"
+
+69 dijkstra den206d.map,"('t: 4487200', 'et�isyys 24.48528137423857')"
+
+70 dijkstra den206d.map,"('t: 5175200', 'et�isyys 30.48528137423857')"
+
+71 dijkstra den206d.map,"('t: 3834300', 'et�isyys 31.07106781186548')"
+
+72 dijkstra den206d.map,"('t: 4296900', 'et�isyys 29.970562748477146')"
+
+73 dijkstra den206d.map,"('t: 4076500', 'et�isyys 30.142135623730955')"
+
+74 dijkstra den206d.map,"('t: 5278000', 'et�isyys 29.899494936611667')"
+
+75 dijkstra den206d.map,"('t: 7290100', 'et�isyys 31.899494936611667')"
+
+76 dijkstra den206d.map,"('t: 5110300', 'et�isyys 29.97056274847715')"
+
+77 dijkstra den206d.map,"('t: 1769500', 'et�isyys 30.142135623730958')"
+
+78 dijkstra den206d.map,"('t: 5015700', 'et�isyys 31.071067811865476')"
+
+79 dijkstra den206d.map,"('t: 4099700', 'et�isyys 31.970562748477146')"
+
+80 dijkstra den206d.map,"('t: 3384000', 'et�isyys 32.72792206135786')"
+
+81 dijkstra den206d.map,"('t: 5959000', 'et�isyys 34.798989873223334')"
+
+82 dijkstra den206d.map,"('t: 8717800', 'et�isyys 34.89949493661166')"
+
+83 dijkstra den206d.map,"('t: 5952600', 'et�isyys 32')"
+
+84 dijkstra den206d.map,"('t: 5005600', 'et�isyys 33.72792206135785')"
+
+85 dijkstra den206d.map,"('t: 4409500', 'et�isyys 35.48528137423857')"
+
+86 dijkstra den206d.map,"('t: 4767900', 'et�isyys 32.79898987322334')"
+
+87 dijkstra den206d.map,"('t: 3513100', 'et�isyys 35.55634918610404')"
+
+88 dijkstra den206d.map,"('t: 5023400', 'et�isyys 32.041630560342625')"
+
+89 dijkstra den206d.map,"('t: 3356400', 'et�isyys 35.72792206135786')"
+
+90 dijkstra den206d.map,"('t: 3297100', 'et�isyys 37.04163056034261')"
+
+91 dijkstra den206d.map,"('t: 3964200', 'et�isyys 39.14213562373094')"
+
+92 dijkstra den206d.map,"('t: 5114100', 'et�isyys 37.31370849898475')"
+
+93 dijkstra den206d.map,"('t: 8836600', 'et�isyys 38.14213562373095')"
+
+94 dijkstra den206d.map,"('t: 3542100', 'et�isyys 38.556349186104036')"
+
+95 dijkstra den206d.map,"('t: 7337900', 'et�isyys 39.48528137423857')"
+
+96 dijkstra den206d.map,"('t: 6857900', 'et�isyys 37.45584412271571')"
+
+97 dijkstra den206d.map,"('t: 8406500', 'et�isyys 39.656854249492376')"
+
+98 dijkstra den206d.map,"('t: 4193500', 'et�isyys 37.82842712474619')"
+
+99 dijkstra den206d.map,"('t: 7291400', 'et�isyys 38.65685424949237')"
+
+100 dijkstra den206d.map,"('t: 7211500', 'et�isyys 42.35533905932736')"
+
+101 dijkstra den206d.map,"('t: 7997800', 'et�isyys 42.48528137423856')"
+
+102 dijkstra den206d.map,"('t: 9896200', 'et�isyys 42.55634918610403')"
+
+103 dijkstra den206d.map,"('t: 9079100', 'et�isyys 43.55634918610404')"
+
+104 dijkstra den206d.map,"('t: 8935400', 'et�isyys 42.21320343559643')"
+
+105 dijkstra den206d.map,"('t: 14487800', 'et�isyys 41.04163056034261')"
+
+106 dijkstra den206d.map,"('t: 9707600', 'et�isyys 42.21320343559642')"
+
+107 dijkstra den206d.map,"('t: 8341500', 'et�isyys 41.627416997969505')"
+
+108 dijkstra den206d.map,"('t: 2553700', 'et�isyys 42.31370849898475')"
+
+109 dijkstra den206d.map,"('t: 9392200', 'et�isyys 41.72792206135786')"
+
+110 dijkstra den206d.map,"('t: 4283800', 'et�isyys 44.242640687119284')"
+
+111 dijkstra den206d.map,"('t: 8694100', 'et�isyys 46.89949493661166')"
+
+112 dijkstra den206d.map,"('t: 6106900', 'et�isyys 46.041630560342604')"
+
+113 dijkstra den206d.map,"('t: 6782500', 'et�isyys 47.798989873223306')"
+
+114 dijkstra den206d.map,"('t: 5337300', 'et�isyys 45.89949493661166')"
+
+115 dijkstra den206d.map,"('t: 3972000', 'et�isyys 44.55634918610403')"
+
+116 dijkstra den206d.map,"('t: 9134600', 'et�isyys 44.727922061357845')"
+
+117 dijkstra den206d.map,"('t: 8188200', 'et�isyys 46.384776310850235')"
+
+118 dijkstra den206d.map,"('t: 9984000', 'et�isyys 46.07106781186547')"
+
+119 dijkstra den206d.map,"('t: 4037400', 'et�isyys 44.72792206135786')"
+
+120 dijkstra den206d.map,"('t: 10702100', 'et�isyys 49.55634918610402')"
+
+121 dijkstra den206d.map,"('t: 8953000', 'et�isyys 49.28427124746189')"
+
+122 dijkstra den206d.map,"('t: 6695500', 'et�isyys 48.284271247461874')"
+
+123 dijkstra den206d.map,"('t: 12610200', 'et�isyys 48.14213562373095')"
+
+124 dijkstra den206d.map,"('t: 8050600', 'et�isyys 51.14213562373094')"
+
+125 dijkstra den206d.map,"('t: 4213600', 'et�isyys 50.48528137423856')"
+
+126 dijkstra den206d.map,"('t: 11858900', 'et�isyys 48.94112549695426')"
+
+127 dijkstra den206d.map,"('t: 8310500', 'et�isyys 49.38477631085023')"
+
+128 dijkstra den206d.map,"('t: 11029200', 'et�isyys 48.24264068711928')"
+
+129 dijkstra den206d.map,"('t: 9235700', 'et�isyys 50.89949493661166')"
+
+130 dijkstra den206d.map,"('t: 4339800', 'et�isyys 54.04163056034258')"
+
+131 dijkstra den206d.map,"('t: 6661900', 'et�isyys 55.45584412271572')"
+
+132 dijkstra den206d.map,"('t: 9359900', 'et�isyys 53.87005768508881')"
+
+133 dijkstra den206d.map,"('t: 12843400', 'et�isyys 52.313708498984745')"
+
+134 dijkstra den206d.map,"('t: 14322400', 'et�isyys 54.62741699796949')"
+
+135 dijkstra den206d.map,"('t: 14628600', 'et�isyys 53.94112549695424')"
+
+136 dijkstra den206d.map,"('t: 9163300', 'et�isyys 52.89949493661166')"
+
+137 dijkstra den206d.map,"('t: 3473500', 'et�isyys 52.28427124746186')"
+
+138 dijkstra den206d.map,"('t: 14324600', 'et�isyys 55.071067811865476')"
+
+139 dijkstra den206d.map,"('t: 4632800', 'et�isyys 53.828427124746185')"
+
+140 dijkstra den206d.map,"('t: 5697200', 'et�isyys 58.45584412271567')"
+
+141 dijkstra den206d.map,"('t: 4100700', 'et�isyys 56.485281374238554')"
+
+142 dijkstra den206d.map,"('t: 6264300', 'et�isyys 56.87005768508878')"
+
+143 dijkstra den206d.map,"('t: 14212400', 'et�isyys 58.87005768508875')"
+
+144 dijkstra den206d.map,"('t: 6864000', 'et�isyys 59.627416997969476')"
+
+145 dijkstra den206d.map,"('t: 10859300', 'et�isyys 57.45584412271569')"
+
+146 dijkstra den206d.map,"('t: 12509000', 'et�isyys 57.213203435596405')"
+
+147 dijkstra den206d.map,"('t: 12695600', 'et�isyys 58.69848480983495')"
+
+148 dijkstra den206d.map,"('t: 14661700', 'et�isyys 58.18376618407352')"
+
+149 dijkstra den206d.map,"('t: 4491600', 'et�isyys 56.31370849898474')"
+
+150 dijkstra den206d.map,"('t: 9309900', 'et�isyys 63.11269837220809')"
+
+151 dijkstra den206d.map,"('t: 9718100', 'et�isyys 62.97056274847712')"
+
+152 dijkstra den206d.map,"('t: 12772700', 'et�isyys 61.11269837220805')"
+
+153 dijkstra den206d.map,"('t: 8127000', 'et�isyys 61.07106781186546')"
+
+154 dijkstra den206d.map,"('t: 12755700', 'et�isyys 63.87005768508876')"
+
+155 dijkstra den206d.map,"('t: 9290900', 'et�isyys 63.55634918610402')"
+
+156 dijkstra den206d.map,"('t: 6192700', 'et�isyys 63.213203435596384')"
+
+157 dijkstra den206d.map,"('t: 11268600', 'et�isyys 63.31370849898474')"
+
+158 dijkstra den206d.map,"('t: 11035100', 'et�isyys 62.94112549695426')"
+
+159 dijkstra den206d.map,"('t: 10053900', 'et�isyys 62.45584412271568')"
+
+160 dijkstra den206d.map,"('t: 12043700', 'et�isyys 66.79898987322332')"
+
+161 dijkstra den206d.map,"('t: 8162500', 'et�isyys 67.76955262170043')"
+
+162 dijkstra den206d.map,"('t: 13549800', 'et�isyys 67.89949493661166')"
+
+163 dijkstra den206d.map,"('t: 13223900', 'et�isyys 67.52691193458116')"
+
+164 dijkstra den206d.map,"('t: 7544300', 'et�isyys 66.6274169979695')"
+
+165 dijkstra den206d.map,"('t: 13161300', 'et�isyys 64.97056274847711')"
+
+166 dijkstra den206d.map,"('t: 10625800', 'et�isyys 65.55634918610404')"
+
+167 dijkstra den206d.map,"('t: 13509000', 'et�isyys 67.45584412271567')"
+
+168 dijkstra den206d.map,"('t: 4538800', 'et�isyys 66.38477631085021')"
+
+169 dijkstra den206d.map,"('t: 8365200', 'et�isyys 67.31370849898474')"
+
+170 dijkstra den206d.map,"('t: 12785500', 'et�isyys 71.76955262170046')"
+
+171 dijkstra den206d.map,"('t: 14674500', 'et�isyys 68.3847763108502')"
+
+172 dijkstra den206d.map,"('t: 16154100', 'et�isyys 69.94112549695423')"
+
+173 dijkstra den206d.map,"('t: 14399600', 'et�isyys 69.52691193458114')"
+
+174 dijkstra den206d.map,"('t: 13180600', 'et�isyys 71.28427124746187')"
+
+175 dijkstra den206d.map,"('t: 15051300', 'et�isyys 71.52691193458112')"
+
+176 dijkstra den206d.map,"('t: 13877300', 'et�isyys 68.76955262170044')"
+
+177 dijkstra den206d.map,"('t: 9860900', 'et�isyys 71.87005768508875')"
+
+178 dijkstra den206d.map,"('t: 15208700', 'et�isyys 69.84062043356589')"
+
+179 dijkstra den206d.map,"('t: 13783200', 'et�isyys 68.6274169979695')"
+
+180 dijkstra den206d.map,"('t: 13409400', 'et�isyys 72.76955262170044')"
+
+181 dijkstra den206d.map,"('t: 16085900', 'et�isyys 73.11269837220804')"
+
+182 dijkstra den206d.map,"('t: 6772700', 'et�isyys 74.2132034355964')"
+
+183 dijkstra den206d.map,"('t: 14763400', 'et�isyys 75.28427124746189')"
+
+184 dijkstra den206d.map,"('t: 13655400', 'et�isyys 73.21320343559638')"
+
+185 dijkstra den206d.map,"('t: 15188800', 'et�isyys 75.31370849898475')"
+
+186 dijkstra den206d.map,"('t: 13659600', 'et�isyys 73.11269837220806')"
+
+187 dijkstra den206d.map,"('t: 11032000', 'et�isyys 72.07106781186546')"
+
+188 dijkstra den206d.map,"('t: 8107800', 'et�isyys 74.14213562373092')"
+
+189 dijkstra den206d.map,"('t: 15362100', 'et�isyys 74.55634918610401')"
+
+190 dijkstra den206d.map,"('t: 8327700', 'et�isyys 76.79898987322333')"
+
+191 dijkstra den206d.map,"('t: 16441500', 'et�isyys 77.76955262170041')"
+
+192 dijkstra den206d.map,"('t: 8193900', 'et�isyys 76.2132034355964')"
+
+193 dijkstra den206d.map,"('t: 16125300', 'et�isyys 79.84062043356589')"
+
+194 dijkstra den206d.map,"('t: 16102800', 'et�isyys 79.76955262170043')"
+
+195 dijkstra den206d.map,"('t: 7200700', 'et�isyys 76.08326112068518')"
+
+196 dijkstra den206d.map,"('t: 7843200', 'et�isyys 78.45584412271569')"
+
+197 dijkstra den206d.map,"('t: 9631900', 'et�isyys 79.28427124746186')"
+
+198 dijkstra den206d.map,"('t: 9185000', 'et�isyys 77.24264068711928')"
+
+199 dijkstra den206d.map,"('t: 10293900', 'et�isyys 78.31370849898474')"
+
+200 dijkstra den206d.map,"('t: 15694000', 'et�isyys 81.18376618407353')"
+
+201 dijkstra den206d.map,"('t: 15895700', 'et�isyys 82.01219330881969')"
+
+202 dijkstra den206d.map,"('t: 15160200', 'et�isyys 82.35533905932735')"
+
+203 dijkstra den206d.map,"('t: 10255300', 'et�isyys 81.79898987322329')"
+
+204 dijkstra den206d.map,"('t: 14901800', 'et�isyys 82.79898987322332')"
+
+205 dijkstra den206d.map,"('t: 8495600', 'et�isyys 83.69848480983495')"
+
+206 dijkstra den206d.map,"('t: 10288800', 'et�isyys 81.66904755831209')"
+
+207 dijkstra den206d.map,"('t: 6924200', 'et�isyys 80.69848480983495')"
+
+208 dijkstra den206d.map,"('t: 7888900', 'et�isyys 82.87005768508881')"
+
+209 dijkstra den206d.map,"('t: 7384100', 'et�isyys 80.35533905932733')"
+
+210 dijkstra den206d.map,"('t: 17512800', 'et�isyys 86.3553390593273')"
+
+211 dijkstra den206d.map,"('t: 15492600', 'et�isyys 87.28427124746185')"
+
+212 dijkstra den206d.map,"('t: 11948900', 'et�isyys 87.11269837220803')"
+
+213 dijkstra den206d.map,"('t: 14883900', 'et�isyys 84.38477631085021')"
+
+214 dijkstra den206d.map,"('t: 8026600', 'et�isyys 84.04163056034258')"
+
+215 dijkstra den206d.map,"('t: 9152400', 'et�isyys 86.38477631085021')"
+
+216 dijkstra den206d.map,"('t: 11523500', 'et�isyys 86.52691193458114')"
+
+217 dijkstra den206d.map,"('t: 15921800', 'et�isyys 85.45584412271566')"
+
+218 dijkstra den206d.map,"('t: 14776300', 'et�isyys 86.14213562373092')"
+
+219 dijkstra den206d.map,"('t: 10935000', 'et�isyys 87.82842712474618')"
+
+220 dijkstra den206d.map,"('t: 9770000', 'et�isyys 90.07106781186546')"
+
+221 dijkstra den206d.map,"('t: 11164000', 'et�isyys 91.04163056034257')"
+
+222 dijkstra den206d.map,"('t: 16942200', 'et�isyys 88.97056274847712')"
+
+223 dijkstra den206d.map,"('t: 13234300', 'et�isyys 88.66904755831209')"
+
+224 dijkstra den206d.map,"('t: 13707400', 'et�isyys 89.32590180780446')"
+
+225 dijkstra den206d.map,"('t: 5654600', 'et�isyys 91.59797974644661')"
+
+226 dijkstra den206d.map,"('t: 15248900', 'et�isyys 89.97056274847712')"
+
+227 dijkstra den206d.map,"('t: 12023900', 'et�isyys 88.25483399593897')"
+
+228 dijkstra den206d.map,"('t: 29552000', 'et�isyys 89.76955262170041')"
+
+229 dijkstra den206d.map,"('t: 25388800', 'et�isyys 88.21320343559643')"
+
+230 dijkstra den206d.map,"('t: 21215500', 'et�isyys 93.42640687119281')"
+
+231 dijkstra den206d.map,"('t: 17371400', 'et�isyys 95.14213562373095')"
+
+232 dijkstra den206d.map,"('t: 16371800', 'et�isyys 92.14213562373095')"
+
+233 dijkstra den206d.map,"('t: 7420500', 'et�isyys 92.84062043356589')"
+
+234 dijkstra den206d.map,"('t: 15514200', 'et�isyys 95.18376618407349')"
+
+235 dijkstra den206d.map,"('t: 16926400', 'et�isyys 94.45584412271566')"
+
+236 dijkstra den206d.map,"('t: 17194400', 'et�isyys 95.11269837220806')"
+
+237 dijkstra den206d.map,"('t: 14392000', 'et�isyys 94.89949493661165')"
+
+238 dijkstra den206d.map,"('t: 15670600', 'et�isyys 95.07106781186546')"
+
+239 dijkstra den206d.map,"('t: 15753700', 'et�isyys 93.38477631085024')"
+
+240 dijkstra den206d.map,"('t: 16177500', 'et�isyys 99.4558441227157')"
+
+241 dijkstra den206d.map,"('t: 13554700', 'et�isyys 99.89949493661165')"
+
+242 dijkstra den206d.map,"('t: 10179300', 'et�isyys 97.38477631085021')"
+
+243 dijkstra den206d.map,"('t: 6059700', 'et�isyys 99.25483399593897')"
+
+244 dijkstra den206d.map,"('t: 17838800', 'et�isyys 97.28427124746185')"
+
+245 dijkstra den206d.map,"('t: 15889600', 'et�isyys 96.11269837220803')"
+
+246 dijkstra den206d.map,"('t: 7549200', 'et�isyys 99.32590180780447')"
+
+247 dijkstra den206d.map,"('t: 17294000', 'et�isyys 97.89949493661165')"
+
+248 dijkstra den206d.map,"('t: 17142900', 'et�isyys 96.48528137423855')"
+
+249 dijkstra den206d.map,"('t: 14048600', 'et�isyys 98.14213562373094')"
+
+250 dijkstra den206d.map,"('t: 15610000', 'et�isyys 103.89949493661165')"
+
+251 dijkstra den206d.map,"('t: 13824500', 'et�isyys 102.32590180780446')"
+
+252 dijkstra den206d.map,"('t: 15671900', 'et�isyys 102.62741699796952')"
+
+253 dijkstra den206d.map,"('t: 11457500', 'et�isyys 100.31370849898475')"
+
+254 dijkstra den206d.map,"('t: 12686700', 'et�isyys 103.31370849898474')"
+
+255 dijkstra den206d.map,"('t: 16894300', 'et�isyys 102.25483399593897')"
+
+256 dijkstra den206d.map,"('t: 19141300', 'et�isyys 101.3553390593273')"
+
+257 dijkstra den206d.map,"('t: 7853400', 'et�isyys 101.94112549695423')"
+
+258 dijkstra den206d.map,"('t: 18575000', 'et�isyys 102.28427124746185')"
+
+259 dijkstra den206d.map,"('t: 14570200', 'et�isyys 101.65685424949237')"
+
+260 dijkstra den206d.map,"('t: 11241800', 'et�isyys 104.31370849898475')"
+
+261 dijkstra den206d.map,"('t: 10510100', 'et�isyys 105.72792206135784')"
+
+262 dijkstra den206d.map,"('t: 10719600', 'et�isyys 104.72792206135784')"
+
+263 dijkstra den206d.map,"('t: 20199400', 'et�isyys 106.97056274847711')"
+
+264 dijkstra den206d.map,"('t: 15154800', 'et�isyys 106.48528137423857')"
+
+265 dijkstra den206d.map,"('t: 14717800', 'et�isyys 106.55634918610403')"
+
+266 dijkstra den206d.map,"('t: 7170300', 'et�isyys 107.42640687119278')"
+
+267 dijkstra den206d.map,"('t: 9026700', 'et�isyys 104.698484809835')"
+
+268 dijkstra den206d.map,"('t: 10787000', 'et�isyys 105.65685424949238')"
+
+269 dijkstra den206d.map,"('t: 28725000', 'et�isyys 104.79898987322329')"
+
+270 dijkstra den206d.map,"('t: 29678500', 'et�isyys 108.76955262170041')"
+
+271 dijkstra den206d.map,"('t: 23057500', 'et�isyys 110.3553390593273')"
+
+272 dijkstra den206d.map,"('t: 9596300', 'et�isyys 110.52691193458116')"
+
+273 dijkstra den206d.map,"('t: 14562100', 'et�isyys 111.35533905932736')"
+
+274 dijkstra den206d.map,"('t: 19618600', 'et�isyys 110.7695526217004')"
+
+275 dijkstra den206d.map,"('t: 6897900', 'et�isyys 110.91168824543135')"
+
+276 dijkstra den206d.map,"('t: 19879800', 'et�isyys 108.42640687119277')"
+
+277 dijkstra den206d.map,"('t: 15119500', 'et�isyys 110.79898987322332')"
+
+278 dijkstra den206d.map,"('t: 15056900', 'et�isyys 108.07106781186546')"
+
+279 dijkstra den206d.map,"('t: 12258800', 'et�isyys 109.14213562373094')"
+
+280 dijkstra den206d.map,"('t: 17383100', 'et�isyys 113.97056274847712')"
+
+281 dijkstra den206d.map,"('t: 19638600', 'et�isyys 115.52691193458112')"
+
+282 dijkstra den206d.map,"('t: 8428900', 'et�isyys 114.87005768508877')"
+
+283 dijkstra den206d.map,"('t: 21265500', 'et�isyys 115.48528137423855')"
+
+284 dijkstra den206d.map,"('t: 9048600', 'et�isyys 115.69848480983497')"
+
+285 dijkstra den206d.map,"('t: 21494700', 'et�isyys 112.59797974644658')"
+
+286 dijkstra den206d.map,"('t: 9490500', 'et�isyys 112.698484809835')"
+
+287 dijkstra den206d.map,"('t: 18304800', 'et�isyys 112.62741699796949')"
+
+288 dijkstra den206d.map,"('t: 17606400', 'et�isyys 115.76955262170044')"
+
+289 dijkstra den206d.map,"('t: 7512000', 'et�isyys 113.32590180780446')"
+
+290 dijkstra den206d.map,"('t: 14875400', 'et�isyys 117.42640687119278')"
+
+291 dijkstra den206d.map,"('t: 17462700', 'et�isyys 118.48528137423855')"
+
+292 dijkstra den206d.map,"('t: 10925900', 'et�isyys 119.87005768508882')"
+
+293 dijkstra den206d.map,"('t: 14369600', 'et�isyys 119.79898987322329')"
+
+294 dijkstra den206d.map,"('t: 7664600', 'et�isyys 118.11269837220803')"
+
+295 dijkstra den206d.map,"('t: 23246700', 'et�isyys 118.01219330881969')"
+
+296 dijkstra den206d.map,"('t: 8440500', 'et�isyys 119.94112549695423')"
+
+297 dijkstra den206d.map,"('t: 10929000', 'et�isyys 118.94112549695426')"
+
+298 dijkstra den206d.map,"('t: 10863800', 'et�isyys 119.21320343559644')"
+
+299 dijkstra den206d.map,"('t: 18402500', 'et�isyys 118.62741699796948')"
+
+300 dijkstra den206d.map,"('t: 15266600', 'et�isyys 122.72792206135783')"
+
+301 dijkstra den206d.map,"('t: 9477300', 'et�isyys 120.87005768508878')"
+
+302 dijkstra den206d.map,"('t: 19654500', 'et�isyys 122.3847763108502')"
+
+303 dijkstra den206d.map,"('t: 14479100', 'et�isyys 121.01219330881969')"
+
+304 dijkstra den206d.map,"('t: 15458600', 'et�isyys 121.72792206135784')"
+
+305 dijkstra den206d.map,"('t: 16049800', 'et�isyys 121.52691193458114')"
+
+306 dijkstra den206d.map,"('t: 12236800', 'et�isyys 120.2842712474619')"
+
+307 dijkstra den206d.map,"('t: 19362100', 'et�isyys 121.21320343559638')"
+
+308 dijkstra den206d.map,"('t: 15167500', 'et�isyys 122.35533905932736')"
+
+309 dijkstra den206d.map,"('t: 7510900', 'et�isyys 120.66904755831207')"
+
+310 dijkstra den206d.map,"('t: 8338800', 'et�isyys 126.5979797464466')"
+
+311 dijkstra den206d.map,"('t: 15385200', 'et�isyys 125.65685424949237')"
+
+312 dijkstra den206d.map,"('t: 7981400', 'et�isyys 125.84062043356589')"
+
+313 dijkstra den206d.map,"('t: 16293100', 'et�isyys 127.14213562373094')"
+
+314 dijkstra den206d.map,"('t: 18326000', 'et�isyys 126.3553390593273')"
+
+315 dijkstra den206d.map,"('t: 19493300', 'et�isyys 125.69848480983494')"
+
+316 dijkstra den206d.map,"('t: 8537600', 'et�isyys 126.11269837220804')"
+
+317 dijkstra den206d.map,"('t: 19390200', 'et�isyys 126.55634918610401')"
+
+318 dijkstra den206d.map,"('t: 15835800', 'et�isyys 127.35533905932736')"
+
+319 dijkstra den206d.map,"('t: 15414600', 'et�isyys 124.35533905932732')"
+
+320 dijkstra den206d.map,"('t: 16938300', 'et�isyys 130.76955262170043')"
+
+321 dijkstra den206d.map,"('t: 18360000', 'et�isyys 128.11269837220806')"
+
+322 dijkstra den206d.map,"('t: 7605600', 'et�isyys 128.1837661840735')"
+
+323 dijkstra den206d.map,"('t: 19165400', 'et�isyys 130.0121933088197')"
+
+324 dijkstra den206d.map,"('t: 6577200', 'et�isyys 128.08326112068517')"
+
+325 dijkstra den206d.map,"('t: 15610200', 'et�isyys 128.04163056034258')"
+
+326 dijkstra den206d.map,"('t: 15615300', 'et�isyys 130.1837661840735')"
+
+327 dijkstra den206d.map,"('t: 16681300', 'et�isyys 129.89949493661163')"
+
+328 dijkstra den206d.map,"('t: 16643000', 'et�isyys 131.72792206135784')"
+
+329 dijkstra den206d.map,"('t: 18603200', 'et�isyys 131.62741699796948')"
+
+330 dijkstra den206d.map,"('t: 12669000', 'et�isyys 132.69848480983498')"
+
+331 dijkstra den206d.map,"('t: 17897000', 'et�isyys 132.7695526217004')"
+
+332 dijkstra den206d.map,"('t: 18062000', 'et�isyys 132.11269837220803')"
+
+333 dijkstra den206d.map,"('t: 18618200', 'et�isyys 135.18376618407353')"
+
+334 dijkstra den206d.map,"('t: 16982400', 'et�isyys 132.2132034355964')"
+
+335 dijkstra den206d.map,"('t: 21116600', 'et�isyys 135.32590180780446')"
+
+336 dijkstra den206d.map,"('t: 6849000', 'et�isyys 132.84062043356587')"
+
+337 dijkstra den206d.map,"('t: 21375300', 'et�isyys 133.94112549695421')"
+
+338 dijkstra den206d.map,"('t: 17797600', 'et�isyys 132.1837661840735')"
+
+339 dijkstra den206d.map,"('t: 7917100', 'et�isyys 133.59797974644658')"
+
+340 dijkstra den206d.map,"('t: 17901400', 'et�isyys 139.91168824543138')"
+
+341 dijkstra den206d.map,"('t: 16187600', 'et�isyys 137.6274169979695')"
+
+342 dijkstra den206d.map,"('t: 15881900', 'et�isyys 139.04163056034264')"
+
+343 dijkstra den206d.map,"('t: 7708000', 'et�isyys 138.76955262170043')"
+
+344 dijkstra den206d.map,"('t: 14855700', 'et�isyys 136.0121933088197')"
+
+345 dijkstra den206d.map,"('t: 15987800', 'et�isyys 136.698484809835')"
+
+346 dijkstra den206d.map,"('t: 17934700', 'et�isyys 139.45584412271575')"
+
+347 dijkstra den206d.map,"('t: 17186600', 'et�isyys 138.87005768508882')"
+
+348 dijkstra den206d.map,"('t: 16339600', 'et�isyys 139.31370849898474')"
+
+349 dijkstra den206d.map,"('t: 23972900', 'et�isyys 136.32590180780443')"
+
+350 dijkstra den206d.map,"('t: 17941000', 'et�isyys 141.76955262170043')"
+
+351 dijkstra den206d.map,"('t: 17672600', 'et�isyys 143.5269119345812')"
+
+352 dijkstra den206d.map,"('t: 20703200', 'et�isyys 142.76955262170043')"
+
+353 dijkstra den206d.map,"('t: 20433900', 'et�isyys 142.35533905932732')"
+
+354 dijkstra den206d.map,"('t: 16358300', 'et�isyys 140.14213562373098')"
+
+355 dijkstra den206d.map,"('t: 17159500', 'et�isyys 140.55634918610403')"
+
+356 dijkstra den206d.map,"('t: 9554100', 'et�isyys 140.6690475583121')"
+
+357 dijkstra den206d.map,"('t: 11333200', 'et�isyys 140.15432893255073')"
+
+358 dijkstra den206d.map,"('t: 10914900', 'et�isyys 140.11269837220806')"
+
+359 dijkstra den206d.map,"('t: 17289800', 'et�isyys 143.69848480983504')"
+
+360 dijkstra den206d.map,"('t: 17415300', 'et�isyys 144.39696961967002')"
+
+361 dijkstra den206d.map,"('t: 18192100', 'et�isyys 147.18376618407353')"
+
+362 dijkstra den206d.map,"('t: 7827600', 'et�isyys 147.08326112068517')"
+
+363 dijkstra den206d.map,"('t: 17940800', 'et�isyys 145.91168824543138')"
+
+364 dijkstra den206d.map,"('t: 17813300', 'et�isyys 147.42640687119285')"
+
+365 dijkstra den206d.map,"('t: 16851200', 'et�isyys 145.11269837220817')"
+
+366 dijkstra den206d.map,"('t: 16421400', 'et�isyys 147.18376618407365')"
+
+367 dijkstra den206d.map,"('t: 15946100', 'et�isyys 144.76955262170043')"
+
+368 dijkstra den206d.map,"('t: 18157600', 'et�isyys 147.18376618407365')"
+
+369 dijkstra den206d.map,"('t: 14214800', 'et�isyys 147.74011537017762')"
+
+370 dijkstra den206d.map,"('t: 7323500', 'et�isyys 148.25483399593898')"
+
+371 dijkstra den206d.map,"('t: 19473200', 'et�isyys 151.4558441227157')"
+
+372 dijkstra den206d.map,"('t: 15793800', 'et�isyys 148.45584412271572')"
+
+373 dijkstra den206d.map,"('t: 16966900', 'et�isyys 151.18376618407365')"
+
+374 dijkstra den206d.map,"('t: 20159700', 'et�isyys 148.94112549695433')"
+
+375 dijkstra den206d.map,"('t: 15920200', 'et�isyys 150.42640687119285')"
+
+376 dijkstra den206d.map,"('t: 20039500', 'et�isyys 150.0121933088198')"
+
+377 dijkstra den206d.map,"('t: 16815800', 'et�isyys 148.11269837220814')"
+
+378 dijkstra den206d.map,"('t: 13325600', 'et�isyys 149.94112549695427')"
+
+379 dijkstra den206d.map,"('t: 16556900', 'et�isyys 151.4558441227158')"
+
+380 dijkstra den206d.map,"('t: 19070600', 'et�isyys 152.25483399593907')"
+
+381 dijkstra den206d.map,"('t: 19271200', 'et�isyys 154.94112549695424')"
+
+382 dijkstra den206d.map,"('t: 13022800', 'et�isyys 154.08326112068525')"
+
+383 dijkstra den206d.map,"('t: 20690400', 'et�isyys 155.59797974644664')"
+
+384 dijkstra den206d.map,"('t: 10411400', 'et�isyys 153.254833995939')"
+
+385 dijkstra den206d.map,"('t: 18897100', 'et�isyys 152.42640687119285')"
+
+386 dijkstra den206d.map,"('t: 18139400', 'et�isyys 152.94112549695424')"
+
+387 dijkstra den206d.map,"('t: 17020600', 'et�isyys 153.7695526217006')"
+
+388 dijkstra den206d.map,"('t: 17065500', 'et�isyys 155.11269837220826')"
+
+389 dijkstra den206d.map,"('t: 11104600', 'et�isyys 155.5979797464466')"
+
+390 dijkstra den206d.map,"('t: 7802400', 'et�isyys 159.15432893255067')"
+
+391 dijkstra den206d.map,"('t: 22803400', 'et�isyys 159.15432893255075')"
+
+392 dijkstra den206d.map,"('t: 10172100', 'et�isyys 156.63961030678934')"
+
+393 dijkstra den206d.map,"('t: 21861400', 'et�isyys 157.6690475583122')"
+
+394 dijkstra den206d.map,"('t: 11629700', 'et�isyys 158.66904755831214')"
+
+395 dijkstra den206d.map,"('t: 17276200', 'et�isyys 156.982756057297')"
+
+396 dijkstra den206d.map,"('t: 20374100', 'et�isyys 156.42640687119285')"
+
+397 dijkstra den206d.map,"('t: 20583800', 'et�isyys 157.1837661840736')"
+
+398 dijkstra den206d.map,"('t: 17628300', 'et�isyys 159.39696961967002')"
+
+399 dijkstra den206d.map,"('t: 15698800', 'et�isyys 159.08326112068522')"
+
+400 dijkstra den206d.map,"('t: 21172000', 'et�isyys 160.66904755831223')"
+
+401 dijkstra den206d.map,"('t: 14839900', 'et�isyys 161.52691193458122')"
+
+402 dijkstra den206d.map,"('t: 17263200', 'et�isyys 160.94112549695447')"
+
+403 dijkstra den206d.map,"('t: 19462300', 'et�isyys 163.11269837220814')"
+
+404 dijkstra den206d.map,"('t: 17927000', 'et�isyys 160.84062043356616')"
+
+405 dijkstra den206d.map,"('t: 18345100', 'et�isyys 160.426406871193')"
+
+406 dijkstra den206d.map,"('t: 17396900', 'et�isyys 160.39696961967013')"
+
+407 dijkstra den206d.map,"('t: 20948300', 'et�isyys 163.08326112068528')"
+
+408 dijkstra den206d.map,"('t: 20048300', 'et�isyys 160.56854249492386')"
+
+409 dijkstra den206d.map,"('t: 21065700', 'et�isyys 161.49747468305839')"
+
+410 dijkstra den206d.map,"('t: 21105200', 'et�isyys 165.84062043356593')"
+
+411 dijkstra den206d.map,"('t: 15827200', 'et�isyys 164.08326112068525')"
+
+412 dijkstra den206d.map,"('t: 20868000', 'et�isyys 165.42640687119285')"
+
+413 dijkstra den206d.map,"('t: 16778300', 'et�isyys 167.39696961967013')"
+
+414 dijkstra den206d.map,"('t: 11695000', 'et�isyys 166.9827560572969')"
+
+415 dijkstra den206d.map,"('t: 12853800', 'et�isyys 167.01219330881972')"
+
+416 dijkstra den206d.map,"('t: 16569900', 'et�isyys 167.35533905932758')"
+
+417 dijkstra den206d.map,"('t: 13465500', 'et�isyys 164.18376618407356')"
+
+418 dijkstra den206d.map,"('t: 21312800', 'et�isyys 166.74011537017776')"
+
+419 dijkstra den206d.map,"('t: 10427200', 'et�isyys 164.42640687119285')"
+
+420 dijkstra den206d.map,"('t: 12341700', 'et�isyys 170.12489168102803')"
+
+421 dijkstra den206d.map,"('t: 22135900', 'et�isyys 170.49747468305839')"
+
+422 dijkstra den206d.map,"('t: 19876400', 'et�isyys 170.46803743153552')"
+
+423 dijkstra den206d.map,"('t: 18699600', 'et�isyys 168.7695526217005')"
+
+424 dijkstra den206d.map,"('t: 14475000', 'et�isyys 170.81118318204324')"
+
+425 dijkstra den206d.map,"('t: 21415500', 'et�isyys 171.49747468305833')"
+
+426 dijkstra den206d.map,"('t: 17948600', 'et�isyys 170.25483399593918')"
+
+427 dijkstra den206d.map,"('t: 14256000', 'et�isyys 168.6396103067894')"
+
+428 dijkstra den206d.map,"('t: 20951500', 'et�isyys 171.22539674441643')"
+
+429 dijkstra den206d.map,"('t: 15542500', 'et�isyys 168.6690475583122')"
+
+430 dijkstra den206d.map,"('t: 15422000', 'et�isyys 172.39696961967007')"
+
+431 dijkstra den206d.map,"('t: 13355600', 'et�isyys 173.49747468305839')"
+
+432 dijkstra den206d.map,"('t: 12090300', 'et�isyys 173.15432893255078')"
+
+433 dijkstra den206d.map,"('t: 20065500', 'et�isyys 172.22539674441623')"
+
+434 dijkstra den206d.map,"('t: 13083400', 'et�isyys 173.08326112068528')"
+
+435 dijkstra den206d.map,"('t: 12942200', 'et�isyys 174.46803743153566')"
+
+436 dijkstra den206d.map,"('t: 7912700', 'et�isyys 173.22539674441617')"
+
+437 dijkstra den206d.map,"('t: 19352600', 'et�isyys 172.91168824543158')"
+
+438 dijkstra den206d.map,"('t: 20345100', 'et�isyys 175.4264068711929')"
+
+439 dijkstra den206d.map,"('t: 17265700', 'et�isyys 172.01219330881995')"
+
+440 dijkstra den206d.map,"('t: 17232800', 'et�isyys 177.11269837220811')"
+
+441 dijkstra den206d.map,"('t: 8790400', 'et�isyys 177.3259018078045')"
+
+442 dijkstra den206d.map,"('t: 15134600', 'et�isyys 178.4974746830583')"
+
+443 dijkstra den206d.map,"('t: 18601900', 'et�isyys 179.18376618407368')"
+
+444 dijkstra den206d.map,"('t: 9579200', 'et�isyys 178.2253967444163')"
+
+445 dijkstra den206d.map,"('t: 17569000', 'et�isyys 176.4974746830585')"
+
+446 dijkstra den206d.map,"('t: 18641000', 'et�isyys 178.52691193458122')"
+
+447 dijkstra den206d.map,"('t: 13986200', 'et�isyys 179.2253967444163')"
+
+448 dijkstra den206d.map,"('t: 11010100', 'et�isyys 178.32590180780457')"
+
+449 dijkstra den206d.map,"('t: 17181100', 'et�isyys 179.35533905932755')"
+
+450 dijkstra den206d.map,"('t: 17111500', 'et�isyys 181.7695526217007')"
+
+451 dijkstra den206d.map,"('t: 18385100', 'et�isyys 182.08326112068545')"
+
+452 dijkstra den206d.map,"('t: 17904400', 'et�isyys 183.05382386916256')"
+
+453 dijkstra den206d.map,"('t: 17283100', 'et�isyys 180.42640687119288')"
+
+454 dijkstra den206d.map,"('t: 8723700', 'et�isyys 182.25483399593898')"
+
+455 dijkstra den206d.map,"('t: 14339400', 'et�isyys 181.01219330881975')"
+
+456 dijkstra den206d.map,"('t: 21890500', 'et�isyys 182.1543289325508')"
+
+457 dijkstra den206d.map,"('t: 8451600', 'et�isyys 180.98275605729694')"
+
+458 dijkstra den206d.map,"('t: 18599900', 'et�isyys 181.66904755831234')"
+
+459 dijkstra den206d.map,"('t: 20929300', 'et�isyys 181.05382386916258')"
+
+460 dijkstra den206d.map,"('t: 14266100', 'et�isyys 187.95331880577424')"
+
+461 dijkstra den206d.map,"('t: 9403100', 'et�isyys 186.29646455628176')"
+
+462 dijkstra den206d.map,"('t: 9943300', 'et�isyys 187.81118318204315')"
+
+463 dijkstra den206d.map,"('t: 20613500', 'et�isyys 184.08326112068545')"
+
+464 dijkstra den206d.map,"('t: 22474800', 'et�isyys 187.56854249492392')"
+
+465 dijkstra den206d.map,"('t: 17237900', 'et�isyys 184.8406204335662')"
+
+466 dijkstra den206d.map,"('t: 19505400', 'et�isyys 186.01219330881975')"
+
+467 dijkstra den206d.map,"('t: 22164900', 'et�isyys 184.98275605729702')"
+
+468 dijkstra den206d.map,"('t: 18562900', 'et�isyys 185.18376618407376')"
+
+469 dijkstra den206d.map,"('t: 16907300', 'et�isyys 187.3259018078046')"
+
+470 dijkstra den206d.map,"('t: 16675700', 'et�isyys 189.4974746830585')"
+
+471 dijkstra den206d.map,"('t: 18552000', 'et�isyys 190.42640687119308')"
+
+472 dijkstra den206d.map,"('t: 16774300', 'et�isyys 188.22539674441637')"
+
+473 dijkstra den206d.map,"('t: 16966900', 'et�isyys 188.66904755831223')"
+
+474 dijkstra den206d.map,"('t: 19901600', 'et�isyys 188.66904755831237')"
+
+475 dijkstra den206d.map,"('t: 17987000', 'et�isyys 188.81118318204327')"
+
+476 dijkstra den206d.map,"('t: 19143000', 'et�isyys 191.49747468305844')"
+
+477 dijkstra den206d.map,"('t: 18564300', 'et�isyys 190.56854249492392')"
+
+478 dijkstra den206d.map,"('t: 12841900', 'et�isyys 188.78174593052043')"
+
+479 dijkstra den206d.map,"('t: 21571300', 'et�isyys 189.6690475583123')"
+
+480 dijkstra den206d.map,"('t: 21056900', 'et�isyys 195.98275605729702')"
+
+481 dijkstra den206d.map,"('t: 19549200', 'et�isyys 194.25483399593935')"
+
+482 dijkstra den206d.map,"('t: 18090500', 'et�isyys 193.81118318204335')"
+
+483 dijkstra den206d.map,"('t: 21641800', 'et�isyys 192.68124086713217')"
+
+484 dijkstra den206d.map,"('t: 12843900', 'et�isyys 194.63961030678928')"
+
+485 dijkstra den206d.map,"('t: 18700300', 'et�isyys 193.66904755831237')"
+
+486 dijkstra den206d.map,"('t: 15594400', 'et�isyys 195.08326112068522')"
+
+487 dijkstra den206d.map,"('t: 22341700', 'et�isyys 194.3259018078046')"
+
+488 dijkstra den206d.map,"('t: 15259300', 'et�isyys 192.8111831820431')"
+
+489 dijkstra den206d.map,"('t: 21006700', 'et�isyys 194.22539674441634')"
+
+490 dijkstra den206d.map,"('t: 20055100', 'et�isyys 199.08326112068528')"
+
+491 dijkstra den206d.map,"('t: 20529900', 'et�isyys 197.39696961967013')"
+
+492 dijkstra den206d.map,"('t: 20774900', 'et�isyys 199.3259018078046')"
+
+493 dijkstra den206d.map,"('t: 19526300', 'et�isyys 196.91168824543152')"
+
+494 dijkstra den206d.map,"('t: 17509200', 'et�isyys 199.88225099390866')"
+
+495 dijkstra den206d.map,"('t: 15680800', 'et�isyys 199.1543289325508')"
+
+496 dijkstra den206d.map,"('t: 20959200', 'et�isyys 199.1837661840738')"
+
+497 dijkstra den206d.map,"('t: 20195700', 'et�isyys 196.0121933088198')"
+
+498 dijkstra den206d.map,"('t: 22703300', 'et�isyys 196.15432893255078')"
+
+499 dijkstra den206d.map,"('t: 18853500', 'et�isyys 196.84062043356624')"
+
+500 dijkstra den206d.map,"('t: 20155900', 'et�isyys 203.5391052434011')"
+
+501 dijkstra den206d.map,"('t: 20495800', 'et�isyys 203.7106781186551')"
+
+502 dijkstra den206d.map,"('t: 21202500', 'et�isyys 200.81118318204324')"
+
+503 dijkstra den206d.map,"('t: 21920500', 'et�isyys 200.5685424949241')"
+
+504 dijkstra den206d.map,"('t: 20754700', 'et�isyys 200.22539674441657')"
+
+505 dijkstra den206d.map,"('t: 20713100', 'et�isyys 203.56854249492397')"
+
+506 dijkstra den206d.map,"('t: 16991200', 'et�isyys 200.7106781186549')"
+
+507 dijkstra den206d.map,"('t: 16082000', 'et�isyys 202.88225099390866')"
+
+508 dijkstra den206d.map,"('t: 22393800', 'et�isyys 201.81118318204324')"
+
+509 dijkstra den206d.map,"('t: 20583300', 'et�isyys 203.95331880577427')"
+
+510 dijkstra den206d.map,"('t: 20461200', 'et�isyys 206.78174593052051')"
+
+511 dijkstra den206d.map,"('t: 14981300', 'et�isyys 204.7401153701776')"
+
+512 dijkstra den206d.map,"('t: 19418000', 'et�isyys 204.22539674441643')"
+
+513 dijkstra den206d.map,"('t: 20347900', 'et�isyys 204.1248916810282')"
+
+514 dijkstra den206d.map,"('t: 18273100', 'et�isyys 204.81118318204318')"
+
+515 dijkstra den206d.map,"('t: 22090900', 'et�isyys 204.7817459305204')"
+
+516 dijkstra den206d.map,"('t: 19691500', 'et�isyys 204.46803743153572')"
+
+517 dijkstra den206d.map,"('t: 21241500', 'et�isyys 206.98275605729705')"
+
+518 dijkstra den206d.map,"('t: 12211000', 'et�isyys 206.0538238691624')"
+
+519 dijkstra den206d.map,"('t: 20002400', 'et�isyys 204.1837661840738')"
+
+520 dijkstra den206d.map,"('t: 12735100', 'et�isyys 209.71067811865493')"
+
+521 dijkstra den206d.map,"('t: 22053500', 'et�isyys 208.81118318204324')"
+
+522 dijkstra den206d.map,"('t: 18865700', 'et�isyys 211.78174593052057')"
+
+523 dijkstra den206d.map,"('t: 20343800', 'et�isyys 208.29646455628188')"
+
+524 dijkstra den206d.map,"('t: 20958000', 'et�isyys 208.71067811865493')"
+
+525 dijkstra den206d.map,"('t: 21876700', 'et�isyys 211.71067811865498')"
+
+526 dijkstra den206d.map,"('t: 15990100', 'et�isyys 209.3969696196701')"
+
+527 dijkstra den206d.map,"('t: 21079200', 'et�isyys 208.88225099390877')"
+
+528 dijkstra den206d.map,"('t: 12270100', 'et�isyys 208.98275605729685')"
+
+529 dijkstra den206d.map,"('t: 21418500', 'et�isyys 209.05382386916253')"
+
+530 dijkstra den206d.map,"('t: 21861600', 'et�isyys 215.05382386916267')"
+
+531 dijkstra den206d.map,"('t: 20519400', 'et�isyys 212.85281374238602')"
+
+532 dijkstra den206d.map,"('t: 21855800', 'et�isyys 213.3675323681473')"
+
+533 dijkstra den206d.map,"('t: 19369200', 'et�isyys 213.71067811865498')"
+
+534 dijkstra den206d.map,"('t: 22674100', 'et�isyys 213.95331880577442')"
+
+535 dijkstra den206d.map,"('t: 21605700', 'et�isyys 212.39696961967033')"
+
+536 dijkstra den206d.map,"('t: 13745900', 'et�isyys 214.39696961967007')"
+
+537 dijkstra den206d.map,"('t: 18138100', 'et�isyys 212.9116882454314')"
+
+538 dijkstra den206d.map,"('t: 19478800', 'et�isyys 213.29646455628193')"
+
+539 dijkstra den206d.map,"('t: 21310000', 'et�isyys 214.81118318204346')"
+
+540 dijkstra den206d.map,"('t: 20046800', 'et�isyys 217.46803743153558')"
+
+541 dijkstra den206d.map,"('t: 18159900', 'et�isyys 217.9827560572969')"
+
+542 dijkstra den206d.map,"('t: 16967200', 'et�isyys 216.3675323681473')"
+
+543 dijkstra den206d.map,"('t: 20106000', 'et�isyys 219.5391052434012')"
+
+544 dijkstra den206d.map,"('t: 21603200', 'et�isyys 216.74011537017785')"
+
+545 dijkstra den206d.map,"('t: 19771700', 'et�isyys 216.8822509939087')"
+
+546 dijkstra den206d.map,"('t: 21588900', 'et�isyys 218.05382386916276')"
+
+547 dijkstra den206d.map,"('t: 21593500', 'et�isyys 217.22539674441649')"
+
+548 dijkstra den206d.map,"('t: 21973900', 'et�isyys 217.71067811865515')"
+
+549 dijkstra den206d.map,"('t: 21639700', 'et�isyys 217.5685424949241')"
+
+550 dijkstra den206d.map,"('t: 21435500', 'et�isyys 221.5685424949241')"
+
+551 dijkstra den206d.map,"('t: 21018700', 'et�isyys 220.02438661763972')"
+
+552 dijkstra den206d.map,"('t: 21323200', 'et�isyys 221.39696961967027')"
+
+553 dijkstra den206d.map,"('t: 15324900', 'et�isyys 222.95331880577413')"
+
+554 dijkstra den206d.map,"('t: 14214800', 'et�isyys 221.22539674441617')"
+
+555 dijkstra den206d.map,"('t: 20861600', 'et�isyys 222.22539674441654')"
+
+556 dijkstra den206d.map,"('t: 21072600', 'et�isyys 222.71067811865515')"
+
+557 dijkstra den206d.map,"('t: 20096100', 'et�isyys 221.85281374238593')"
+
+558 dijkstra den206d.map,"('t: 20414500', 'et�isyys 223.05382386916256')"
+
+559 dijkstra den206d.map,"('t: 22425300', 'et�isyys 222.74011537017796')"
+
+560 dijkstra den206d.map,"('t: 21785700', 'et�isyys 227.22539674441657')"
+
+561 dijkstra den206d.map,"('t: 20635500', 'et�isyys 224.5391052434012')"
+
+562 dijkstra den206d.map,"('t: 20699400', 'et�isyys 225.3675323681474')"
+
+563 dijkstra den206d.map,"('t: 19105400', 'et�isyys 224.19595949289356')"
+
+564 dijkstra den206d.map,"('t: 18835400', 'et�isyys 224.49747468305833')"
+
+565 dijkstra den206d.map,"('t: 21006600', 'et�isyys 224.39696961967036')"
+
+566 dijkstra den206d.map,"('t: 22149600', 'et�isyys 224.39696961967036')"
+
+567 dijkstra den206d.map,"('t: 16282900', 'et�isyys 225.98275605729685')"
+
+568 dijkstra den206d.map,"('t: 21656900', 'et�isyys 226.29646455628202')"
+
+569 dijkstra den206d.map,"('t: 20090600', 'et�isyys 225.53910524340117')"
+
+570 dijkstra den206d.map,"('t: 15703200', 'et�isyys 231.12489168102798')"
+
+571 dijkstra den206d.map,"('t: 18402100', 'et�isyys 230.12489168102803')"
+
+572 dijkstra den206d.map,"('t: 20627300', 'et�isyys 228.29646455628188')"
+
+573 dijkstra den206d.map,"('t: 15011000', 'et�isyys 230.9116882454314')"
+
+574 dijkstra den206d.map,"('t: 22100600', 'et�isyys 231.26702730475918')"
+
+575 dijkstra den206d.map,"('t: 22173600', 'et�isyys 228.53910524340134')"
+
+576 dijkstra den206d.map,"('t: 20423200', 'et�isyys 229.4680374315356')"
+
+577 dijkstra den206d.map,"('t: 22769600', 'et�isyys 231.1248916810282')"
+
+578 dijkstra den206d.map,"('t: 20975600', 'et�isyys 228.9238815542514')"
+
+579 dijkstra den206d.map,"('t: 21780600', 'et�isyys 231.63961030678962')"
+
+0 dijkstra orz200d.map,"('t: 62300', 'et�isyys 3.414213562373095')"
+
+1 dijkstra orz200d.map,"('t: 36300', 'et�isyys 1')"
+
+2 dijkstra orz200d.map,"('t: 89900', 'et�isyys 2.414213562373095')"
+
+3 dijkstra orz200d.map,"('t: 174600', 'et�isyys 3.414213562373095')"
+
+4 dijkstra orz200d.map,"('t: 67600', 'et�isyys 2')"
+
+5 dijkstra orz200d.map,"('t: 142800', 'et�isyys 2.8284271247461903')"
+
+6 dijkstra orz200d.map,"('t: 132600', 'et�isyys 3')"
+
+7 dijkstra orz200d.map,"('t: 160900', 'et�isyys 3.414213562373095')"
+
+8 dijkstra orz200d.map,"('t: 50500', 'et�isyys 2')"
+
+9 dijkstra orz200d.map,"('t: 151700', 'et�isyys 3.414213562373095')"
+
+10 dijkstra orz200d.map,"('t: 667000', 'et�isyys 6.82842712474619')"
+
+11 dijkstra orz200d.map,"('t: 371800', 'et�isyys 6.82842712474619')"
+
+12 dijkstra orz200d.map,"('t: 383700', 'et�isyys 6')"
+
+13 dijkstra orz200d.map,"('t: 401500', 'et�isyys 7.65685424949238')"
+
+14 dijkstra orz200d.map,"('t: 327400', 'et�isyys 6.414213562373095')"
+
+15 dijkstra orz200d.map,"('t: 324800', 'et�isyys 6.414213562373095')"
+
+16 dijkstra orz200d.map,"('t: 165200', 'et�isyys 5')"
+
+17 dijkstra orz200d.map,"('t: 235200', 'et�isyys 5.656854249492381')"
+
+18 dijkstra orz200d.map,"('t: 343800', 'et�isyys 6.414213562373095')"
+
+19 dijkstra orz200d.map,"('t: 819200', 'et�isyys 7.656854249492381')"
+
+20 dijkstra orz200d.map,"('t: 1106500', 'et�isyys 9.242640687119284')"
+
+21 dijkstra orz200d.map,"('t: 1403000', 'et�isyys 10.071067811865476')"
+
+22 dijkstra orz200d.map,"('t: 1389000', 'et�isyys 10.242640687119284')"
+
+23 dijkstra orz200d.map,"('t: 860200', 'et�isyys 10.242640687119284')"
+
+24 dijkstra orz200d.map,"('t: 1044100', 'et�isyys 11.071067811865476')"
+
+25 dijkstra orz200d.map,"('t: 1072300', 'et�isyys 9.65685424949238')"
+
+26 dijkstra orz200d.map,"('t: 792900', 'et�isyys 8.071067811865476')"
+
+27 dijkstra orz200d.map,"('t: 1710000', 'et�isyys 10.485281374238571')"
+
+28 dijkstra orz200d.map,"('t: 337100', 'et�isyys 10.242640687119284')"
+
+29 dijkstra orz200d.map,"('t: 1475500', 'et�isyys 11.071067811865476')"
+
+30 dijkstra orz200d.map,"('t: 2337300', 'et�isyys 15.142135623730955')"
+
+31 dijkstra orz200d.map,"('t: 1975600', 'et�isyys 13.414213562373096')"
+
+32 dijkstra orz200d.map,"('t: 1455500', 'et�isyys 15.242640687119286')"
+
+33 dijkstra orz200d.map,"('t: 868100', 'et�isyys 13.656854249492383')"
+
+34 dijkstra orz200d.map,"('t: 4003600', 'et�isyys 15.82842712474619')"
+
+35 dijkstra orz200d.map,"('t: 3127800', 'et�isyys 15.65685424949238')"
+
+36 dijkstra orz200d.map,"('t: 2855000', 'et�isyys 14.727922061357859')"
+
+37 dijkstra orz200d.map,"('t: 2458300', 'et�isyys 13.485281374238571')"
+
+38 dijkstra orz200d.map,"('t: 1939700', 'et�isyys 13.071067811865476')"
+
+39 dijkstra orz200d.map,"('t: 1909000', 'et�isyys 12.485281374238571')"
+
+40 dijkstra orz200d.map,"('t: 2805400', 'et�isyys 16.242640687119284')"
+
+41 dijkstra orz200d.map,"('t: 3011400', 'et�isyys 19.071067811865476')"
+
+42 dijkstra orz200d.map,"('t: 2314200', 'et�isyys 17.242640687119284')"
+
+43 dijkstra orz200d.map,"('t: 3414900', 'et�isyys 17.970562748477146')"
+
+44 dijkstra orz200d.map,"('t: 3927600', 'et�isyys 16.65685424949238')"
+
+45 dijkstra orz200d.map,"('t: 2033200', 'et�isyys 19.899494936611667')"
+
+46 dijkstra orz200d.map,"('t: 5072600', 'et�isyys 19.313708498984763')"
+
+47 dijkstra orz200d.map,"('t: 695600', 'et�isyys 17.071067811865476')"
+
+48 dijkstra orz200d.map,"('t: 759400', 'et�isyys 18.48528137423857')"
+
+49 dijkstra orz200d.map,"('t: 3903500', 'et�isyys 16.72792206135786')"
+
+50 dijkstra orz200d.map,"('t: 4263600', 'et�isyys 21.970562748477146')"
+
+51 dijkstra orz200d.map,"('t: 4213700', 'et�isyys 22.899494936611667')"
+
+52 dijkstra orz200d.map,"('t: 6129400', 'et�isyys 21.242640687119287')"
+
+53 dijkstra orz200d.map,"('t: 4559700', 'et�isyys 20.82842712474619')"
+
+54 dijkstra orz200d.map,"('t: 7082300', 'et�isyys 21.899494936611667')"
+
+55 dijkstra orz200d.map,"('t: 3464600', 'et�isyys 23.62741699796953')"
+
+56 dijkstra orz200d.map,"('t: 2803900', 'et�isyys 21.72792206135786')"
+
+57 dijkstra orz200d.map,"('t: 931700', 'et�isyys 20.89949493661167')"
+
+58 dijkstra orz200d.map,"('t: 761900', 'et�isyys 23.899494936611667')"
+
+59 dijkstra orz200d.map,"('t: 4585200', 'et�isyys 21.242640687119284')"
+
+60 dijkstra orz200d.map,"('t: 3424900', 'et�isyys 25.414213562373096')"
+
+61 dijkstra orz200d.map,"('t: 5811300', 'et�isyys 26.313708498984763')"
+
+62 dijkstra orz200d.map,"('t: 6782700', 'et�isyys 26.62741699796953')"
+
+63 dijkstra orz200d.map,"('t: 4898700', 'et�isyys 25.899494936611667')"
+
+64 dijkstra orz200d.map,"('t: 2749700', 'et�isyys 25.72792206135786')"
+
+65 dijkstra orz200d.map,"('t: 1694000', 'et�isyys 26.242640687119284')"
+
+66 dijkstra orz200d.map,"('t: 4444300', 'et�isyys 25.798989873223338')"
+
+67 dijkstra orz200d.map,"('t: 5244700', 'et�isyys 27.55634918610405')"
+
+68 dijkstra orz200d.map,"('t: 4687400', 'et�isyys 25.65685424949238')"
+
+69 dijkstra orz200d.map,"('t: 5405500', 'et�isyys 25.72792206135786')"
+
+70 dijkstra orz200d.map,"('t: 9862400', 'et�isyys 28.798989873223338')"
+
+71 dijkstra orz200d.map,"('t: 6349300', 'et�isyys 29.313708498984763')"
+
+72 dijkstra orz200d.map,"('t: 8708600', 'et�isyys 29.414213562373096')"
+
+73 dijkstra orz200d.map,"('t: 9496200', 'et�isyys 29.071067811865476')"
+
+74 dijkstra orz200d.map,"('t: 5458300', 'et�isyys 30.313708498984763')"
+
+75 dijkstra orz200d.map,"('t: 9254800', 'et�isyys 29.384776310850242')"
+
+76 dijkstra orz200d.map,"('t: 8100600', 'et�isyys 28.55634918610405')"
+
+77 dijkstra orz200d.map,"('t: 7009800', 'et�isyys 28.798989873223338')"
+
+78 dijkstra orz200d.map,"('t: 7433200', 'et�isyys 30.213203435596434')"
+
+79 dijkstra orz200d.map,"('t: 6634300', 'et�isyys 29.313708498984763')"
+
+80 dijkstra orz200d.map,"('t: 5429900', 'et�isyys 32.14213562373095')"
+
+81 dijkstra orz200d.map,"('t: 5512300', 'et�isyys 35.627416997969526')"
+
+82 dijkstra orz200d.map,"('t: 4920200', 'et�isyys 35.384776310850235')"
+
+83 dijkstra orz200d.map,"('t: 5906500', 'et�isyys 35.55634918610404')"
+
+84 dijkstra orz200d.map,"('t: 6657900', 'et�isyys 33.72792206135785')"
+
+85 dijkstra orz200d.map,"('t: 6626200', 'et�isyys 32.48528137423857')"
+
+86 dijkstra orz200d.map,"('t: 8174900', 'et�isyys 32.041630560342625')"
+
+87 dijkstra orz200d.map,"('t: 8280600', 'et�isyys 35.79898987322333')"
+
+88 dijkstra orz200d.map,"('t: 2779500', 'et�isyys 34.45584412271572')"
+
+89 dijkstra orz200d.map,"('t: 9815000', 'et�isyys 34.28427124746191')"
+
+90 dijkstra orz200d.map,"('t: 9838100', 'et�isyys 37.69848480983501')"
+
+91 dijkstra orz200d.map,"('t: 4606700', 'et�isyys 39.698484809834994')"
+
+92 dijkstra orz200d.map,"('t: 4892800', 'et�isyys 37.31370849898475')"
+
+93 dijkstra orz200d.map,"('t: 4392000', 'et�isyys 38.14213562373095')"
+
+94 dijkstra orz200d.map,"('t: 9575500', 'et�isyys 37.35533905932738')"
+
+95 dijkstra orz200d.map,"('t: 6482300', 'et�isyys 36.24264068711928')"
+
+96 dijkstra orz200d.map,"('t: 10240900', 'et�isyys 38.727922061357845')"
+
+97 dijkstra orz200d.map,"('t: 7968300', 'et�isyys 36.698484809834994')"
+
+98 dijkstra orz200d.map,"('t: 10579100', 'et�isyys 39.04163056034261')"
+
+99 dijkstra orz200d.map,"('t: 10709100', 'et�isyys 38.52691193458119')"
+
+100 dijkstra orz200d.map,"('t: 9230100', 'et�isyys 42.526911934581186')"
+
+101 dijkstra orz200d.map,"('t: 13617600', 'et�isyys 42.4558441227157')"
+
+102 dijkstra orz200d.map,"('t: 14204400', 'et�isyys 41.21320343559641')"
+
+103 dijkstra orz200d.map,"('t: 9718600', 'et�isyys 42.0416305603426')"
+
+104 dijkstra orz200d.map,"('t: 1818900', 'et�isyys 43.04163056034261')"
+
+105 dijkstra orz200d.map,"('t: 4412800', 'et�isyys 40.870057685088796')"
+
+106 dijkstra orz200d.map,"('t: 11251900', 'et�isyys 43.284271247461895')"
+
+107 dijkstra orz200d.map,"('t: 8207300', 'et�isyys 42.72792206135784')"
+
+108 dijkstra orz200d.map,"('t: 14440600', 'et�isyys 40.41421356237309')"
+
+109 dijkstra orz200d.map,"('t: 10939600', 'et�isyys 41.55634918610403')"
+
+110 dijkstra orz200d.map,"('t: 10157900', 'et�isyys 46.970562748477114')"
+
+111 dijkstra orz200d.map,"('t: 9991200', 'et�isyys 47.18376618407355')"
+
+112 dijkstra orz200d.map,"('t: 8874800', 'et�isyys 46.284271247461895')"
+
+113 dijkstra orz200d.map,"('t: 10045900', 'et�isyys 46.69848480983497')"
+
+114 dijkstra orz200d.map,"('t: 11277100', 'et�isyys 47.284271247461874')"
+
+115 dijkstra orz200d.map,"('t: 13472500', 'et�isyys 44.87005768508881')"
+
+116 dijkstra orz200d.map,"('t: 14654100', 'et�isyys 44.69848480983498')"
+
+117 dijkstra orz200d.map,"('t: 6318300', 'et�isyys 46.52691193458117')"
+
+118 dijkstra orz200d.map,"('t: 8401800', 'et�isyys 44.213203435596405')"
+
+119 dijkstra orz200d.map,"('t: 15233800', 'et�isyys 44.65685424949238')"
+
+120 dijkstra orz200d.map,"('t: 7841700', 'et�isyys 49.18376618407354')"
+
+121 dijkstra orz200d.map,"('t: 13077800', 'et�isyys 51.455844122715675')"
+
+122 dijkstra orz200d.map,"('t: 10115600', 'et�isyys 50.18376618407354')"
+
+123 dijkstra orz200d.map,"('t: 7784500', 'et�isyys 51.04163056034259')"
+
+124 dijkstra orz200d.map,"('t: 11836600', 'et�isyys 49.35533905932736')"
+
+125 dijkstra orz200d.map,"('t: 14206100', 'et�isyys 51.84062043356592')"
+
+126 dijkstra orz200d.map,"('t: 12304500', 'et�isyys 50.284271247461874')"
+
+127 dijkstra orz200d.map,"('t: 8567600', 'et�isyys 48.04163056034262')"
+
+128 dijkstra orz200d.map,"('t: 10879800', 'et�isyys 50.0416305603426')"
+
+129 dijkstra orz200d.map,"('t: 14669700', 'et�isyys 51.94112549695427')"
+
+130 dijkstra orz200d.map,"('t: 16788700', 'et�isyys 52.183766184073534')"
+
+131 dijkstra orz200d.map,"('t: 16965400', 'et�isyys 52.556349186104015')"
+
+132 dijkstra orz200d.map,"('t: 12922900', 'et�isyys 55.426406871192825')"
+
+133 dijkstra orz200d.map,"('t: 12927700', 'et�isyys 54.76955262170046')"
+
+134 dijkstra orz200d.map,"('t: 17321000', 'et�isyys 52.35533905932734')"
+
+135 dijkstra orz200d.map,"('t: 10758100', 'et�isyys 53.62741699796949')"
+
+136 dijkstra orz200d.map,"('t: 14143100', 'et�isyys 53.08326112068521')"
+
+137 dijkstra orz200d.map,"('t: 12140100', 'et�isyys 54.69848480983498')"
+
+138 dijkstra orz200d.map,"('t: 10460500', 'et�isyys 53.87005768508877')"
+
+139 dijkstra orz200d.map,"('t: 13554200', 'et�isyys 52.656854249492376')"
+
+140 dijkstra orz200d.map,"('t: 12243200', 'et�isyys 56.45584412271568')"
+
+141 dijkstra orz200d.map,"('t: 15765300', 'et�isyys 59.112698372208065')"
+
+142 dijkstra orz200d.map,"('t: 8500400', 'et�isyys 58.727922061357845')"
+
+143 dijkstra orz200d.map,"('t: 12254800', 'et�isyys 57.112698372208065')"
+
+144 dijkstra orz200d.map,"('t: 17539200', 'et�isyys 59.28427124746189')"
+
+145 dijkstra orz200d.map,"('t: 12600100', 'et�isyys 58.455844122715675')"
+
+146 dijkstra orz200d.map,"('t: 16361700', 'et�isyys 59.91168824543138')"
+
+147 dijkstra orz200d.map,"('t: 17401100', 'et�isyys 57.526911934581165')"
+
+148 dijkstra orz200d.map,"('t: 17704100', 'et�isyys 58.18376618407354')"
+
+149 dijkstra orz200d.map,"('t: 12047700', 'et�isyys 58.89949493661166')"
+
+150 dijkstra orz200d.map,"('t: 2014700', 'et�isyys 63.76955262170045')"
+
+151 dijkstra orz200d.map,"('t: 14768100', 'et�isyys 61.76955262170043')"
+
+152 dijkstra orz200d.map,"('t: 13235200', 'et�isyys 63.52691193458112')"
+
+153 dijkstra orz200d.map,"('t: 18697400', 'et�isyys 61.11269837220808')"
+
+154 dijkstra orz200d.map,"('t: 14701100', 'et�isyys 62.497474683058286')"
+
+155 dijkstra orz200d.map,"('t: 12874700', 'et�isyys 60.0416305603426')"
+
+156 dijkstra orz200d.map,"('t: 16271700', 'et�isyys 63.45584412271566')"
+
+157 dijkstra orz200d.map,"('t: 6612400', 'et�isyys 60.04163056034258')"
+
+158 dijkstra orz200d.map,"('t: 13699000', 'et�isyys 62.426406871192796')"
+
+159 dijkstra orz200d.map,"('t: 20536300', 'et�isyys 63.76955262170044')"
+
+160 dijkstra orz200d.map,"('t: 13496000', 'et�isyys 66.45584412271566')"
+
+161 dijkstra orz200d.map,"('t: 18112100', 'et�isyys 66.18376618407353')"
+
+162 dijkstra orz200d.map,"('t: 16596500', 'et�isyys 65.91168824543139')"
+
+163 dijkstra orz200d.map,"('t: 10297200', 'et�isyys 64.72792206135784')"
+
+164 dijkstra orz200d.map,"('t: 7796000', 'et�isyys 66.91168824543138')"
+
+165 dijkstra orz200d.map,"('t: 19565700', 'et�isyys 67.08326112068518')"
+
+166 dijkstra orz200d.map,"('t: 17765400', 'et�isyys 64.97056274847711')"
+
+167 dijkstra orz200d.map,"('t: 6914900', 'et�isyys 66.35533905932732')"
+
+168 dijkstra orz200d.map,"('t: 9001800', 'et�isyys 64.28427124746187')"
+
+169 dijkstra orz200d.map,"('t: 11745400', 'et�isyys 66.87005768508875')"
+
+170 dijkstra orz200d.map,"('t: 7756400', 'et�isyys 68.21320343559638')"
+
+171 dijkstra orz200d.map,"('t: 17748300', 'et�isyys 71.98275605729683')"
+
+172 dijkstra orz200d.map,"('t: 18171300', 'et�isyys 71.15432893255067')"
+
+173 dijkstra orz200d.map,"('t: 17655700', 'et�isyys 71.94112549695423')"
+
+174 dijkstra orz200d.map,"('t: 18917200', 'et�isyys 71.52691193458115')"
+
+175 dijkstra orz200d.map,"('t: 14439700', 'et�isyys 70.63961030678921')"
+
+176 dijkstra orz200d.map,"('t: 15643600', 'et�isyys 68.84062043356592')"
+
+177 dijkstra orz200d.map,"('t: 16385500', 'et�isyys 71.91168824543136')"
+
+178 dijkstra orz200d.map,"('t: 19676800', 'et�isyys 68.18376618407353')"
+
+179 dijkstra orz200d.map,"('t: 11014700', 'et�isyys 70.45584412271567')"
+
+180 dijkstra orz200d.map,"('t: 16627900', 'et�isyys 73.59797974644661')"
+
+181 dijkstra orz200d.map,"('t: 20280500', 'et�isyys 73.52691193458114')"
+
+182 dijkstra orz200d.map,"('t: 11357200', 'et�isyys 74.59797974644661')"
+
+183 dijkstra orz200d.map,"('t: 8287900', 'et�isyys 73.3553390593273')"
+
+184 dijkstra orz200d.map,"('t: 18246000', 'et�isyys 72.59797974644661')"
+
+185 dijkstra orz200d.map,"('t: 21240700', 'et�isyys 72.91168824543136')"
+
+186 dijkstra orz200d.map,"('t: 18234300', 'et�isyys 75.46803743153541')"
+
+187 dijkstra orz200d.map,"('t: 9689000', 'et�isyys 75.94112549695423')"
+
+188 dijkstra orz200d.map,"('t: 22046300', 'et�isyys 75.254833995939')"
+
+189 dijkstra orz200d.map,"('t: 15609500', 'et�isyys 72.25483399593898')"
+
+190 dijkstra orz200d.map,"('t: 19900500', 'et�isyys 77.66904755831206')"
+
+191 dijkstra orz200d.map,"('t: 18734800', 'et�isyys 78.84062043356589')"
+
+192 dijkstra orz200d.map,"('t: 9248400', 'et�isyys 78.08326112068517')"
+
+193 dijkstra orz200d.map,"('t: 13276200', 'et�isyys 77.21320343559638')"
+
+194 dijkstra orz200d.map,"('t: 9445900', 'et�isyys 78.52691193458114')"
+
+195 dijkstra orz200d.map,"('t: 15550300', 'et�isyys 78.84062043356589')"
+
+196 dijkstra orz200d.map,"('t: 23245500', 'et�isyys 79.59797974644663')"
+
+197 dijkstra orz200d.map,"('t: 23719100', 'et�isyys 79.08326112068515')"
+
+198 dijkstra orz200d.map,"('t: 12305800', 'et�isyys 77.56854249492373')"
+
+199 dijkstra orz200d.map,"('t: 12783100', 'et�isyys 76.76955262170044')"
+
+200 dijkstra orz200d.map,"('t: 17452400', 'et�isyys 83.63961030678921')"
+
+201 dijkstra orz200d.map,"('t: 23973100', 'et�isyys 80.66904755831207')"
+
+202 dijkstra orz200d.map,"('t: 11581100', 'et�isyys 83.1837661840735')"
+
+203 dijkstra orz200d.map,"('t: 25915000', 'et�isyys 80.59797974644661')"
+
+204 dijkstra orz200d.map,"('t: 15727100', 'et�isyys 82.49747468305824')"
+
+205 dijkstra orz200d.map,"('t: 16702500', 'et�isyys 81.71067811865468')"
+
+206 dijkstra orz200d.map,"('t: 10000500', 'et�isyys 81.0121933088197')"
+
+207 dijkstra orz200d.map,"('t: 17003400', 'et�isyys 80.49747468305827')"
+
+208 dijkstra orz200d.map,"('t: 19157600', 'et�isyys 81.811183182043')"
+
+209 dijkstra orz200d.map,"('t: 22089600', 'et�isyys 80.28427124746186')"
+
+210 dijkstra orz200d.map,"('t: 23257500', 'et�isyys 87.98275605729684')"
+
+211 dijkstra orz200d.map,"('t: 10242500', 'et�isyys 86.91168824543132')"
+
+212 dijkstra orz200d.map,"('t: 8186200', 'et�isyys 86.28427124746185')"
+
+213 dijkstra orz200d.map,"('t: 3168000', 'et�isyys 85.15432893255064')"
+
+214 dijkstra orz200d.map,"('t: 22533200', 'et�isyys 84.81118318204302')"
+
+215 dijkstra orz200d.map,"('t: 21566300', 'et�isyys 84.0121933088197')"
+
+216 dijkstra orz200d.map,"('t: 23593800', 'et�isyys 84.32590180780447')"
+
+217 dijkstra orz200d.map,"('t: 10656600', 'et�isyys 84.84062043356586')"
+
+218 dijkstra orz200d.map,"('t: 23075100', 'et�isyys 87.63961030678921')"
+
+219 dijkstra orz200d.map,"('t: 22619800', 'et�isyys 85.98275605729681')"
+
+220 dijkstra orz200d.map,"('t: 23134100', 'et�isyys 88.66904755831207')"
+
+221 dijkstra orz200d.map,"('t: 18065000', 'et�isyys 88.9827560572968')"
+
+222 dijkstra orz200d.map,"('t: 17804000', 'et�isyys 89.74011537017753')"
+
+223 dijkstra orz200d.map,"('t: 17671700', 'et�isyys 90.63961030678917')"
+
+224 dijkstra orz200d.map,"('t: 23499500', 'et�isyys 90.5979797464466')"
+
+225 dijkstra orz200d.map,"('t: 18513800', 'et�isyys 90.98275605729684')"
+
+226 dijkstra orz200d.map,"('t: 17370900', 'et�isyys 88.63961030678918')"
+
+227 dijkstra orz200d.map,"('t: 10971100', 'et�isyys 88.59797974644663')"
+
+228 dijkstra orz200d.map,"('t: 25399100', 'et�isyys 91.49747468305824')"
+
+229 dijkstra orz200d.map,"('t: 15665500', 'et�isyys 90.66904755831204')"
+
+230 dijkstra orz200d.map,"('t: 15751300', 'et�isyys 93.39696961966989')"
+
+231 dijkstra orz200d.map,"('t: 26446500', 'et�isyys 94.74011537017756')"
+
+232 dijkstra orz200d.map,"('t: 26227500', 'et�isyys 93.32590180780444')"
+
+233 dijkstra orz200d.map,"('t: 26051300', 'et�isyys 93.98275605729683')"
+
+234 dijkstra orz200d.map,"('t: 24395800', 'et�isyys 92.15432893255063')"
+
+235 dijkstra orz200d.map,"('t: 18636400', 'et�isyys 95.81118318204301')"
+
+236 dijkstra orz200d.map,"('t: 12768300', 'et�isyys 95.39696961966992')"
+
+237 dijkstra orz200d.map,"('t: 16332400', 'et�isyys 94.91168824543132')"
+
+238 dijkstra orz200d.map,"('t: 25271400', 'et�isyys 94.63961030678921')"
+
+239 dijkstra orz200d.map,"('t: 6377200', 'et�isyys 95.05382386916229')"
+
+240 dijkstra orz200d.map,"('t: 8532200', 'et�isyys 98.88225099390847')"
+
+241 dijkstra orz200d.map,"('t: 22956000', 'et�isyys 97.12489168102773')"
+
+242 dijkstra orz200d.map,"('t: 19748300', 'et�isyys 98.78174593052013')"
+
+243 dijkstra orz200d.map,"('t: 15125700', 'et�isyys 97.98275605729681')"
+
+244 dijkstra orz200d.map,"('t: 13881800', 'et�isyys 98.15432893255063')"
+
+245 dijkstra orz200d.map,"('t: 21671600', 'et�isyys 98.05382386916227')"
+
+246 dijkstra orz200d.map,"('t: 21865100', 'et�isyys 97.22539674441607')"
+
+247 dijkstra orz200d.map,"('t: 22243300', 'et�isyys 98.91168824543134')"
+
+248 dijkstra orz200d.map,"('t: 18525400', 'et�isyys 97.8528137423856')"
+
+249 dijkstra orz200d.map,"('t: 12071400', 'et�isyys 96.12489168102775')"
+
+250 dijkstra orz200d.map,"('t: 23571600', 'et�isyys 103.29646455628153')"
+
+251 dijkstra orz200d.map,"('t: 10888400', 'et�isyys 102.91168824543132')"
+
+252 dijkstra orz200d.map,"('t: 27738800', 'et�isyys 100.22539674441613')"
+
+253 dijkstra orz200d.map,"('t: 23680800', 'et�isyys 102.53910524340084')"
+
+254 dijkstra orz200d.map,"('t: 24234800', 'et�isyys 102.08326112068515')"
+
+255 dijkstra orz200d.map,"('t: 18199700', 'et�isyys 102.01219330881968')"
+
+256 dijkstra orz200d.map,"('t: 22234400', 'et�isyys 101.68124086713178')"
+
+257 dijkstra orz200d.map,"('t: 27120700', 'et�isyys 100.46803743153538')"
+
+258 dijkstra orz200d.map,"('t: 17641500', 'et�isyys 100.39696961966989')"
+
+259 dijkstra orz200d.map,"('t: 20006600', 'et�isyys 103.4386001800125')"
+
+260 dijkstra orz200d.map,"('t: 19452100', 'et�isyys 106.59797974644663')"
+
+261 dijkstra orz200d.map,"('t: 19868900', 'et�isyys 105.81118318204297')"
+
+262 dijkstra orz200d.map,"('t: 22884900', 'et�isyys 106.3969696196699')"
+
+263 dijkstra orz200d.map,"('t: 22925700', 'et�isyys 105.19595949289321')"
+
+264 dijkstra orz200d.map,"('t: 15668900', 'et�isyys 106.56854249492372')"
+
+265 dijkstra orz200d.map,"('t: 25573600', 'et�isyys 107.95331880577393')"
+
+266 dijkstra orz200d.map,"('t: 25918000', 'et�isyys 107.91168824543134')"
+
+267 dijkstra orz200d.map,"('t: 18595800', 'et�isyys 105.26702730475867')"
+
+268 dijkstra orz200d.map,"('t: 21682700', 'et�isyys 105.26702730475868')"
+
+269 dijkstra orz200d.map,"('t: 16102600', 'et�isyys 107.12489168102773')"
+
+270 dijkstra orz200d.map,"('t: 19942300', 'et�isyys 111.98275605729683')"
+
+271 dijkstra orz200d.map,"('t: 12891900', 'et�isyys 109.39696961966989')"
+
+272 dijkstra orz200d.map,"('t: 21042900', 'et�isyys 110.16652224137034')"
+
+273 dijkstra orz200d.map,"('t: 15388300', 'et�isyys 108.46803743153536')"
+
+274 dijkstra orz200d.map,"('t: 22984900', 'et�isyys 109.71067811865464')"
+
+275 dijkstra orz200d.map,"('t: 12364900', 'et�isyys 108.36753236814701')"
+
+276 dijkstra orz200d.map,"('t: 24890500', 'et�isyys 110.95331880577393')"
+
+277 dijkstra orz200d.map,"('t: 15119600', 'et�isyys 110.81118318204298')"
+
+278 dijkstra orz200d.map,"('t: 18205400', 'et�isyys 108.43860018001247')"
+
+279 dijkstra orz200d.map,"('t: 17180400', 'et�isyys 109.39696961966989')"
+
+280 dijkstra orz200d.map,"('t: 20440900', 'et�isyys 115.50966799187795')"
+
+281 dijkstra orz200d.map,"('t: 22903100', 'et�isyys 115.78174593052012')"
+
+282 dijkstra orz200d.map,"('t: 22256400', 'et�isyys 115.29646455628156')"
+
+283 dijkstra orz200d.map,"('t: 17452400', 'et�isyys 113.46803743153538')"
+
+284 dijkstra orz200d.map,"('t: 12928800', 'et�isyys 113.71067811865461')"
+
+285 dijkstra orz200d.map,"('t: 16286800', 'et�isyys 115.68124086713175')"
+
+286 dijkstra orz200d.map,"('t: 16186900', 'et�isyys 113.1959594928932')"
+
+287 dijkstra orz200d.map,"('t: 26552200', 'et�isyys 113.46803743153536')"
+
+288 dijkstra orz200d.map,"('t: 21170200', 'et�isyys 115.92388155425105')"
+
+289 dijkstra orz200d.map,"('t: 16373100', 'et�isyys 112.05382386916226')"
+
+290 dijkstra orz200d.map,"('t: 21571900', 'et�isyys 118.68124086713176')"
+
+291 dijkstra orz200d.map,"('t: 25379800', 'et�isyys 117.63961030678917')"
+
+292 dijkstra orz200d.map,"('t: 18431100', 'et�isyys 116.59797974644663')"
+
+293 dijkstra orz200d.map,"('t: 11064400', 'et�isyys 119.32590180780446')"
+
+294 dijkstra orz200d.map,"('t: 21700500', 'et�isyys 116.09545442950487')"
+
+295 dijkstra orz200d.map,"('t: 25322000', 'et�isyys 118.3969696196699')"
+
+296 dijkstra orz200d.map,"('t: 18543200', 'et�isyys 117.12489168102772')"
+
+297 dijkstra orz200d.map,"('t: 14871600', 'et�isyys 119.02438661763937')"
+
+298 dijkstra orz200d.map,"('t: 26170500', 'et�isyys 119.95331880577393')"
+
+299 dijkstra orz200d.map,"('t: 26029400', 'et�isyys 118.71067811865464')"
+
+300 dijkstra orz200d.map,"('t: 15776800', 'et�isyys 123.6101730552663')"
+
+301 dijkstra orz200d.map,"('t: 14896100', 'et�isyys 120.29646455628153')"
+
+302 dijkstra orz200d.map,"('t: 19328400', 'et�isyys 121.49747468305824')"
+
+303 dijkstra orz200d.map,"('t: 12069900', 'et�isyys 123.39696961966987')"
+
+304 dijkstra orz200d.map,"('t: 22578100', 'et�isyys 123.1959594928932')"
+
+305 dijkstra orz200d.map,"('t: 19190300', 'et�isyys 120.26702730475866')"
+
+306 dijkstra orz200d.map,"('t: 15084900', 'et�isyys 122.1959594928932')"
+
+307 dijkstra orz200d.map,"('t: 28815700', 'et�isyys 123.26702730475868')"
+
+308 dijkstra orz200d.map,"('t: 27374300', 'et�isyys 121.4386001800125')"
+
+309 dijkstra orz200d.map,"('t: 15430100', 'et�isyys 122.367532368147')"
+
+310 dijkstra orz200d.map,"('t: 26824900', 'et�isyys 125.95331880577392')"
+
+311 dijkstra orz200d.map,"('t: 23388700', 'et�isyys 124.81118318204298')"
+
+312 dijkstra orz200d.map,"('t: 25802600', 'et�isyys 125.92388155425105')"
+
+313 dijkstra orz200d.map,"('t: 17124500', 'et�isyys 127.1665222413703')"
+
+314 dijkstra orz200d.map,"('t: 18387500', 'et�isyys 125.74011537017755')"
+
+315 dijkstra orz200d.map,"('t: 24322200', 'et�isyys 127.58073580374342')"
+
+316 dijkstra orz200d.map,"('t: 18660800', 'et�isyys 124.88225099390844')"
+
+317 dijkstra orz200d.map,"('t: 25343300', 'et�isyys 125.75230867899725')"
+
+318 dijkstra orz200d.map,"('t: 12943400', 'et�isyys 126.29646455628153')"
+
+319 dijkstra orz200d.map,"('t: 23743400', 'et�isyys 126.29646455628155')"
+
+320 dijkstra orz200d.map,"('t: 25832200', 'et�isyys 131.12489168102775')"
+
+321 dijkstra orz200d.map,"('t: 18542000', 'et�isyys 131.74011537017756')"
+
+322 dijkstra orz200d.map,"('t: 21784400', 'et�isyys 131.61017305526627')"
+
+323 dijkstra orz200d.map,"('t: 20154900', 'et�isyys 131.02438661763938')"
+
+324 dijkstra orz200d.map,"('t: 23683400', 'et�isyys 131.99494936611654')"
+
+325 dijkstra orz200d.map,"('t: 17110000', 'et�isyys 129.923881554251')"
+
+326 dijkstra orz200d.map,"('t: 15910100', 'et�isyys 131.02438661763938')"
+
+327 dijkstra orz200d.map,"('t: 24495100', 'et�isyys 128.78174593052012')"
+
+328 dijkstra orz200d.map,"('t: 17652600', 'et�isyys 129.53910524340085')"
+
+329 dijkstra orz200d.map,"('t: 26327600', 'et�isyys 131.19595949289322')"
+
+330 dijkstra orz200d.map,"('t: 19263200', 'et�isyys 135.98275605729683')"
+
+331 dijkstra orz200d.map,"('t: 22731300', 'et�isyys 134.48023074035507')"
+
+332 dijkstra orz200d.map,"('t: 26673900', 'et�isyys 132.68124086713178')"
+
+333 dijkstra orz200d.map,"('t: 21748700', 'et�isyys 135.78174593052015')"
+
+334 dijkstra orz200d.map,"('t: 23552100', 'et�isyys 135.92388155425104')"
+
+335 dijkstra orz200d.map,"('t: 18650600', 'et�isyys 134.1665222413703')"
+
+336 dijkstra orz200d.map,"('t: 25915500', 'et�isyys 132.19595949289322')"
+
+337 dijkstra orz200d.map,"('t: 21555900', 'et�isyys 132.56854249492372')"
+
+338 dijkstra orz200d.map,"('t: 27759600', 'et�isyys 135.92388155425107')"
+
+339 dijkstra orz200d.map,"('t: 18329500', 'et�isyys 132.56854249492375')"
+
+340 dijkstra orz200d.map,"('t: 23912100', 'et�isyys 136.02438661763938')"
+
+341 dijkstra orz200d.map,"('t: 23775400', 'et�isyys 137.61017305526627')"
+
+342 dijkstra orz200d.map,"('t: 20371800', 'et�isyys 139.68124086713183')"
+
+343 dijkstra orz200d.map,"('t: 23984400', 'et�isyys 137.26702730475864')"
+
+344 dijkstra orz200d.map,"('t: 20940600', 'et�isyys 136.19595949289317')"
+
+345 dijkstra orz200d.map,"('t: 19148900', 'et�isyys 136.81118318204307')"
+
+346 dijkstra orz200d.map,"('t: 19587400', 'et�isyys 137.22539674441617')"
+
+347 dijkstra orz200d.map,"('t: 18955200', 'et�isyys 138.22539674441617')"
+
+348 dijkstra orz200d.map,"('t: 21158100', 'et�isyys 138.4386001800125')"
+
+349 dijkstra orz200d.map,"('t: 19733500', 'et�isyys 137.15432893255064')"
+
+350 dijkstra orz200d.map,"('t: 21978100', 'et�isyys 140.02438661763938')"
+
+351 dijkstra orz200d.map,"('t: 20220500', 'et�isyys 141.22539674441614')"
+
+352 dijkstra orz200d.map,"('t: 17716600', 'et�isyys 141.5096679918779')"
+
+353 dijkstra orz200d.map,"('t: 25478400', 'et�isyys 143.5807358037435')"
+
+354 dijkstra orz200d.map,"('t: 19885800', 'et�isyys 143.2670273047587')"
+
+355 dijkstra orz200d.map,"('t: 22428200', 'et�isyys 140.02438661763938')"
+
+356 dijkstra orz200d.map,"('t: 15494800', 'et�isyys 141.0538238691623')"
+
+357 dijkstra orz200d.map,"('t: 20127700', 'et�isyys 141.63961030678928')"
+
+358 dijkstra orz200d.map,"('t: 19810600', 'et�isyys 141.33809511662417')"
+
+359 dijkstra orz200d.map,"('t: 19116100', 'et�isyys 142.92388155425107')"
+
+360 dijkstra orz200d.map,"('t: 25485100', 'et�isyys 145.58073580374352')"
+
+361 dijkstra orz200d.map,"('t: 23441100', 'et�isyys 147.85281374238562')"
+
+362 dijkstra orz200d.map,"('t: 25153400', 'et�isyys 145.92388155425112')"
+
+363 dijkstra orz200d.map,"('t: 22019000', 'et�isyys 147.02438661763935')"
+
+364 dijkstra orz200d.map,"('t: 20849100', 'et�isyys 146.26702730475873')"
+
+365 dijkstra orz200d.map,"('t: 24594700', 'et�isyys 145.50966799187796')"
+
+366 dijkstra orz200d.map,"('t: 19974400', 'et�isyys 144.81118318204307')"
+
+367 dijkstra orz200d.map,"('t: 19819200', 'et�isyys 146.2670273047587')"
+
+368 dijkstra orz200d.map,"('t: 17605000', 'et�isyys 147.85281374238556')"
+
+369 dijkstra orz200d.map,"('t: 19002000', 'et�isyys 147.71067811865478')"
+
+370 dijkstra orz200d.map,"('t: 22707800', 'et�isyys 151.4386001800125')"
+
+371 dijkstra orz200d.map,"('t: 23799700', 'et�isyys 150.23759005323592')"
+
+372 dijkstra orz200d.map,"('t: 20774900', 'et�isyys 149.58073580374344')"
+
+373 dijkstra orz200d.map,"('t: 18517700', 'et�isyys 151.8233764908629')"
+
+374 dijkstra orz200d.map,"('t: 24838800', 'et�isyys 149.26702730475876')"
+
+375 dijkstra orz200d.map,"('t: 26434200', 'et�isyys 150.33809511662423')"
+
+376 dijkstra orz200d.map,"('t: 26585300', 'et�isyys 149.16652224137044')"
+
+377 dijkstra orz200d.map,"('t: 25396000', 'et�isyys 149.6812408671318')"
+
+378 dijkstra orz200d.map,"('t: 19620900', 'et�isyys 151.82337649086284')"
+
+379 dijkstra orz200d.map,"('t: 21354200', 'et�isyys 151.6396103067893')"
+
+380 dijkstra orz200d.map,"('t: 25145100', 'et�isyys 152.48023074035524')"
+
+381 dijkstra orz200d.map,"('t: 24027900', 'et�isyys 152.33809511662412')"
+
+382 dijkstra orz200d.map,"('t: 21803300', 'et�isyys 154.82337649086284')"
+
+383 dijkstra orz200d.map,"('t: 23132400', 'et�isyys 155.30865786510145')"
+
+384 dijkstra orz200d.map,"('t: 25361100', 'et�isyys 152.4091629284897')"
+
+385 dijkstra orz200d.map,"('t: 19866000', 'et�isyys 153.82337649086278')"
+
+386 dijkstra orz200d.map,"('t: 24380700', 'et�isyys 153.16652224137044')"
+
+387 dijkstra orz200d.map,"('t: 25358600', 'et�isyys 154.48023074035524')"
+
+388 dijkstra orz200d.map,"('t: 21573100', 'et�isyys 153.65180361560903')"
+
+389 dijkstra orz200d.map,"('t: 21645400', 'et�isyys 153.16652224137044')"
+
+390 dijkstra orz200d.map,"('t: 25689000', 'et�isyys 157.3380951166243')"
+
+391 dijkstra orz200d.map,"('t: 24771400', 'et�isyys 156.23759005323586')"
+
+392 dijkstra orz200d.map,"('t: 24053900', 'et�isyys 156.09545442950497')"
+
+393 dijkstra orz200d.map,"('t: 20711400', 'et�isyys 156.23759005323592')"
+
+394 dijkstra orz200d.map,"('t: 24773100', 'et�isyys 156.75230867899734')"
+
+395 dijkstra orz200d.map,"('t: 23893200', 'et�isyys 156.50966799187805')"
+
+396 dijkstra orz200d.map,"('t: 20903700', 'et�isyys 157.02438661763938')"
+
+397 dijkstra orz200d.map,"('t: 21941500', 'et�isyys 157.30865786510142')"
+
+398 dijkstra orz200d.map,"('t: 22213400', 'et�isyys 159.9238815542511')"
+
+399 dijkstra orz200d.map,"('t: 20949700', 'et�isyys 158.02438661763938')"
+
+400 dijkstra orz200d.map,"('t: 21525600', 'et�isyys 163.0660171779822')"
+
+401 dijkstra orz200d.map,"('t: 19608800', 'et�isyys 160.12489168102786')"
+
+402 dijkstra orz200d.map,"('t: 23238200', 'et�isyys 162.0954544295049')"
+
+403 dijkstra orz200d.map,"('t: 21696200', 'et�isyys 160.65180361560905')"
+
+404 dijkstra orz200d.map,"('t: 24057300', 'et�isyys 161.78174593052012')"
+
+405 dijkstra orz200d.map,"('t: 26320500', 'et�isyys 160.61017305526627')"
+
+406 dijkstra orz200d.map,"('t: 25273100', 'et�isyys 160.13708498984766')"
+
+407 dijkstra orz200d.map,"('t: 25863200', 'et�isyys 162.85281374238556')"
+
+408 dijkstra orz200d.map,"('t: 25474700', 'et�isyys 162.13708498984766')"
+
+409 dijkstra orz200d.map,"('t: 21656500', 'et�isyys 160.13708498984766')"
+
+410 dijkstra orz200d.map,"('t: 24969400', 'et�isyys 166.7228714274746')"
+
+411 dijkstra orz200d.map,"('t: 25789700', 'et�isyys 165.65180361560908')"
+
+412 dijkstra orz200d.map,"('t: 23941200', 'et�isyys 165.09545442950497')"
+
+413 dijkstra orz200d.map,"('t: 22452200', 'et�isyys 165.3086578651015')"
+
+414 dijkstra orz200d.map,"('t: 20878700', 'et�isyys 164.4802307403553')"
+
+415 dijkstra orz200d.map,"('t: 25101800', 'et�isyys 167.0954544295049')"
+
+416 dijkstra orz200d.map,"('t: 25200700', 'et�isyys 165.30865786510145')"
+
+417 dijkstra orz200d.map,"('t: 21400600', 'et�isyys 164.89444430272837')"
+
+418 dijkstra orz200d.map,"('t: 23399700', 'et�isyys 166.33809511662426')"
+
+419 dijkstra orz200d.map,"('t: 25286000', 'et�isyys 165.89444430272835')"
+
+420 dijkstra orz200d.map,"('t: 23536100', 'et�isyys 170.55129855222074')"
+
+421 dijkstra orz200d.map,"('t: 23501400', 'et�isyys 170.3086578651014')"
+
+422 dijkstra orz200d.map,"('t: 24577100', 'et�isyys 169.19595949289322')"
+
+423 dijkstra orz200d.map,"('t: 25815700', 'et�isyys 171.7939392393401')"
+
+424 dijkstra orz200d.map,"('t: 23064100', 'et�isyys 170.9949493661166')"
+
+425 dijkstra orz200d.map,"('t: 22354400', 'et�isyys 169.72287142747456')"
+
+426 dijkstra orz200d.map,"('t: 25297500', 'et�isyys 168.1665222413704')"
+
+427 dijkstra orz200d.map,"('t: 23379100', 'et�isyys 170.09545442950494')"
+
+428 dijkstra orz200d.map,"('t: 25407000', 'et�isyys 170.1370849898477')"
+
+429 dijkstra orz200d.map,"('t: 24411900', 'et�isyys 170.13708498984766')"
+
+430 dijkstra orz200d.map,"('t: 23726200', 'et�isyys 174.40916292848974')"
+
+431 dijkstra orz200d.map,"('t: 23573500', 'et�isyys 173.33809511662423')"
+
+432 dijkstra orz200d.map,"('t: 24953000', 'et�isyys 173.62236636408625')"
+
+433 dijkstra orz200d.map,"('t: 24505100', 'et�isyys 173.82337649086287')"
+
+434 dijkstra orz200d.map,"('t: 23908900', 'et�isyys 172.33809511662423')"
+
+435 dijkstra orz200d.map,"('t: 22441100', 'et�isyys 175.0365799264594')"
+
+436 dijkstra orz200d.map,"('t: 22073200', 'et�isyys 173.30865786510148')"
+
+437 dijkstra orz200d.map,"('t: 23250500', 'et�isyys 172.30865786510145')"
+
+438 dijkstra orz200d.map,"('t: 22788000', 'et�isyys 174.3086578651015')"
+
+439 dijkstra orz200d.map,"('t: 22976100', 'et�isyys 173.82337649086287')"
+
+440 dijkstra orz200d.map,"('t: 22038100', 'et�isyys 176.13708498984772')"
+
+441 dijkstra orz200d.map,"('t: 25407900', 'et�isyys 176.58073580374355')"
+
+442 dijkstra orz200d.map,"('t: 23840700', 'et�isyys 179.72287142747462')"
+
+443 dijkstra orz200d.map,"('t: 24405000', 'et�isyys 177.4091629284898')"
+
+444 dijkstra orz200d.map,"('t: 26410400', 'et�isyys 177.06601717798216')"
+
+445 dijkstra orz200d.map,"('t: 24081500', 'et�isyys 176.40916292848968')"
+
+446 dijkstra orz200d.map,"('t: 25136000', 'et�isyys 176.26702730475873')"
+
+447 dijkstra orz200d.map,"('t: 25376100', 'et�isyys 177.1370849898477')"
+
+448 dijkstra orz200d.map,"('t: 23831100', 'et�isyys 178.37972567696698')"
+
+449 dijkstra orz200d.map,"('t: 24938400', 'et�isyys 176.13708498984766')"
+
+450 dijkstra orz200d.map,"('t: 25815600', 'et�isyys 183.13708498984772')"
+
+451 dijkstra orz200d.map,"('t: 24515900', 'et�isyys 181.6223663640863')"
+
+452 dijkstra orz200d.map,"('t: 23236100', 'et�isyys 180.0954544295049')"
+
+453 dijkstra orz200d.map,"('t: 23595700', 'et�isyys 180.58073580374352')"
+
+454 dijkstra orz200d.map,"('t: 24355900', 'et�isyys 180.37972567696696')"
+
+455 dijkstra orz200d.map,"('t: 24734000', 'et�isyys 181.379725676967')"
+
+456 dijkstra orz200d.map,"('t: 25330400', 'et�isyys 183.55129855222077')"
+
+457 dijkstra orz200d.map,"('t: 24415200', 'et�isyys 180.23759005323606')"
+
+458 dijkstra orz200d.map,"('t: 24512600', 'et�isyys 183.9238815542512')"
+
+459 dijkstra orz200d.map,"('t: 23109300', 'et�isyys 181.13708498984766')"
+
+460 dijkstra orz200d.map,"('t: 24906000', 'et�isyys 184.1076477383249')"
+
+461 dijkstra orz200d.map,"('t: 23106100', 'et�isyys 187.03657992645944')"
+
+462 dijkstra orz200d.map,"('t: 26076300', 'et�isyys 185.7228714274746')"
+
+463 dijkstra orz200d.map,"('t: 25049700', 'et�isyys 184.2081528017132')"
+
+464 dijkstra orz200d.map,"('t: 25392400', 'et�isyys 187.62236636408633')"
+
+465 dijkstra orz200d.map,"('t: 23565400', 'et�isyys 187.45079348883252')"
+
+466 dijkstra orz200d.map,"('t: 22636900', 'et�isyys 186.45079348883255')"
+
+467 dijkstra orz200d.map,"('t: 24736000', 'et�isyys 186.10764773832489')"
+
+468 dijkstra orz200d.map,"('t: 24873300', 'et�isyys 184.62236636408625')"
+
+469 dijkstra orz200d.map,"('t: 24381000', 'et�isyys 185.9655121145939')"
+
+470 dijkstra orz200d.map,"('t: 24863500', 'et�isyys 188.86500705120562')"
+
+471 dijkstra orz200d.map,"('t: 25377100', 'et�isyys 191.62236636408628')"
+
+472 dijkstra orz200d.map,"('t: 25424700', 'et�isyys 190.45079348883252')"
+
+473 dijkstra orz200d.map,"('t: 25485600', 'et�isyys 189.45079348883255')"
+
+474 dijkstra orz200d.map,"('t: 26257900', 'et�isyys 189.5512985522208')"
+
+475 dijkstra orz200d.map,"('t: 24174100', 'et�isyys 188.96551211459396')"
+
+476 dijkstra orz200d.map,"('t: 25550800', 'et�isyys 189.20815280171325')"
+
+477 dijkstra orz200d.map,"('t: 24446000', 'et�isyys 191.1370849898478')"
+
+478 dijkstra orz200d.map,"('t: 25622900', 'et�isyys 191.13708498984772')"
+
+479 dijkstra orz200d.map,"('t: 25545600', 'et�isyys 188.86500705120562')"
+
+480 dijkstra orz200d.map,"('t: 24621200', 'et�isyys 193.20815280171323')"
+
+481 dijkstra orz200d.map,"('t: 24981000', 'et�isyys 195.27922061357873')"
+
+482 dijkstra orz200d.map,"('t: 23308000', 'et�isyys 192.45079348883255')"
+
+483 dijkstra orz200d.map,"('t: 23164700', 'et�isyys 192.03657992645947')"
+
+484 dijkstra orz200d.map,"('t: 25517200', 'et�isyys 192.37972567696704')"
+
+485 dijkstra orz200d.map,"('t: 23230400', 'et�isyys 195.03657992645947')"
+
+486 dijkstra orz200d.map,"('t: 25463000', 'et�isyys 194.03657992645935')"
+
+487 dijkstra orz200d.map,"('t: 24747600', 'et�isyys 195.62236636408633')"
+
+488 dijkstra orz200d.map,"('t: 25170300', 'et�isyys 192.45079348883252')"
+
+489 dijkstra orz200d.map,"('t: 24641200', 'et�isyys 194.45079348883252')"
+
+490 dijkstra orz200d.map,"('t: 25425900', 'et�isyys 198.55129855222077')"
+
+491 dijkstra orz200d.map,"('t: 25822200', 'et�isyys 197.45079348883255')"
+
+492 dijkstra orz200d.map,"('t: 25139200', 'et�isyys 198.27922061357873')"
+
+493 dijkstra orz200d.map,"('t: 25922700', 'et�isyys 196.37972567696698')"
+
+494 dijkstra orz200d.map,"('t: 24205700', 'et�isyys 197.2792206135788')"
+
+495 dijkstra orz200d.map,"('t: 24107000', 'et�isyys 199.79393923934015')"
+
+496 dijkstra orz200d.map,"('t: 24905600', 'et�isyys 198.03657992645944')"
+
+497 dijkstra orz200d.map,"('t: 25582400', 'et�isyys 199.03657992645944')"
+
+498 dijkstra orz200d.map,"('t: 25495100', 'et�isyys 196.03657992645947')"
+
+499 dijkstra orz200d.map,"('t: 24385300', 'et�isyys 196.20815280171323')"
+
+500 dijkstra orz200d.map,"('t: 25322100', 'et�isyys 200.965512114594')"
+
+501 dijkstra orz200d.map,"('t: 25467000', 'et�isyys 203.37972567696704')"
+
+502 dijkstra orz200d.map,"('t: 27361100', 'et�isyys 200.69343417595184')"
+
+503 dijkstra orz200d.map,"('t: 51654200', 'et�isyys 202.0365799264595')"
+
+504 dijkstra orz200d.map,"('t: 49078600', 'et�isyys 201.10764773832494')"
+
+505 dijkstra orz200d.map,"('t: 33897500', 'et�isyys 203.20815280171325')"
+
+506 dijkstra orz200d.map,"('t: 31244600', 'et�isyys 201.86500705120565')"
+
+507 dijkstra orz200d.map,"('t: 28444700', 'et�isyys 200.55129855222089')"
+
+508 dijkstra orz200d.map,"('t: 28694100', 'et�isyys 202.2792206135788')"
+
+509 dijkstra orz200d.map,"('t: 26418500', 'et�isyys 200.86500705120568')"
+
+0 ida* arena.map,"('t: 45300', 'et�isyys 3.0')"
+
+1 ida* arena.map,"('t: 7000', 'et�isyys 2.414213562373095')"
+
+2 ida* arena.map,"('t: 11300', 'et�isyys 2.0')"
+
+3 ida* arena.map,"('t: 5200', 'et�isyys 1.4142135623730951')"
+
+4 ida* arena.map,"('t: 19400', 'et�isyys 3.8284271247461903')"
+
+5 ida* arena.map,"('t: 5200', 'et�isyys 2.0')"
+
+6 ida* arena.map,"('t: 10700', 'et�isyys 2.414213562373095')"
+
+7 ida* arena.map,"('t: 15900', 'et�isyys 3.8284271247461903')"
+
+8 ida* arena.map,"('t: 8000', 'et�isyys 3.8284271247461903')"
+
+9 ida* arena.map,"('t: 6400', 'et�isyys 3.414213562373095')"
+
+10 ida* arena.map,"('t: 19500', 'et�isyys 5.82842712474619')"
+
+11 ida* arena.map,"('t: 19100', 'et�isyys 4.82842712474619')"
+
+12 ida* arena.map,"('t: 16800', 'et�isyys 7.656854249492381')"
+
+13 ida* arena.map,"('t: 29000', 'et�isyys 5.656854249492381')"
+
+14 ida* arena.map,"('t: 13100', 'et�isyys 4.414213562373095')"
+
+15 ida* arena.map,"('t: 21100', 'et�isyys 4.82842712474619')"
+
+16 ida* arena.map,"('t: 25000', 'et�isyys 4.82842712474619')"
+
+17 ida* arena.map,"('t: 12800', 'et�isyys 6.242640687119286')"
+
+18 ida* arena.map,"('t: 19500', 'et�isyys 4.414213562373095')"
+
+19 ida* arena.map,"('t: 9600', 'et�isyys 4.242640687119286')"
+
+20 ida* arena.map,"('t: 49900', 'et�isyys 9.899494936611667')"
+
+21 ida* arena.map,"('t: 63500', 'et�isyys 11.82842712474619')"
+
+22 ida* arena.map,"('t: 48500', 'et�isyys 10.414213562373096')"
+
+23 ida* arena.map,"('t: 23000', 'et�isyys 9.242640687119286')"
+
+24 ida* arena.map,"('t: 41400', 'et�isyys 10.414213562373096')"
+
+25 ida* arena.map,"('t: 32500', 'et�isyys 11.071067811865476')"
+
+26 ida* arena.map,"('t: 9000', 'et�isyys 8.071067811865476')"
+
+27 ida* arena.map,"('t: 20600', 'et�isyys 9.242640687119286')"
+
+28 ida* arena.map,"('t: 17400', 'et�isyys 8.071067811865476')"
+
+29 ida* arena.map,"('t: 18500', 'et�isyys 10.071067811865476')"
+
+30 ida* arena.map,"('t: 72100', 'et�isyys 14.242640687119286')"
+
+31 ida* arena.map,"('t: 27200', 'et�isyys 12.313708498984763')"
+
+32 ida* arena.map,"('t: 33200', 'et�isyys 12.242640687119286')"
+
+33 ida* arena.map,"('t: 81200', 'et�isyys 13.82842712474619')"
+
+34 ida* arena.map,"('t: 3120900', 'et�isyys 15.727922061357859')"
+
+35 ida* arena.map,"('t: 27400', 'et�isyys 15.242640687119286')"
+
+36 ida* arena.map,"('t: 53100', 'et�isyys 12.82842712474619')"
+
+37 ida* arena.map,"('t: 2680300', 'et�isyys 15.727922061357859')"
+
+38 ida* arena.map,"('t: 34800', 'et�isyys 12.485281374238571')"
+
+39 ida* arena.map,"('t: 30800', 'et�isyys 14.414213562373096')"
+
+0 ida* den203d.map,"('t: 13200', 'et�isyys 1.0')"
+
+1 ida* den203d.map,"('t: 11100', 'et�isyys 2.414213562373095')"
+
+2 ida* den203d.map,"('t: 6500', 'et�isyys 3.414213562373095')"
+
+3 ida* den203d.map,"('t: 3300', 'et�isyys 1.0')"
+
+4 ida* den203d.map,"('t: 12200', 'et�isyys 3.0')"
+
+5 ida* den203d.map,"('t: 12000', 'et�isyys 2.414213562373095')"
+
+6 ida* den203d.map,"('t: 4100', 'et�isyys 2.414213562373095')"
+
+7 ida* den203d.map,"('t: 5100', 'et�isyys 2.0')"
+
+8 ida* den203d.map,"('t: 22400', 'et�isyys 3.414213562373095')"
+
+9 ida* den203d.map,"('t: 12200', 'et�isyys 2.8284271247461903')"
+
+10 ida* den203d.map,"('t: 18600', 'et�isyys 4.82842712474619')"
+
+11 ida* den203d.map,"('t: 29400', 'et�isyys 7.242640687119286')"
+
+12 ida* den203d.map,"('t: 70000', 'et�isyys 7.242640687119285')"
+
+13 ida* den203d.map,"('t: 6300', 'et�isyys 7.0710678118654755')"
+
+14 ida* den203d.map,"('t: 33400', 'et�isyys 6.414213562373095')"
+
+15 ida* den203d.map,"('t: 10700', 'et�isyys 5.242640687119286')"
+
+16 ida* den203d.map,"('t: 18200', 'et�isyys 7.656854249492381')"
+
+17 ida* den203d.map,"('t: 14100', 'et�isyys 7.82842712474619')"
+
+18 ida* den203d.map,"('t: 14300', 'et�isyys 4.414213562373095')"
+
+19 ida* den203d.map,"('t: 17000', 'et�isyys 6.82842712474619')"
+
+20 ida* den203d.map,"('t: 37200', 'et�isyys 9.414213562373096')"
+
+21 ida* den203d.map,"('t: 29300', 'et�isyys 10.242640687119286')"
+
+22 ida* den203d.map,"('t: 78400', 'et�isyys 11.0')"
+
+23 ida* den203d.map,"('t: 20800', 'et�isyys 9.414213562373096')"
+
+24 ida* den203d.map,"('t: 24300', 'et�isyys 10.65685424949238')"
+
+25 ida* den203d.map,"('t: 30800', 'et�isyys 9.899494936611667')"
+
+26 ida* den203d.map,"('t: 26200', 'et�isyys 8.485281374238571')"
+
+27 ida* den203d.map,"('t: 14300', 'et�isyys 10.65685424949238')"
+
+28 ida* den203d.map,"('t: 7200', 'et�isyys 8.485281374238571')"
+
+29 ida* den203d.map,"('t: 51400', 'et�isyys 9.0')"
+
+30 ida* den203d.map,"('t: 28300', 'et�isyys 12.071067811865476')"
+
+31 ida* den203d.map,"('t: 3371300', 'et�isyys 13.65685424949238')"
+
+32 ida* den203d.map,"('t: 63500', 'et�isyys 15.0')"
+
+33 ida* den203d.map,"('t: 101600', 'et�isyys 14.485281374238571')"
+
+34 ida* den203d.map,"('t: 3210864100', 'et�isyys 15.071067811865476')"
+
+35 ida* den203d.map,"('t: 32500', 'et�isyys 13.0')"
+
+36 ida* den203d.map,"('t: 4626700', 'et�isyys 14.65685424949238')"
+
+37 ida* den203d.map,"('t: 3539792900', 'et�isyys 14.414213562373096')"
+
+38 ida* den203d.map,"('t: 61600', 'et�isyys 12.82842712474619')"
+
+39 ida* den203d.map,"('t: 76700', 'et�isyys 15.828427124746192')"
+
+0 ida* den206d.map,"('t: 26000', 'et�isyys 2.0')"
+
+1 ida* den206d.map,"('t: 6100', 'et�isyys 3.8284271247461903')"
+
+2 ida* den206d.map,"('t: 5300', 'et�isyys 3.8284271247461903')"
+
+3 ida* den206d.map,"('t: 19900', 'et�isyys 3.8284271247461903')"
+
+4 ida* den206d.map,"('t: 6800', 'et�isyys 1.4142135623730951')"
+
+5 ida* den206d.map,"('t: 4100', 'et�isyys 2.414213562373095')"
+
+6 ida* den206d.map,"('t: 5700', 'et�isyys 1.0')"
+
+7 ida* den206d.map,"('t: 2500', 'et�isyys 1.0')"
+
+8 ida* den206d.map,"('t: 11900', 'et�isyys 3.0')"
+
+9 ida* den206d.map,"('t: 2500', 'et�isyys 1.4142135623730951')"
+
+10 ida* den206d.map,"('t: 26300', 'et�isyys 7.242640687119286')"
+
+11 ida* den206d.map,"('t: 16000', 'et�isyys 7.82842712474619')"
+
+12 ida* den206d.map,"('t: 23500', 'et�isyys 4.414213562373095')"
+
+13 ida* den206d.map,"('t: 13100', 'et�isyys 6.414213562373095')"
+
+14 ida* den206d.map,"('t: 33700', 'et�isyys 6.82842712474619')"
+
+15 ida* den206d.map,"('t: 9600', 'et�isyys 4.82842712474619')"
+
+16 ida* den206d.map,"('t: 5900', 'et�isyys 4.242640687119286')"
+
+17 ida* den206d.map,"('t: 23700', 'et�isyys 5.242640687119286')"
+
+18 ida* den206d.map,"('t: 23800', 'et�isyys 5.82842712474619')"
+
+19 ida* den206d.map,"('t: 21000', 'et�isyys 4.414213562373095')"
+
+20 ida* den206d.map,"('t: 22500', 'et�isyys 8.82842712474619')"
+
+21 ida* den206d.map,"('t: 33900', 'et�isyys 10.899494936611667')"
+
+22 ida* den206d.map,"('t: 7600', 'et�isyys 9.899494936611667')"
+
+23 ida* den206d.map,"('t: 34700', 'et�isyys 10.414213562373096')"
+
+24 ida* den206d.map,"('t: 50200', 'et�isyys 10.242640687119286')"
+
+25 ida* den206d.map,"('t: 8300', 'et�isyys 9.485281374238571')"
+
+26 ida* den206d.map,"('t: 60000', 'et�isyys 11.0')"
+
+27 ida* den206d.map,"('t: 20500', 'et�isyys 8.82842712474619')"
+
+28 ida* den206d.map,"('t: 33500', 'et�isyys 11.82842712474619')"
+
+29 ida* den206d.map,"('t: 21000', 'et�isyys 10.0')"
+
+30 ida* den206d.map,"('t: 3326100', 'et�isyys 14.727922061357859')"
+
+31 ida* den206d.map,"('t: 81800', 'et�isyys 15.828427124746192')"
+
+32 ida* den206d.map,"('t: 64700', 'et�isyys 15.242640687119286')"
+
+33 ida* den206d.map,"('t: 70900', 'et�isyys 13.414213562373096')"
+
+34 ida* den206d.map,"('t: 143500', 'et�isyys 15.828427124746192')"
+
+35 ida* den206d.map,"('t: 28200', 'et�isyys 15.899494936611667')"
+
+36 ida* den206d.map,"('t: 90700', 'et�isyys 13.82842712474619')"
+
+37 ida* den206d.map,"('t: 746300', 'et�isyys 13.65685424949238')"
+
+38 ida* den206d.map,"('t: 19200', 'et�isyys 12.65685424949238')"
+
+39 ida* den206d.map,"('t: 158300', 'et�isyys 14.242640687119286')"
+
+0 ida* orz200d.map,"('t: 24800', 'et�isyys 3.414213562373095')"
+
+1 ida* orz200d.map,"('t: 8400', 'et�isyys 1.0')"
+
+2 ida* orz200d.map,"('t: 6200', 'et�isyys 2.414213562373095')"
+
+3 ida* orz200d.map,"('t: 13900', 'et�isyys 3.414213562373095')"
+
+4 ida* orz200d.map,"('t: 9400', 'et�isyys 2.0')"
+
+5 ida* orz200d.map,"('t: 13300', 'et�isyys 2.8284271247461903')"
+
+6 ida* orz200d.map,"('t: 7500', 'et�isyys 3.0')"
+
+7 ida* orz200d.map,"('t: 7800', 'et�isyys 3.414213562373095')"
+
+8 ida* orz200d.map,"('t: 5400', 'et�isyys 2.0')"
+
+9 ida* orz200d.map,"('t: 9500', 'et�isyys 3.414213562373095')"
+
+10 ida* orz200d.map,"('t: 22800', 'et�isyys 6.82842712474619')"
+
+11 ida* orz200d.map,"('t: 23400', 'et�isyys 6.82842712474619')"
+
+12 ida* orz200d.map,"('t: 23900', 'et�isyys 6.0')"
+
+13 ida* orz200d.map,"('t: 12500', 'et�isyys 7.656854249492381')"
+
+14 ida* orz200d.map,"('t: 13700', 'et�isyys 6.414213562373095')"
+
+15 ida* orz200d.map,"('t: 25100', 'et�isyys 6.414213562373095')"
+
+16 ida* orz200d.map,"('t: 28100', 'et�isyys 5.0')"
+
+17 ida* orz200d.map,"('t: 5400', 'et�isyys 5.656854249492381')"
+
+18 ida* orz200d.map,"('t: 58900', 'et�isyys 6.414213562373095')"
+
+19 ida* orz200d.map,"('t: 68700', 'et�isyys 7.656854249492381')"
+
+20 ida* orz200d.map,"('t: 74800', 'et�isyys 9.242640687119286')"
+
+21 ida* orz200d.map,"('t: 36700', 'et�isyys 10.071067811865476')"
+
+22 ida* orz200d.map,"('t: 53600', 'et�isyys 10.242640687119286')"
+
+23 ida* orz200d.map,"('t: 35200', 'et�isyys 10.242640687119286')"
+
+24 ida* orz200d.map,"('t: 30400', 'et�isyys 11.071067811865476')"
+
+25 ida* orz200d.map,"('t: 26200', 'et�isyys 9.65685424949238')"
+
+26 ida* orz200d.map,"('t: 19000', 'et�isyys 8.071067811865476')"
+
+27 ida* orz200d.map,"('t: 15900', 'et�isyys 10.485281374238571')"
+
+28 ida* orz200d.map,"('t: 27700', 'et�isyys 10.242640687119286')"
+
+29 ida* orz200d.map,"('t: 107400', 'et�isyys 11.071067811865476')"
+
+30 ida* orz200d.map,"('t: 421500', 'et�isyys 15.142135623730955')"
+
+31 ida* orz200d.map,"('t: 49300', 'et�isyys 13.414213562373096')"
+
+32 ida* orz200d.map,"('t: 212900', 'et�isyys 15.242640687119286')"
+
+33 ida* orz200d.map,"('t: 1681000', 'et�isyys 13.656854249492383')"
+
+34 ida* orz200d.map,"('t: 122900', 'et�isyys 15.828427124746192')"
+
+35 ida* orz200d.map,"('t: 1335200', 'et�isyys 15.65685424949238')"
+
+36 ida* orz200d.map,"('t: 600700', 'et�isyys 14.727922061357859')"
+
+37 ida* orz200d.map,"('t: 17700', 'et�isyys 13.485281374238571')"
+
+38 ida* orz200d.map,"('t: 17900', 'et�isyys 13.071067811865476')"
+
+39 ida* orz200d.map,"('t: 795200', 'et�isyys 12.485281374238571')"
+

@@ -11,3 +11,6 @@ class Algoritmi(ABC):
 
     def on_mahdoton(self):
         pass
+
+    def keskeytä(self):
+        pass

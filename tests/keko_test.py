@@ -47,6 +47,8 @@ class TestKeko:
             lista.append(jono.poista())
         assert(lista[-1] <= min(jono.get_keko()))
             
+    def test_poista_tyhjästä(self, jono):
+        assert(jono.poista() == None)
 
 
         
